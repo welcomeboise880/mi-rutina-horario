@@ -1,7 +1,7 @@
 {
- "version": 1,
+ "version": 2,
  "actualizado": "2026-10-23",
- "nota": "",
+ "nota": "Stream lunes, miércoles y viernes de 5 a 7 pm",
  "days": [
   [
    {
@@ -382,41 +382,26 @@
     ]
    },
    {
-    "id": "read",
-    "t": "16:30",
-    "end": "17:00",
-    "cat": "read",
-    "title": "Lectura",
-    "sub": "30 minutos",
-    "items": [
-     {
-      "id": "pages",
-      "txt": "Lee sin celular",
-      "dose": "30 min",
-      "how": "Un libro que te interese (novela, disciplina, negocios, lo que sea). Anota las páginas para ver cuánto avanzas.",
-      "log": "págs"
-     }
-    ]
-   },
-   {
-    "id": "free1",
+    "id": "stream",
     "t": "17:00",
-    "end": "17:45",
-    "cat": "rest",
-    "title": "Tiempo tuyo",
-    "sub": "Juego, música, tus proyectos",
+    "end": "19:00",
+    "cat": "stream",
+    "title": "Stream en Kick",
+    "sub": "2 horas",
     "steps": [
-     "Elige UNA cosa en la que avanzar",
-     "O simplemente descansa, también cuenta"
+     "16:30: abre OBS, revisa audio y avatar",
+     "Agua a la mano",
+     "Avisa en tus redes 15 min antes",
+     "Al terminar, anota los momentos buenos para editarlos mañana"
     ]
    },
    {
     "id": "gym",
-    "t": "18:00",
-    "end": "19:00",
+    "t": "19:15",
+    "end": "20:00",
     "cat": "gym",
     "title": "Fuerza A",
-    "sub": "Rutina en casa, sin equipo",
+    "sub": "Después del stream, rutina en casa",
     "items": [
      {
       "id": "warm",
@@ -470,7 +455,7 @@
    },
    {
     "id": "shower",
-    "t": "19:00",
+    "t": "20:00",
     "cat": "care",
     "title": "Ducha",
     "sub": "Después de entrenar",
@@ -481,7 +466,7 @@
    },
    {
     "id": "dinner",
-    "t": "20:00",
+    "t": "20:30",
     "cat": "food",
     "title": "Cena",
     "sub": "Más ligera que la comida",
@@ -492,17 +477,31 @@
     ]
    },
    {
-    "id": "stream",
+    "id": "read",
     "t": "21:00",
+    "end": "21:30",
+    "cat": "read",
+    "title": "Lectura",
+    "sub": "30 minutos",
+    "items": [
+     {
+      "id": "pages",
+      "txt": "Lee sin celular",
+      "dose": "30 min",
+      "how": "Un libro que te interese (novela, disciplina, negocios, lo que sea). Anota las páginas para ver cuánto avanzas.",
+      "log": "págs"
+     }
+    ]
+   },
+   {
+    "id": "free2",
+    "t": "21:30",
     "end": "23:00",
-    "cat": "stream",
-    "title": "Stream en Kick",
-    "sub": "2 horas",
+    "cat": "rest",
+    "title": "Tiempo libre",
+    "sub": "Juega, ve algo, platica",
     "steps": [
-     "30 min antes: abre OBS, revisa audio y avatar",
-     "Agua a la mano",
-     "Avisa en tus redes 15 min antes",
-     "Al terminar, anota los momentos buenos para editarlos mañana"
+     "Ya cumpliste el día: disfruta sin presión"
     ]
    },
    {
@@ -975,41 +974,26 @@
     ]
    },
    {
-    "id": "read",
-    "t": "16:30",
-    "end": "17:00",
-    "cat": "read",
-    "title": "Lectura",
-    "sub": "30 minutos",
-    "items": [
-     {
-      "id": "pages",
-      "txt": "Lee sin celular",
-      "dose": "30 min",
-      "how": "Un libro que te interese (novela, disciplina, negocios, lo que sea). Anota las páginas para ver cuánto avanzas.",
-      "log": "págs"
-     }
-    ]
-   },
-   {
-    "id": "free1",
+    "id": "stream",
     "t": "17:00",
-    "end": "17:45",
-    "cat": "rest",
-    "title": "Tiempo tuyo",
-    "sub": "Juego, música, tus proyectos",
+    "end": "19:00",
+    "cat": "stream",
+    "title": "Stream en Kick",
+    "sub": "2 horas",
     "steps": [
-     "Elige UNA cosa en la que avanzar",
-     "O simplemente descansa, también cuenta"
+     "16:30: abre OBS, revisa audio y avatar",
+     "Agua a la mano",
+     "Avisa en tus redes 15 min antes",
+     "Al terminar, anota los momentos buenos para editarlos mañana"
     ]
    },
    {
     "id": "gym",
-    "t": "18:00",
-    "end": "19:00",
+    "t": "19:15",
+    "end": "20:00",
     "cat": "gym",
     "title": "Fuerza B",
-    "sub": "Rutina en casa, sin equipo",
+    "sub": "Después del stream, rutina en casa",
     "items": [
      {
       "id": "warm",
@@ -1063,7 +1047,7 @@
    },
    {
     "id": "shower",
-    "t": "19:00",
+    "t": "20:00",
     "cat": "care",
     "title": "Ducha",
     "sub": "Después de entrenar",
@@ -1074,7 +1058,7 @@
    },
    {
     "id": "dinner",
-    "t": "20:00",
+    "t": "20:30",
     "cat": "food",
     "title": "Cena",
     "sub": "Más ligera que la comida",
@@ -1085,17 +1069,31 @@
     ]
    },
    {
-    "id": "stream",
+    "id": "read",
     "t": "21:00",
+    "end": "21:30",
+    "cat": "read",
+    "title": "Lectura",
+    "sub": "30 minutos",
+    "items": [
+     {
+      "id": "pages",
+      "txt": "Lee sin celular",
+      "dose": "30 min",
+      "how": "Un libro que te interese (novela, disciplina, negocios, lo que sea). Anota las páginas para ver cuánto avanzas.",
+      "log": "págs"
+     }
+    ]
+   },
+   {
+    "id": "free2",
+    "t": "21:30",
     "end": "23:00",
-    "cat": "stream",
-    "title": "Stream en Kick",
-    "sub": "2 horas",
+    "cat": "rest",
+    "title": "Tiempo libre",
+    "sub": "Juega, ve algo, platica",
     "steps": [
-     "30 min antes: abre OBS, revisa audio y avatar",
-     "Agua a la mano",
-     "Avisa en tus redes 15 min antes",
-     "Al terminar, anota los momentos buenos para editarlos mañana"
+     "Ya cumpliste el día: disfruta sin presión"
     ]
    },
    {
@@ -1568,41 +1566,26 @@
     ]
    },
    {
-    "id": "read",
-    "t": "16:30",
-    "end": "17:00",
-    "cat": "read",
-    "title": "Lectura",
-    "sub": "30 minutos",
-    "items": [
-     {
-      "id": "pages",
-      "txt": "Lee sin celular",
-      "dose": "30 min",
-      "how": "Un libro que te interese (novela, disciplina, negocios, lo que sea). Anota las páginas para ver cuánto avanzas.",
-      "log": "págs"
-     }
-    ]
-   },
-   {
-    "id": "free1",
+    "id": "stream",
     "t": "17:00",
-    "end": "17:45",
-    "cat": "rest",
-    "title": "Tiempo tuyo",
-    "sub": "Juego, música, tus proyectos",
+    "end": "19:00",
+    "cat": "stream",
+    "title": "Stream en Kick",
+    "sub": "2 horas",
     "steps": [
-     "Elige UNA cosa en la que avanzar",
-     "O simplemente descansa, también cuenta"
+     "16:30: abre OBS, revisa audio y avatar",
+     "Agua a la mano",
+     "Avisa en tus redes 15 min antes",
+     "Al terminar, anota los momentos buenos para editarlos mañana"
     ]
    },
    {
     "id": "gym",
-    "t": "18:00",
-    "end": "19:00",
+    "t": "19:15",
+    "end": "20:00",
     "cat": "gym",
     "title": "Fuerza A",
-    "sub": "Rutina en casa, sin equipo",
+    "sub": "Después del stream, rutina en casa",
     "items": [
      {
       "id": "warm",
@@ -1656,7 +1639,7 @@
    },
    {
     "id": "shower",
-    "t": "19:00",
+    "t": "20:00",
     "cat": "care",
     "title": "Ducha",
     "sub": "Después de entrenar",
@@ -1667,7 +1650,7 @@
    },
    {
     "id": "dinner",
-    "t": "20:00",
+    "t": "20:30",
     "cat": "food",
     "title": "Cena",
     "sub": "Más ligera que la comida",
@@ -1678,17 +1661,31 @@
     ]
    },
    {
-    "id": "stream",
+    "id": "read",
     "t": "21:00",
+    "end": "21:30",
+    "cat": "read",
+    "title": "Lectura",
+    "sub": "30 minutos",
+    "items": [
+     {
+      "id": "pages",
+      "txt": "Lee sin celular",
+      "dose": "30 min",
+      "how": "Un libro que te interese (novela, disciplina, negocios, lo que sea). Anota las páginas para ver cuánto avanzas.",
+      "log": "págs"
+     }
+    ]
+   },
+   {
+    "id": "free2",
+    "t": "21:30",
     "end": "23:00",
-    "cat": "stream",
-    "title": "Stream en Kick",
-    "sub": "2 horas",
+    "cat": "rest",
+    "title": "Tiempo libre",
+    "sub": "Juega, ve algo, platica",
     "steps": [
-     "30 min antes: abre OBS, revisa audio y avatar",
-     "Agua a la mano",
-     "Avisa en tus redes 15 min antes",
-     "Al terminar, anota los momentos buenos para editarlos mañana"
+     "Ya cumpliste el día: disfruta sin presión"
     ]
    },
    {
