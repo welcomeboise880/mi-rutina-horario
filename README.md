@@ -9,3 +9,13 @@ Tus avances (lo que marcas, repeticiones, racha) se guardan en el teléfono, no 
   y `steps` (lista de pasos) o `items` (pasos marcables).
 - No cambies el `id` de una actividad que ya existe: así se conserva lo que marcaste.
 - Si el archivo queda mal escrito, la app lo ignora y sigue con el último horario bueno.
+
+## Días especiales (una sola vez)
+
+`fechas` cambia solo un día del calendario. Al día siguiente regresa el horario normal.
+
+```json
+"fechas": {
+  "2026-10-29": { "nota": "Voy al cine", "blocks": [ ...actividades de ese día... ] }
+}
+```
