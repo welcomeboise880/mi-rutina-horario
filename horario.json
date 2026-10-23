@@ -1,7 +1,7 @@
 {
- "version": 2,
+ "version": 3,
  "actualizado": "2026-10-23",
- "nota": "Stream lunes, miércoles y viernes de 5 a 7 pm",
+ "nota": "Trabajo domingo a viernes (30 h), hora fija de 7 a 8 pm",
  "days": [
   [
    {
@@ -59,12 +59,62 @@
     "tip": "Rota las opciones durante la semana para no aburrirte."
    },
    {
-    "id": "edit",
+    "id": "work1",
     "t": "09:00",
-    "end": "10:30",
+    "end": "11:00",
+    "cat": "work",
+    "title": "Trabajo · bloque 1",
+    "sub": "2 horas",
+    "steps": [
+     "Empieza por lo más importante",
+     "Celular en silencio o lejos"
+    ]
+   },
+   {
+    "id": "snack",
+    "t": "11:00",
+    "cat": "food",
+    "title": "Snack y agua",
+    "sub": "15 minutos de pausa",
+    "steps": [
+     "Una fruta o un puño de cacahuates",
+     "Un vaso de agua",
+     "Párate y estira la espalda"
+    ]
+   },
+   {
+    "id": "work2",
+    "t": "11:15",
+    "end": "13:15",
+    "cat": "work",
+    "title": "Trabajo · bloque 2",
+    "sub": "2 horas",
+    "steps": [
+     "Termina pendientes",
+     "Deja anotado lo que sigue"
+    ]
+   },
+   {
+    "id": "lunch",
+    "t": "14:00",
+    "cat": "food",
+    "title": "Comida",
+    "sub": "Mitad verduras, un cuarto proteína, un cuarto carbohidrato",
+    "steps": [
+     "Proteína: pollo, carne, pescado, huevo o frijoles/lentejas",
+     "Carbohidrato: arroz, tortillas, papa o pasta",
+     "Verduras o ensalada: la mitad del plato",
+     "Agua natural o de fruta sin mucha azúcar"
+    ],
+    "tip": "Cocinar doble un día te deja comida lista para el siguiente."
+   },
+   {
+    "id": "edit",
+    "t": "15:00",
+    "end": "16:30",
     "cat": "edit",
-    "title": "Edición: clips del sábado",
-    "sub": "El stream largo deja buen material",
+    "title": "Edición: clips del último stream",
+    "sub": "Para TikTok y Shorts",
     "items": [
      {
       "id": "vod",
@@ -88,32 +138,6 @@
     ]
    },
    {
-    "id": "home",
-    "t": "10:30",
-    "end": "14:00",
-    "cat": "rest",
-    "title": "Mañana libre",
-    "sub": "Sin presión, recarga",
-    "steps": [
-     "Haz algo sin pantallas un rato",
-     "Sal a caminar o ve a ver a alguien"
-    ]
-   },
-   {
-    "id": "lunch",
-    "t": "14:00",
-    "cat": "food",
-    "title": "Comida",
-    "sub": "Mitad verduras, un cuarto proteína, un cuarto carbohidrato",
-    "steps": [
-     "Proteína: pollo, carne, pescado, huevo o frijoles/lentejas",
-     "Carbohidrato: arroz, tortillas, papa o pasta",
-     "Verduras o ensalada: la mitad del plato",
-     "Agua natural o de fruta sin mucha azúcar"
-    ],
-    "tip": "Cocinar doble un día te deja comida lista para el siguiente."
-   },
-   {
     "id": "read",
     "t": "16:30",
     "end": "17:00",
@@ -131,20 +155,9 @@
     ]
    },
    {
-    "id": "free1",
-    "t": "17:00",
-    "end": "17:45",
-    "cat": "rest",
-    "title": "Tiempo tuyo",
-    "sub": "Juego, música, tus proyectos",
-    "steps": [
-     "Elige UNA cosa en la que avanzar",
-     "O simplemente descansa, también cuenta"
-    ]
-   },
-   {
     "id": "stretch",
-    "t": "18:00",
+    "t": "17:15",
+    "end": "17:30",
     "cat": "gym",
     "title": "Descanso activo",
     "sub": "10 minutos de estiramiento",
@@ -159,10 +172,11 @@
    },
    {
     "id": "week",
-    "t": "19:00",
+    "t": "17:30",
+    "end": "18:00",
     "cat": "rest",
     "title": "Planea tu semana",
-    "sub": "15 minutos",
+    "sub": "15–30 minutos",
     "steps": [
      "Revisa cómo te fue en tu glow up de esta semana",
      "Decide qué video editarás martes y jueves",
@@ -170,8 +184,31 @@
     ]
    },
    {
+    "id": "free1",
+    "t": "18:00",
+    "end": "19:00",
+    "cat": "rest",
+    "title": "Tiempo tuyo",
+    "sub": "Descansa antes de tu hora de trabajo",
+    "steps": [
+     "Algo tranquilo, sin presión"
+    ]
+   },
+   {
+    "id": "work3",
+    "t": "19:00",
+    "end": "20:00",
+    "cat": "work",
+    "title": "Trabajo · hora fija",
+    "sub": "1 hora, sí o sí",
+    "steps": [
+     "Ten listo lo que necesitas desde antes",
+     "Con esto completas tus 5 horas del día"
+    ]
+   },
+   {
     "id": "dinner",
-    "t": "20:00",
+    "t": "20:15",
     "cat": "food",
     "title": "Cena",
     "sub": "Más ligera que la comida",
@@ -189,7 +226,7 @@
     "title": "Tiempo libre",
     "sub": "Juega, ve algo, platica",
     "steps": [
-     "Hoy no hay stream: disfruta sin presión"
+     "Disfruta sin presión"
     ]
    },
    {
@@ -309,8 +346,7 @@
     "sub": "2.5 horas",
     "steps": [
      "Empieza por lo más difícil o importante",
-     "Celular en silencio o lejos",
-     "Al marcarlo se suman 2.5 h al contador"
+     "Celular en silencio o lejos"
     ]
    },
    {
@@ -328,15 +364,15 @@
    {
     "id": "work2",
     "t": "11:15",
-    "end": "13:45",
+    "end": "12:45",
     "cat": "work",
     "title": "Trabajo · bloque 2",
-    "sub": "2.5 horas: con esto llegas a 5",
+    "sub": "1.5 horas",
     "steps": [
-     "Termina pendientes del día",
-     "Deja anotado lo que sigue para mañana"
+     "Termina pendientes de la mañana",
+     "Deja anotado lo que sigue"
     ],
-    "tip": "Si tu horario cambia, usa el contador de arriba. Cualquier combinación vale mientras sumen 5 horas."
+    "tip": "Si tu horario cambia, usa el contador de arriba. Lo importante es juntar 5 horas."
    },
    {
     "id": "lunch",
@@ -392,81 +428,24 @@
      "16:30: abre OBS, revisa audio y avatar",
      "Agua a la mano",
      "Avisa en tus redes 15 min antes",
-     "Al terminar, anota los momentos buenos para editarlos mañana"
+     "Al terminar, anota los momentos buenos para editarlos"
     ]
    },
    {
-    "id": "gym",
-    "t": "19:15",
+    "id": "work3",
+    "t": "19:00",
     "end": "20:00",
-    "cat": "gym",
-    "title": "Fuerza A",
-    "sub": "Después del stream, rutina en casa",
-    "items": [
-     {
-      "id": "warm",
-      "txt": "Calentamiento",
-      "dose": "5 min",
-      "how": "30 s de jumping jacks, 30 s de rodillas arriba, 10 círculos de brazos y 10 sentadillas sin peso. Repite 2 veces."
-     },
-     {
-      "id": "squat",
-      "txt": "Sentadillas",
-      "dose": "3 series × 12 · descanso 60 s",
-      "how": "Pies al ancho de hombros. Baja como si te fueras a sentar, rodillas en dirección de las puntas, espalda recta, talones pegados al piso.",
-      "log": "reps"
-     },
-     {
-      "id": "pushup",
-      "txt": "Lagartijas",
-      "dose": "3 series × 8 · descanso 90 s",
-      "how": "Cuerpo en línea recta de cabeza a talones. Baja el pecho casi al piso. Si no puedes, apoya las rodillas.",
-      "log": "reps"
-     },
-     {
-      "id": "row",
-      "txt": "Remo con mochila",
-      "dose": "3 series × 10 · descanso 60 s",
-      "how": "Mete libros a una mochila. Inclínate con la espalda recta y jala la mochila hacia el ombligo, juntando omóplatos.",
-      "log": "reps"
-     },
-     {
-      "id": "bridge",
-      "txt": "Puente de glúteo",
-      "dose": "3 series × 15 · descanso 45 s",
-      "how": "Boca arriba, rodillas dobladas. Sube la cadera apretando glúteos, aguanta 1 s arriba y baja lento.",
-      "log": "reps"
-     },
-     {
-      "id": "plank",
-      "txt": "Plancha",
-      "dose": "3 × 30 s · descanso 45 s",
-      "how": "Sobre antebrazos. Abdomen y glúteos apretados, cadera ni muy arriba ni caída.",
-      "log": "seg"
-     },
-     {
-      "id": "cool",
-      "txt": "Estiramiento final",
-      "dose": "5 min",
-      "how": "Piernas, cadera, pecho y espalda. Aguanta cada estiramiento 20–30 s sin rebotar."
-     }
-    ],
-    "tip": "Cada semana intenta sumar 1 o 2 repeticiones. Cuando llegues a 15 fácil, sube a 4 series."
-   },
-   {
-    "id": "shower",
-    "t": "20:00",
-    "cat": "care",
-    "title": "Ducha",
-    "sub": "Después de entrenar",
+    "cat": "work",
+    "title": "Trabajo · hora fija",
+    "sub": "1 hora, sí o sí",
     "steps": [
-     "Báñate después de sudar para cuidar tu piel",
-     "Agua tibia, no muy caliente"
+     "Ten listo lo que necesitas desde antes",
+     "Con esto completas tus 5 horas del día"
     ]
    },
    {
     "id": "dinner",
-    "t": "20:30",
+    "t": "20:15",
     "cat": "food",
     "title": "Cena",
     "sub": "Más ligera que la comida",
@@ -494,8 +473,24 @@
     ]
    },
    {
-    "id": "free2",
+    "id": "stretch",
     "t": "21:30",
+    "end": "21:45",
+    "cat": "gym",
+    "title": "Estiramiento",
+    "sub": "10 minutos, hoy no hay entrenamiento",
+    "items": [
+     {
+      "id": "st",
+      "txt": "Estiramiento completo",
+      "dose": "10 min",
+      "how": "Cuello, hombros, espalda baja, cadera y piernas. 30 s cada uno."
+     }
+    ]
+   },
+   {
+    "id": "free2",
+    "t": "21:45",
     "end": "23:00",
     "cat": "rest",
     "title": "Tiempo libre",
@@ -621,8 +616,7 @@
     "sub": "2.5 horas",
     "steps": [
      "Empieza por lo más difícil o importante",
-     "Celular en silencio o lejos",
-     "Al marcarlo se suman 2.5 h al contador"
+     "Celular en silencio o lejos"
     ]
    },
    {
@@ -640,15 +634,15 @@
    {
     "id": "work2",
     "t": "11:15",
-    "end": "13:45",
+    "end": "12:45",
     "cat": "work",
     "title": "Trabajo · bloque 2",
-    "sub": "2.5 horas: con esto llegas a 5",
+    "sub": "1.5 horas",
     "steps": [
-     "Termina pendientes del día",
-     "Deja anotado lo que sigue para mañana"
+     "Termina pendientes de la mañana",
+     "Deja anotado lo que sigue"
     ],
-    "tip": "Si tu horario cambia, usa el contador de arriba. Cualquier combinación vale mientras sumen 5 horas."
+    "tip": "Si tu horario cambia, usa el contador de arriba. Lo importante es juntar 5 horas."
    },
    {
     "id": "lunch",
@@ -710,49 +704,66 @@
     ]
    },
    {
-    "id": "free1",
-    "t": "17:00",
-    "end": "17:45",
-    "cat": "rest",
-    "title": "Tiempo tuyo",
-    "sub": "Juego, música, tus proyectos",
-    "steps": [
-     "Elige UNA cosa en la que avanzar",
-     "O simplemente descansa, también cuenta"
-    ]
-   },
-   {
     "id": "gym",
-    "t": "18:00",
-    "end": "19:00",
+    "t": "17:15",
+    "end": "18:15",
     "cat": "gym",
-    "title": "Cardio",
-    "sub": "Caminata o bici",
+    "title": "Fuerza A",
+    "sub": "Rutina en casa, sin equipo",
     "items": [
      {
-      "id": "walkwarm",
-      "txt": "Caminar tranquilo",
+      "id": "warm",
+      "txt": "Calentamiento",
       "dose": "5 min",
-      "how": "Para que el cuerpo entre en calor."
+      "how": "30 s de jumping jacks, 30 s de rodillas arriba, 10 círculos de brazos y 10 sentadillas sin peso. Repite 2 veces."
      },
      {
-      "id": "walk",
-      "txt": "Caminata rápida o bici",
-      "dose": "30 min",
-      "how": "Que puedas hablar pero con esfuerzo. Si llueve: 20 min en casa de jumping jacks, rodillas arriba y escaladores (40 s trabajo, 20 s descanso).",
-      "log": "min"
+      "id": "squat",
+      "txt": "Sentadillas",
+      "dose": "3 series × 12 · descanso 60 s",
+      "how": "Pies al ancho de hombros. Baja como si te fueras a sentar, rodillas en dirección de las puntas, espalda recta, talones pegados al piso.",
+      "log": "reps"
      },
      {
-      "id": "walkstretch",
-      "txt": "Estirar piernas",
+      "id": "pushup",
+      "txt": "Lagartijas",
+      "dose": "3 series × 8 · descanso 90 s",
+      "how": "Cuerpo en línea recta de cabeza a talones. Baja el pecho casi al piso. Si no puedes, apoya las rodillas.",
+      "log": "reps"
+     },
+     {
+      "id": "row",
+      "txt": "Remo con mochila",
+      "dose": "3 series × 10 · descanso 60 s",
+      "how": "Mete libros a una mochila. Inclínate con la espalda recta y jala la mochila hacia el ombligo, juntando omóplatos.",
+      "log": "reps"
+     },
+     {
+      "id": "bridge",
+      "txt": "Puente de glúteo",
+      "dose": "3 series × 15 · descanso 45 s",
+      "how": "Boca arriba, rodillas dobladas. Sube la cadera apretando glúteos, aguanta 1 s arriba y baja lento.",
+      "log": "reps"
+     },
+     {
+      "id": "plank",
+      "txt": "Plancha",
+      "dose": "3 × 30 s · descanso 45 s",
+      "how": "Sobre antebrazos. Abdomen y glúteos apretados, cadera ni muy arriba ni caída.",
+      "log": "seg"
+     },
+     {
+      "id": "cool",
+      "txt": "Estiramiento final",
       "dose": "5 min",
-      "how": "Pantorrillas, cuádriceps y parte de atrás del muslo."
+      "how": "Piernas, cadera, pecho y espalda. Aguanta cada estiramiento 20–30 s sin rebotar."
      }
-    ]
+    ],
+    "tip": "Cada semana intenta sumar 1 o 2 repeticiones. Cuando 15 te salgan fácil, sube a 4 series."
    },
    {
     "id": "shower",
-    "t": "19:00",
+    "t": "18:15",
     "cat": "care",
     "title": "Ducha",
     "sub": "Después de entrenar",
@@ -762,8 +773,31 @@
     ]
    },
    {
+    "id": "free1",
+    "t": "18:30",
+    "end": "19:00",
+    "cat": "rest",
+    "title": "Tiempo tuyo",
+    "sub": "Descansa antes de tu hora de trabajo",
+    "steps": [
+     "Algo tranquilo, sin presión"
+    ]
+   },
+   {
+    "id": "work3",
+    "t": "19:00",
+    "end": "20:00",
+    "cat": "work",
+    "title": "Trabajo · hora fija",
+    "sub": "1 hora, sí o sí",
+    "steps": [
+     "Ten listo lo que necesitas desde antes",
+     "Con esto completas tus 5 horas del día"
+    ]
+   },
+   {
     "id": "dinner",
-    "t": "20:00",
+    "t": "20:15",
     "cat": "food",
     "title": "Cena",
     "sub": "Más ligera que la comida",
@@ -901,8 +935,7 @@
     "sub": "2.5 horas",
     "steps": [
      "Empieza por lo más difícil o importante",
-     "Celular en silencio o lejos",
-     "Al marcarlo se suman 2.5 h al contador"
+     "Celular en silencio o lejos"
     ]
    },
    {
@@ -920,15 +953,15 @@
    {
     "id": "work2",
     "t": "11:15",
-    "end": "13:45",
+    "end": "12:45",
     "cat": "work",
     "title": "Trabajo · bloque 2",
-    "sub": "2.5 horas: con esto llegas a 5",
+    "sub": "1.5 horas",
     "steps": [
-     "Termina pendientes del día",
-     "Deja anotado lo que sigue para mañana"
+     "Termina pendientes de la mañana",
+     "Deja anotado lo que sigue"
     ],
-    "tip": "Si tu horario cambia, usa el contador de arriba. Cualquier combinación vale mientras sumen 5 horas."
+    "tip": "Si tu horario cambia, usa el contador de arriba. Lo importante es juntar 5 horas."
    },
    {
     "id": "lunch",
@@ -984,16 +1017,288 @@
      "16:30: abre OBS, revisa audio y avatar",
      "Agua a la mano",
      "Avisa en tus redes 15 min antes",
-     "Al terminar, anota los momentos buenos para editarlos mañana"
+     "Al terminar, anota los momentos buenos para editarlos"
+    ]
+   },
+   {
+    "id": "work3",
+    "t": "19:00",
+    "end": "20:00",
+    "cat": "work",
+    "title": "Trabajo · hora fija",
+    "sub": "1 hora, sí o sí",
+    "steps": [
+     "Ten listo lo que necesitas desde antes",
+     "Con esto completas tus 5 horas del día"
+    ]
+   },
+   {
+    "id": "dinner",
+    "t": "20:15",
+    "cat": "food",
+    "title": "Cena",
+    "sub": "Más ligera que la comida",
+    "steps": [
+     "Opción 1: quesadillas de panela con ensalada",
+     "Opción 2: sándwich de pollo con verduras",
+     "Opción 3: huevos a la mexicana con frijoles"
+    ]
+   },
+   {
+    "id": "read",
+    "t": "21:00",
+    "end": "21:30",
+    "cat": "read",
+    "title": "Lectura",
+    "sub": "30 minutos",
+    "items": [
+     {
+      "id": "pages",
+      "txt": "Lee sin celular",
+      "dose": "30 min",
+      "how": "Un libro que te interese (novela, disciplina, negocios, lo que sea). Anota las páginas para ver cuánto avanzas.",
+      "log": "págs"
+     }
+    ]
+   },
+   {
+    "id": "stretch",
+    "t": "21:30",
+    "end": "21:45",
+    "cat": "gym",
+    "title": "Estiramiento",
+    "sub": "10 minutos, hoy no hay entrenamiento",
+    "items": [
+     {
+      "id": "st",
+      "txt": "Estiramiento completo",
+      "dose": "10 min",
+      "how": "Cuello, hombros, espalda baja, cadera y piernas. 30 s cada uno."
+     }
+    ]
+   },
+   {
+    "id": "free2",
+    "t": "21:45",
+    "end": "23:00",
+    "cat": "rest",
+    "title": "Tiempo libre",
+    "sub": "Juega, ve algo, platica",
+    "steps": [
+     "Ya cumpliste el día: disfruta sin presión"
+    ]
+   },
+   {
+    "id": "skinPM",
+    "t": "23:00",
+    "cat": "care",
+    "title": "Skincare de noche",
+    "sub": "Limpiar, tratar, hidratar",
+    "items": [
+     {
+      "id": "clean",
+      "txt": "Limpiador suave",
+      "dose": "30 s",
+      "how": "Quita sudor, grasa y protector solar del día."
+     },
+     {
+      "id": "treat",
+      "txt": "Tratamiento (si lo necesitas)",
+      "dose": "una capa delgada",
+      "how": "Para granitos: peróxido de benzoilo o ácido salicílico, solo donde haga falta. Pregunta en farmacia."
+     },
+     {
+      "id": "moist",
+      "txt": "Hidratante",
+      "dose": "tamaño de un chícharo",
+      "how": "Al final, para que la piel se recupere de noche."
+     }
+    ],
+    "tip": "Cambia la funda de la almohada cada semana."
+   },
+   {
+    "id": "sleep",
+    "t": "23:30",
+    "cat": "rest",
+    "title": "Dormir",
+    "sub": "7 horas y media hasta las 7:00",
+    "steps": [
+     "Celular a cargar lejos de la cama",
+     "Ropa de mañana lista",
+     "Cuarto oscuro y fresco"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "wake",
+    "t": "07:00",
+    "cat": "rest",
+    "title": "Despertar",
+    "sub": "Un vaso de agua apenas te levantes",
+    "steps": [
+     "Toma un vaso de agua",
+     "Tiende la cama (2 minutos, tu primera victoria del día)",
+     "Abre cortinas o sal a la luz unos minutos",
+     "Primeros 15 minutos sin celular"
+    ]
+   },
+   {
+    "id": "skinAM",
+    "t": "07:15",
+    "cat": "care",
+    "title": "Skincare de mañana",
+    "sub": "Limpiar, hidratar, protector solar",
+    "items": [
+     {
+      "id": "clean",
+      "txt": "Limpiador suave",
+      "dose": "30 s",
+      "how": "Agua tibia, masajea con las yemas y seca con toques, sin tallar."
+     },
+     {
+      "id": "moist",
+      "txt": "Hidratante",
+      "dose": "tamaño de un chícharo",
+      "how": "Cara y cuello. Aunque tengas piel grasa, úsala (busca una ligera tipo gel)."
+     },
+     {
+      "id": "spf",
+      "txt": "Protector solar FPS 30+",
+      "dose": "2 dedos de producto",
+      "how": "Cara, cuello y orejas, aunque esté nublado. Es lo que más ayuda contra manchas."
+     }
+    ]
+   },
+   {
+    "id": "breakfast",
+    "t": "07:30",
+    "cat": "food",
+    "title": "Desayuno",
+    "sub": "Proteína + fruta + agua",
+    "steps": [
+     "Opción 1: 2 huevos con frijoles y tortilla, una fruta",
+     "Opción 2: avena con plátano y crema de cacahuate",
+     "Opción 3: yogurt natural con granola y fruta",
+     "Acompaña con agua (no solo café)"
+    ],
+    "tip": "Rota las opciones durante la semana para no aburrirte."
+   },
+   {
+    "id": "dress",
+    "t": "08:00",
+    "cat": "rest",
+    "title": "Cambiarte y salir",
+    "sub": "Lleva tu botella de agua",
+    "steps": [
+     "Ropa lista desde la noche anterior",
+     "Botella de agua llena",
+     "Revisa: llaves, cartera, celular, cargador"
+    ]
+   },
+   {
+    "id": "work1",
+    "t": "08:30",
+    "end": "11:00",
+    "cat": "work",
+    "title": "Trabajo · bloque 1",
+    "sub": "2.5 horas",
+    "steps": [
+     "Empieza por lo más difícil o importante",
+     "Celular en silencio o lejos"
+    ]
+   },
+   {
+    "id": "snack",
+    "t": "11:00",
+    "cat": "food",
+    "title": "Snack y agua",
+    "sub": "15 minutos de pausa",
+    "steps": [
+     "Una fruta o un puño de cacahuates",
+     "Un vaso de agua",
+     "Párate y estira la espalda"
+    ]
+   },
+   {
+    "id": "work2",
+    "t": "11:15",
+    "end": "12:45",
+    "cat": "work",
+    "title": "Trabajo · bloque 2",
+    "sub": "1.5 horas",
+    "steps": [
+     "Termina pendientes de la mañana",
+     "Deja anotado lo que sigue"
+    ],
+    "tip": "Si tu horario cambia, usa el contador de arriba. Lo importante es juntar 5 horas."
+   },
+   {
+    "id": "lunch",
+    "t": "14:00",
+    "cat": "food",
+    "title": "Comida",
+    "sub": "Mitad verduras, un cuarto proteína, un cuarto carbohidrato",
+    "steps": [
+     "Proteína: pollo, carne, pescado, huevo o frijoles/lentejas",
+     "Carbohidrato: arroz, tortillas, papa o pasta",
+     "Verduras o ensalada: la mitad del plato",
+     "Agua natural o de fruta sin mucha azúcar"
+    ],
+    "tip": "Cocinar doble un día te deja comida lista para el siguiente."
+   },
+   {
+    "id": "edit",
+    "t": "15:00",
+    "end": "16:30",
+    "cat": "edit",
+    "title": "Edición: video largo",
+    "sub": "Para YouTube",
+    "items": [
+     {
+      "id": "plan",
+      "txt": "Define qué toca hoy",
+      "dose": "10 min",
+      "how": "Una parte concreta: guion, cortes, música, miniatura o exportar."
+     },
+     {
+      "id": "work",
+      "txt": "Edita el video largo",
+      "dose": "1 h 10 min",
+      "how": "Ponte un temporizador y no cambies de tarea. Avanzar poco diario vale más que un maratón."
+     },
+     {
+      "id": "save",
+      "txt": "Guarda y anota en qué te quedaste",
+      "dose": "10 min",
+      "how": "Así mañana arrancas directo."
+     }
+    ]
+   },
+   {
+    "id": "read",
+    "t": "16:30",
+    "end": "17:00",
+    "cat": "read",
+    "title": "Lectura",
+    "sub": "30 minutos",
+    "items": [
+     {
+      "id": "pages",
+      "txt": "Lee sin celular",
+      "dose": "30 min",
+      "how": "Un libro que te interese (novela, disciplina, negocios, lo que sea). Anota las páginas para ver cuánto avanzas.",
+      "log": "págs"
+     }
     ]
    },
    {
     "id": "gym",
-    "t": "19:15",
-    "end": "20:00",
+    "t": "17:15",
+    "end": "18:15",
     "cat": "gym",
     "title": "Fuerza B",
-    "sub": "Después del stream, rutina en casa",
+    "sub": "Rutina en casa, sin equipo",
     "items": [
      {
       "id": "warm",
@@ -1047,315 +1352,41 @@
    },
    {
     "id": "shower",
-    "t": "20:00",
+    "t": "18:15",
     "cat": "care",
     "title": "Ducha",
     "sub": "Después de entrenar",
     "steps": [
      "Báñate después de sudar para cuidar tu piel",
      "Agua tibia, no muy caliente"
-    ]
-   },
-   {
-    "id": "dinner",
-    "t": "20:30",
-    "cat": "food",
-    "title": "Cena",
-    "sub": "Más ligera que la comida",
-    "steps": [
-     "Opción 1: quesadillas de panela con ensalada",
-     "Opción 2: sándwich de pollo con verduras",
-     "Opción 3: huevos a la mexicana con frijoles"
-    ]
-   },
-   {
-    "id": "read",
-    "t": "21:00",
-    "end": "21:30",
-    "cat": "read",
-    "title": "Lectura",
-    "sub": "30 minutos",
-    "items": [
-     {
-      "id": "pages",
-      "txt": "Lee sin celular",
-      "dose": "30 min",
-      "how": "Un libro que te interese (novela, disciplina, negocios, lo que sea). Anota las páginas para ver cuánto avanzas.",
-      "log": "págs"
-     }
-    ]
-   },
-   {
-    "id": "free2",
-    "t": "21:30",
-    "end": "23:00",
-    "cat": "rest",
-    "title": "Tiempo libre",
-    "sub": "Juega, ve algo, platica",
-    "steps": [
-     "Ya cumpliste el día: disfruta sin presión"
-    ]
-   },
-   {
-    "id": "skinPM",
-    "t": "23:00",
-    "cat": "care",
-    "title": "Skincare de noche",
-    "sub": "Limpiar, tratar, hidratar",
-    "items": [
-     {
-      "id": "clean",
-      "txt": "Limpiador suave",
-      "dose": "30 s",
-      "how": "Quita sudor, grasa y protector solar del día."
-     },
-     {
-      "id": "treat",
-      "txt": "Tratamiento (si lo necesitas)",
-      "dose": "una capa delgada",
-      "how": "Para granitos: peróxido de benzoilo o ácido salicílico, solo donde haga falta. Pregunta en farmacia."
-     },
-     {
-      "id": "moist",
-      "txt": "Hidratante",
-      "dose": "tamaño de un chícharo",
-      "how": "Al final, para que la piel se recupere de noche."
-     }
-    ],
-    "tip": "Cambia la funda de la almohada cada semana."
-   },
-   {
-    "id": "sleep",
-    "t": "23:30",
-    "cat": "rest",
-    "title": "Dormir",
-    "sub": "7 horas y media hasta las 7:00",
-    "steps": [
-     "Celular a cargar lejos de la cama",
-     "Ropa de mañana lista",
-     "Cuarto oscuro y fresco"
-    ]
-   }
-  ],
-  [
-   {
-    "id": "wake",
-    "t": "07:00",
-    "cat": "rest",
-    "title": "Despertar",
-    "sub": "Un vaso de agua apenas te levantes",
-    "steps": [
-     "Toma un vaso de agua",
-     "Tiende la cama (2 minutos, tu primera victoria del día)",
-     "Abre cortinas o sal a la luz unos minutos",
-     "Primeros 15 minutos sin celular"
-    ]
-   },
-   {
-    "id": "skinAM",
-    "t": "07:15",
-    "cat": "care",
-    "title": "Skincare de mañana",
-    "sub": "Limpiar, hidratar, protector solar",
-    "items": [
-     {
-      "id": "clean",
-      "txt": "Limpiador suave",
-      "dose": "30 s",
-      "how": "Agua tibia, masajea con las yemas y seca con toques, sin tallar."
-     },
-     {
-      "id": "moist",
-      "txt": "Hidratante",
-      "dose": "tamaño de un chícharo",
-      "how": "Cara y cuello. Aunque tengas piel grasa, úsala (busca una ligera tipo gel)."
-     },
-     {
-      "id": "spf",
-      "txt": "Protector solar FPS 30+",
-      "dose": "2 dedos de producto",
-      "how": "Cara, cuello y orejas, aunque esté nublado. Es lo que más ayuda contra manchas."
-     }
-    ]
-   },
-   {
-    "id": "breakfast",
-    "t": "07:30",
-    "cat": "food",
-    "title": "Desayuno",
-    "sub": "Proteína + fruta + agua",
-    "steps": [
-     "Opción 1: 2 huevos con frijoles y tortilla, una fruta",
-     "Opción 2: avena con plátano y crema de cacahuate",
-     "Opción 3: yogurt natural con granola y fruta",
-     "Acompaña con agua (no solo café)"
-    ],
-    "tip": "Rota las opciones durante la semana para no aburrirte."
-   },
-   {
-    "id": "dress",
-    "t": "08:00",
-    "cat": "rest",
-    "title": "Cambiarte y salir",
-    "sub": "Lleva tu botella de agua",
-    "steps": [
-     "Ropa lista desde la noche anterior",
-     "Botella de agua llena",
-     "Revisa: llaves, cartera, celular, cargador"
-    ]
-   },
-   {
-    "id": "work1",
-    "t": "08:30",
-    "end": "11:00",
-    "cat": "work",
-    "title": "Trabajo · bloque 1",
-    "sub": "2.5 horas",
-    "steps": [
-     "Empieza por lo más difícil o importante",
-     "Celular en silencio o lejos",
-     "Al marcarlo se suman 2.5 h al contador"
-    ]
-   },
-   {
-    "id": "snack",
-    "t": "11:00",
-    "cat": "food",
-    "title": "Snack y agua",
-    "sub": "15 minutos de pausa",
-    "steps": [
-     "Una fruta o un puño de cacahuates",
-     "Un vaso de agua",
-     "Párate y estira la espalda"
-    ]
-   },
-   {
-    "id": "work2",
-    "t": "11:15",
-    "end": "13:45",
-    "cat": "work",
-    "title": "Trabajo · bloque 2",
-    "sub": "2.5 horas: con esto llegas a 5",
-    "steps": [
-     "Termina pendientes del día",
-     "Deja anotado lo que sigue para mañana"
-    ],
-    "tip": "Si tu horario cambia, usa el contador de arriba. Cualquier combinación vale mientras sumen 5 horas."
-   },
-   {
-    "id": "lunch",
-    "t": "14:00",
-    "cat": "food",
-    "title": "Comida",
-    "sub": "Mitad verduras, un cuarto proteína, un cuarto carbohidrato",
-    "steps": [
-     "Proteína: pollo, carne, pescado, huevo o frijoles/lentejas",
-     "Carbohidrato: arroz, tortillas, papa o pasta",
-     "Verduras o ensalada: la mitad del plato",
-     "Agua natural o de fruta sin mucha azúcar"
-    ],
-    "tip": "Cocinar doble un día te deja comida lista para el siguiente."
-   },
-   {
-    "id": "edit",
-    "t": "15:00",
-    "end": "16:30",
-    "cat": "edit",
-    "title": "Edición: video largo",
-    "sub": "Para YouTube",
-    "items": [
-     {
-      "id": "plan",
-      "txt": "Define qué toca hoy",
-      "dose": "10 min",
-      "how": "Una parte concreta: guion, cortes, música, miniatura o exportar."
-     },
-     {
-      "id": "work",
-      "txt": "Edita el video largo",
-      "dose": "1 h 10 min",
-      "how": "Ponte un temporizador y no cambies de tarea. Avanzar poco diario vale más que un maratón."
-     },
-     {
-      "id": "save",
-      "txt": "Guarda y anota en qué te quedaste",
-      "dose": "10 min",
-      "how": "Así mañana arrancas directo."
-     }
-    ]
-   },
-   {
-    "id": "read",
-    "t": "16:30",
-    "end": "17:00",
-    "cat": "read",
-    "title": "Lectura",
-    "sub": "30 minutos",
-    "items": [
-     {
-      "id": "pages",
-      "txt": "Lee sin celular",
-      "dose": "30 min",
-      "how": "Un libro que te interese (novela, disciplina, negocios, lo que sea). Anota las páginas para ver cuánto avanzas.",
-      "log": "págs"
-     }
     ]
    },
    {
     "id": "free1",
-    "t": "17:00",
-    "end": "17:45",
+    "t": "18:30",
+    "end": "19:00",
     "cat": "rest",
     "title": "Tiempo tuyo",
-    "sub": "Juego, música, tus proyectos",
+    "sub": "Descansa antes de tu hora de trabajo",
     "steps": [
-     "Elige UNA cosa en la que avanzar",
-     "O simplemente descansa, también cuenta"
+     "Algo tranquilo, sin presión"
     ]
    },
    {
-    "id": "gym",
-    "t": "18:00",
-    "end": "19:00",
-    "cat": "gym",
-    "title": "Cardio",
-    "sub": "Caminata o bici",
-    "items": [
-     {
-      "id": "walkwarm",
-      "txt": "Caminar tranquilo",
-      "dose": "5 min",
-      "how": "Para que el cuerpo entre en calor."
-     },
-     {
-      "id": "walk",
-      "txt": "Caminata rápida o bici",
-      "dose": "30 min",
-      "how": "Que puedas hablar pero con esfuerzo. Si llueve: 20 min en casa de jumping jacks, rodillas arriba y escaladores (40 s trabajo, 20 s descanso).",
-      "log": "min"
-     },
-     {
-      "id": "walkstretch",
-      "txt": "Estirar piernas",
-      "dose": "5 min",
-      "how": "Pantorrillas, cuádriceps y parte de atrás del muslo."
-     }
-    ]
-   },
-   {
-    "id": "shower",
+    "id": "work3",
     "t": "19:00",
-    "cat": "care",
-    "title": "Ducha",
-    "sub": "Después de entrenar",
+    "end": "20:00",
+    "cat": "work",
+    "title": "Trabajo · hora fija",
+    "sub": "1 hora, sí o sí",
     "steps": [
-     "Báñate después de sudar para cuidar tu piel",
-     "Agua tibia, no muy caliente"
+     "Ten listo lo que necesitas desde antes",
+     "Con esto completas tus 5 horas del día"
     ]
    },
    {
     "id": "dinner",
-    "t": "20:00",
+    "t": "20:15",
     "cat": "food",
     "title": "Cena",
     "sub": "Más ligera que la comida",
@@ -1493,8 +1524,7 @@
     "sub": "2.5 horas",
     "steps": [
      "Empieza por lo más difícil o importante",
-     "Celular en silencio o lejos",
-     "Al marcarlo se suman 2.5 h al contador"
+     "Celular en silencio o lejos"
     ]
    },
    {
@@ -1517,10 +1547,10 @@
     "title": "Trabajo · bloque 2",
     "sub": "2.5 horas: con esto llegas a 5",
     "steps": [
-     "Termina pendientes del día",
-     "Deja anotado lo que sigue para mañana"
+     "Termina pendientes de la mañana",
+     "Deja anotado lo que sigue"
     ],
-    "tip": "Si tu horario cambia, usa el contador de arriba. Cualquier combinación vale mientras sumen 5 horas."
+    "tip": "Si tu horario cambia, usa el contador de arriba. Lo importante es juntar 5 horas."
    },
    {
     "id": "lunch",
@@ -1576,7 +1606,7 @@
      "16:30: abre OBS, revisa audio y avatar",
      "Agua a la mano",
      "Avisa en tus redes 15 min antes",
-     "Al terminar, anota los momentos buenos para editarlos mañana"
+     "Al terminar, anota los momentos buenos para editarlos"
     ]
    },
    {
@@ -1584,58 +1614,29 @@
     "t": "19:15",
     "end": "20:00",
     "cat": "gym",
-    "title": "Fuerza A",
-    "sub": "Después del stream, rutina en casa",
+    "title": "Cardio",
+    "sub": "Caminata o bici",
     "items": [
      {
-      "id": "warm",
-      "txt": "Calentamiento",
+      "id": "walkwarm",
+      "txt": "Caminar tranquilo",
       "dose": "5 min",
-      "how": "30 s de jumping jacks, 30 s de rodillas arriba, 10 círculos de brazos y 10 sentadillas sin peso. Repite 2 veces."
+      "how": "Para que el cuerpo entre en calor."
      },
      {
-      "id": "squat",
-      "txt": "Sentadillas",
-      "dose": "3 series × 12 · descanso 60 s",
-      "how": "Pies al ancho de hombros. Baja como si te fueras a sentar, rodillas en dirección de las puntas, espalda recta, talones pegados al piso.",
-      "log": "reps"
+      "id": "walk",
+      "txt": "Caminata rápida o bici",
+      "dose": "30 min",
+      "how": "Que puedas hablar pero con esfuerzo. Si llueve: 20 min en casa de jumping jacks, rodillas arriba y escaladores (40 s trabajo, 20 s descanso).",
+      "log": "min"
      },
      {
-      "id": "pushup",
-      "txt": "Lagartijas",
-      "dose": "3 series × 8 · descanso 90 s",
-      "how": "Cuerpo en línea recta de cabeza a talones. Baja el pecho casi al piso. Si no puedes, apoya las rodillas.",
-      "log": "reps"
-     },
-     {
-      "id": "row",
-      "txt": "Remo con mochila",
-      "dose": "3 series × 10 · descanso 60 s",
-      "how": "Mete libros a una mochila. Inclínate con la espalda recta y jala la mochila hacia el ombligo, juntando omóplatos.",
-      "log": "reps"
-     },
-     {
-      "id": "bridge",
-      "txt": "Puente de glúteo",
-      "dose": "3 series × 15 · descanso 45 s",
-      "how": "Boca arriba, rodillas dobladas. Sube la cadera apretando glúteos, aguanta 1 s arriba y baja lento.",
-      "log": "reps"
-     },
-     {
-      "id": "plank",
-      "txt": "Plancha",
-      "dose": "3 × 30 s · descanso 45 s",
-      "how": "Sobre antebrazos. Abdomen y glúteos apretados, cadera ni muy arriba ni caída.",
-      "log": "seg"
-     },
-     {
-      "id": "cool",
-      "txt": "Estiramiento final",
+      "id": "walkstretch",
+      "txt": "Estirar piernas",
       "dose": "5 min",
-      "how": "Piernas, cadera, pecho y espalda. Aguanta cada estiramiento 20–30 s sin rebotar."
+      "how": "Pantorrillas, cuádriceps y parte de atrás del muslo."
      }
-    ],
-    "tip": "Compara con el lunes: intenta 1 repetición más en cada ejercicio."
+    ]
    },
    {
     "id": "shower",
@@ -1685,7 +1686,7 @@
     "title": "Tiempo libre",
     "sub": "Juega, ve algo, platica",
     "steps": [
-     "Ya cumpliste el día: disfruta sin presión"
+     "Ya cumpliste la semana de trabajo"
     ]
    },
    {
@@ -1830,17 +1831,58 @@
     "t": "12:30",
     "end": "13:30",
     "cat": "gym",
-    "title": "Actividad libre",
+    "title": "Fuerza A",
     "sub": "Antes de comer",
     "items": [
      {
-      "id": "free",
-      "txt": "Algo que disfrutes",
-      "dose": "30 min o más",
-      "how": "Futbol, bici, nadar, caminar con alguien. Cuenta cualquier cosa que te mueva.",
-      "log": "min"
+      "id": "warm",
+      "txt": "Calentamiento",
+      "dose": "5 min",
+      "how": "30 s de jumping jacks, 30 s de rodillas arriba, 10 círculos de brazos y 10 sentadillas sin peso. Repite 2 veces."
+     },
+     {
+      "id": "squat",
+      "txt": "Sentadillas",
+      "dose": "3 series × 12 · descanso 60 s",
+      "how": "Pies al ancho de hombros. Baja como si te fueras a sentar, rodillas en dirección de las puntas, espalda recta, talones pegados al piso.",
+      "log": "reps"
+     },
+     {
+      "id": "pushup",
+      "txt": "Lagartijas",
+      "dose": "3 series × 8 · descanso 90 s",
+      "how": "Cuerpo en línea recta de cabeza a talones. Baja el pecho casi al piso. Si no puedes, apoya las rodillas.",
+      "log": "reps"
+     },
+     {
+      "id": "row",
+      "txt": "Remo con mochila",
+      "dose": "3 series × 10 · descanso 60 s",
+      "how": "Mete libros a una mochila. Inclínate con la espalda recta y jala la mochila hacia el ombligo, juntando omóplatos.",
+      "log": "reps"
+     },
+     {
+      "id": "bridge",
+      "txt": "Puente de glúteo",
+      "dose": "3 series × 15 · descanso 45 s",
+      "how": "Boca arriba, rodillas dobladas. Sube la cadera apretando glúteos, aguanta 1 s arriba y baja lento.",
+      "log": "reps"
+     },
+     {
+      "id": "plank",
+      "txt": "Plancha",
+      "dose": "3 × 30 s · descanso 45 s",
+      "how": "Sobre antebrazos. Abdomen y glúteos apretados, cadera ni muy arriba ni caída.",
+      "log": "seg"
+     },
+     {
+      "id": "cool",
+      "txt": "Estiramiento final",
+      "dose": "5 min",
+      "how": "Piernas, cadera, pecho y espalda. Aguanta cada estiramiento 20–30 s sin rebotar."
      }
-    ]
+    ],
+    "tip": "Compara con el martes: intenta 1 repetición más en cada ejercicio."
    },
    {
     "id": "shower",
