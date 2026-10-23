@@ -1,7 +1,7 @@
 {
  "version": 3,
  "actualizado": "2026-10-23",
- "nota": "Trabajo domingo a viernes (30 h), hora fija de 7 a 8 pm",
+ "nota": "Día especial: sábado 31, fiesta de Halloween",
  "days": [
   [
    {
@@ -2005,5 +2005,255 @@
    }
   ]
  ],
- "fechas": {}
+ "fechas": {
+  "2026-10-31": {
+   "nota": "Fiesta de Halloween a las 8 pm",
+   "blocks": [
+    {
+     "id": "wake",
+     "t": "07:00",
+     "cat": "rest",
+     "title": "Despertar",
+     "sub": "Un vaso de agua apenas te levantes",
+     "steps": [
+      "Toma un vaso de agua",
+      "Tiende la cama (2 minutos, tu primera victoria del día)",
+      "Abre cortinas o sal a la luz unos minutos",
+      "Primeros 15 minutos sin celular"
+     ]
+    },
+    {
+     "id": "skinAM",
+     "t": "07:15",
+     "cat": "care",
+     "title": "Skincare de mañana",
+     "sub": "Limpiar, hidratar, protector solar",
+     "items": [
+      {
+       "id": "clean",
+       "txt": "Limpiador suave",
+       "dose": "30 s",
+       "how": "Agua tibia, masajea con las yemas y seca con toques, sin tallar."
+      },
+      {
+       "id": "moist",
+       "txt": "Hidratante",
+       "dose": "tamaño de un chícharo",
+       "how": "Cara y cuello. Aunque tengas piel grasa, úsala (busca una ligera tipo gel)."
+      },
+      {
+       "id": "spf",
+       "txt": "Protector solar FPS 30+",
+       "dose": "2 dedos de producto",
+       "how": "Cara, cuello y orejas, aunque esté nublado. Es lo que más ayuda contra manchas."
+      }
+     ]
+    },
+    {
+     "id": "breakfast",
+     "t": "07:30",
+     "cat": "food",
+     "title": "Desayuno",
+     "sub": "Proteína + fruta + agua",
+     "steps": [
+      "Opción 1: 2 huevos con frijoles y tortilla, una fruta",
+      "Opción 2: avena con plátano y crema de cacahuate",
+      "Opción 3: yogurt natural con granola y fruta",
+      "Acompaña con agua (no solo café)"
+     ],
+     "tip": "Rota las opciones durante la semana para no aburrirte."
+    },
+    {
+     "id": "home",
+     "t": "08:30",
+     "end": "10:30",
+     "cat": "rest",
+     "title": "Pendientes de la casa",
+     "sub": "Casa, ropa, compras",
+     "steps": [
+      "Lava ropa y limpia tu cuarto",
+      "Compra lo de la semana: fruta, huevos, verduras, avena",
+      "Revisa que no te falte nada del skincare"
+     ]
+    },
+    {
+     "id": "edit",
+     "t": "10:30",
+     "end": "12:00",
+     "cat": "edit",
+     "title": "Edición: video largo",
+     "sub": "Aprovecha la mañana libre",
+     "items": [
+      {
+       "id": "plan",
+       "txt": "Define qué toca hoy",
+       "dose": "10 min",
+       "how": "Una parte concreta: guion, cortes, música, miniatura o exportar."
+      },
+      {
+       "id": "work",
+       "txt": "Edita el video largo",
+       "dose": "1 h 10 min",
+       "how": "Ponte un temporizador y no cambies de tarea. Avanzar poco diario vale más que un maratón."
+      },
+      {
+       "id": "save",
+       "txt": "Guarda y anota en qué te quedaste",
+       "dose": "10 min",
+       "how": "Así mañana arrancas directo."
+      }
+     ]
+    },
+    {
+     "id": "gym",
+     "t": "12:30",
+     "end": "13:30",
+     "cat": "gym",
+     "title": "Fuerza A",
+     "sub": "Antes de comer",
+     "items": [
+      {
+       "id": "warm",
+       "txt": "Calentamiento",
+       "dose": "5 min",
+       "how": "30 s de jumping jacks, 30 s de rodillas arriba, 10 círculos de brazos y 10 sentadillas sin peso. Repite 2 veces."
+      },
+      {
+       "id": "squat",
+       "txt": "Sentadillas",
+       "dose": "3 series × 12 · descanso 60 s",
+       "how": "Pies al ancho de hombros. Baja como si te fueras a sentar, rodillas en dirección de las puntas, espalda recta, talones pegados al piso.",
+       "log": "reps"
+      },
+      {
+       "id": "pushup",
+       "txt": "Lagartijas",
+       "dose": "3 series × 8 · descanso 90 s",
+       "how": "Cuerpo en línea recta de cabeza a talones. Baja el pecho casi al piso. Si no puedes, apoya las rodillas.",
+       "log": "reps"
+      },
+      {
+       "id": "row",
+       "txt": "Remo con mochila",
+       "dose": "3 series × 10 · descanso 60 s",
+       "how": "Mete libros a una mochila. Inclínate con la espalda recta y jala la mochila hacia el ombligo, juntando omóplatos.",
+       "log": "reps"
+      },
+      {
+       "id": "bridge",
+       "txt": "Puente de glúteo",
+       "dose": "3 series × 15 · descanso 45 s",
+       "how": "Boca arriba, rodillas dobladas. Sube la cadera apretando glúteos, aguanta 1 s arriba y baja lento.",
+       "log": "reps"
+      },
+      {
+       "id": "plank",
+       "txt": "Plancha",
+       "dose": "3 × 30 s · descanso 45 s",
+       "how": "Sobre antebrazos. Abdomen y glúteos apretados, cadera ni muy arriba ni caída.",
+       "log": "seg"
+      },
+      {
+       "id": "cool",
+       "txt": "Estiramiento final",
+       "dose": "5 min",
+       "how": "Piernas, cadera, pecho y espalda. Aguanta cada estiramiento 20–30 s sin rebotar."
+      }
+     ],
+     "tip": "Compara con el martes: intenta 1 repetición más en cada ejercicio."
+    },
+    {
+     "id": "shower",
+     "t": "13:30",
+     "cat": "care",
+     "title": "Ducha",
+     "sub": "Después de moverte",
+     "steps": [
+      "Agua tibia, no muy caliente",
+      "Lava la cara al final"
+     ]
+    },
+    {
+     "id": "lunch",
+     "t": "14:00",
+     "cat": "food",
+     "title": "Comida",
+     "sub": "Mitad verduras, un cuarto proteína, un cuarto carbohidrato",
+     "steps": [
+      "Proteína: pollo, carne, pescado, huevo o frijoles/lentejas",
+      "Carbohidrato: arroz, tortillas, papa o pasta",
+      "Verduras o ensalada: la mitad del plato",
+      "Agua natural o de fruta sin mucha azúcar"
+     ],
+     "tip": "Cocinar doble un día te deja comida lista para el siguiente."
+    },
+    {
+     "id": "free1",
+     "t": "15:00",
+     "end": "15:30",
+     "cat": "rest",
+     "title": "Tiempo tuyo",
+     "sub": "Descansa un rato antes del stream",
+     "steps": [
+      "Siesta corta de 20 min o algo tranquilo",
+      "A las 15:30 empieza a preparar el stream"
+     ]
+    },
+    {
+     "id": "stream",
+     "t": "16:00",
+     "end": "18:30",
+     "cat": "stream",
+     "title": "Stream de Halloween",
+     "sub": "2.5 horas, termina con tiempo para arreglarte",
+     "steps": [
+      "15:30: abre OBS, revisa audio y avatar",
+      "Idea: un juego de terror o tu avatar disfrazado para la ocasión",
+      "Avisa en tus redes que hoy el stream es más temprano",
+      "Despídete a las 18:30 y anota los momentos buenos para editarlos"
+     ]
+    },
+    {
+     "id": "dinner",
+     "t": "18:30",
+     "cat": "food",
+     "title": "Cena ligera",
+     "sub": "Algo antes de salir",
+     "steps": [
+      "Algo sencillo: quesadillas, sándwich o fruta",
+      "Toma agua"
+     ],
+     "end": "19:00"
+    },
+    {
+     "id": "partyprep",
+     "t": "19:00",
+     "end": "19:40",
+     "cat": "care",
+     "title": "Arreglarte para la fiesta",
+     "sub": "40 minutos",
+     "steps": [
+      "Ducha rápida y skincare de mañana (limpiador e hidratante)",
+      "Ponte el disfraz o la ropa",
+      "Carga el celular antes de salir",
+      "Revisa: llaves, cartera, celular, dinero para el regreso"
+     ]
+    },
+    {
+     "id": "party",
+     "t": "19:40",
+     "cat": "rest",
+     "title": "Sal a la fiesta de Halloween",
+     "sub": "Empieza a las 8:00",
+     "steps": [
+      "Avísale a alguien a qué hora llegas",
+      "Toma agua entre bebidas",
+      "Planea cómo vas a regresar antes de que se haga tarde",
+      "Al regresar: lava tu cara aunque sea rápido, no te duermas maquillado o sudado"
+     ],
+     "tip": "Hoy no hay lectura ni aviso de dormir. Disfruta la fiesta."
+    }
+   ]
+  }
+ }
 }
