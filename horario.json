@@ -1,7 +1,7 @@
 {
  "version": 3,
  "actualizado": "2026-10-23",
- "nota": "Día especial: sábado 31, fiesta de Halloween",
+ "nota": "Skincare con tus productos",
  "days": [
   [
    {
@@ -22,25 +22,25 @@
     "t": "07:15",
     "cat": "care",
     "title": "Skincare de mañana",
-    "sub": "Limpiar, hidratar, protector solar",
+    "sub": "Limpiador, crema y protector",
     "items": [
      {
       "id": "clean",
-      "txt": "Limpiador suave",
-      "dose": "30 s",
-      "how": "Agua tibia, masajea con las yemas y seca con toques, sin tallar."
+      "txt": "Limpiador CeraVe Control Imperfecciones",
+      "dose": "1 bombeo",
+      "how": "Con agua tibia, masajea 30 a 60 segundos y enjuaga. Seca con toques. Si sientes la piel tirante o reseca, en la mañana usa solo agua y deja el limpiador para la noche."
      },
      {
       "id": "moist",
-      "txt": "Hidratante",
+      "txt": "Day Cream de ácido hialurónico",
       "dose": "tamaño de un chícharo",
-      "how": "Cara y cuello. Aunque tengas piel grasa, úsala (busca una ligera tipo gel)."
+      "how": "En toda la cara y el cuello, con la piel todavía un poco húmeda."
      },
      {
       "id": "spf",
-      "txt": "Protector solar FPS 30+",
+      "txt": "Protector ISDIN Fusion Water SPF 50",
       "dose": "2 dedos de producto",
-      "how": "Cara, cuello y orejas, aunque esté nublado. Es lo que más ayuda contra manchas."
+      "how": "Al final, cara, cuello y orejas, unos 15 min antes de salir. Si estás al sol, ponte otra vez cada 2 o 3 horas. Es clave porque el gel de CeraVe hace tu piel más sensible al sol."
      }
     ]
    },
@@ -234,28 +234,28 @@
     "t": "23:00",
     "cat": "care",
     "title": "Skincare de noche",
-    "sub": "Limpiar, tratar, hidratar",
+    "sub": "Limpiador, mascarilla y crema",
     "items": [
      {
       "id": "clean",
-      "txt": "Limpiador suave",
-      "dose": "30 s",
-      "how": "Quita sudor, grasa y protector solar del día."
+      "txt": "Limpiador CeraVe Control Imperfecciones",
+      "dose": "1 bombeo",
+      "how": "Quita el sudor, la grasa y el protector del día. Masajea 30 a 60 segundos, enjuaga y seca bien."
      },
      {
-      "id": "treat",
-      "txt": "Tratamiento (si lo necesitas)",
-      "dose": "una capa delgada",
-      "how": "Para granitos: peróxido de benzoilo o ácido salicílico, solo donde haga falta. Pregunta en farmacia."
+      "id": "mask",
+      "txt": "Mascarilla Miniso Zona T",
+      "dose": "capa delgada, 15 a 20 min",
+      "how": "Solo en frente, nariz y barbilla, lejos de cejas y pelo. Espera a que seque y despégala despacio desde las orillas. Enjuaga lo que quede. Hoy no toca el gel."
      },
      {
       "id": "moist",
-      "txt": "Hidratante",
+      "txt": "Day Cream de ácido hialurónico",
       "dose": "tamaño de un chícharo",
       "how": "Al final, para que la piel se recupere de noche."
      }
     ],
-    "tip": "Cambia la funda de la almohada cada semana."
+    "tip": "Mascarilla solo 1 vez por semana. Cambia la funda de tu almohada hoy."
    },
    {
     "id": "sleep",
@@ -289,25 +289,25 @@
     "t": "07:15",
     "cat": "care",
     "title": "Skincare de mañana",
-    "sub": "Limpiar, hidratar, protector solar",
+    "sub": "Limpiador, crema y protector",
     "items": [
      {
       "id": "clean",
-      "txt": "Limpiador suave",
-      "dose": "30 s",
-      "how": "Agua tibia, masajea con las yemas y seca con toques, sin tallar."
+      "txt": "Limpiador CeraVe Control Imperfecciones",
+      "dose": "1 bombeo",
+      "how": "Con agua tibia, masajea 30 a 60 segundos y enjuaga. Seca con toques. Si sientes la piel tirante o reseca, en la mañana usa solo agua y deja el limpiador para la noche."
      },
      {
       "id": "moist",
-      "txt": "Hidratante",
+      "txt": "Day Cream de ácido hialurónico",
       "dose": "tamaño de un chícharo",
-      "how": "Cara y cuello. Aunque tengas piel grasa, úsala (busca una ligera tipo gel)."
+      "how": "En toda la cara y el cuello, con la piel todavía un poco húmeda."
      },
      {
       "id": "spf",
-      "txt": "Protector solar FPS 30+",
+      "txt": "Protector ISDIN Fusion Water SPF 50",
       "dose": "2 dedos de producto",
-      "how": "Cara, cuello y orejas, aunque esté nublado. Es lo que más ayuda contra manchas."
+      "how": "Al final, cara, cuello y orejas, unos 15 min antes de salir. Si estás al sol, ponte otra vez cada 2 o 3 horas. Es clave porque el gel de CeraVe hace tu piel más sensible al sol."
      }
     ]
    },
@@ -504,28 +504,28 @@
     "t": "23:00",
     "cat": "care",
     "title": "Skincare de noche",
-    "sub": "Limpiar, tratar, hidratar",
+    "sub": "Limpiador, gel y crema",
     "items": [
      {
       "id": "clean",
-      "txt": "Limpiador suave",
-      "dose": "30 s",
-      "how": "Quita sudor, grasa y protector solar del día."
+      "txt": "Limpiador CeraVe Control Imperfecciones",
+      "dose": "1 bombeo",
+      "how": "Quita el sudor, la grasa y el protector del día. Masajea 30 a 60 segundos, enjuaga y seca bien."
      },
      {
       "id": "treat",
-      "txt": "Tratamiento (si lo necesitas)",
-      "dose": "una capa delgada",
-      "how": "Para granitos: peróxido de benzoilo o ácido salicílico, solo donde haga falta. Pregunta en farmacia."
+      "txt": "CeraVe Blemish Control Gel",
+      "dose": "capa delgada para toda la cara",
+      "how": "Con la cara bien seca. Evita ojos, labios y las orillas de la nariz. Arde un poquito al principio y es normal; si arde mucho, se pone roja o se pela, déjalo unos días."
      },
      {
       "id": "moist",
-      "txt": "Hidratante",
+      "txt": "Day Cream de ácido hialurónico",
       "dose": "tamaño de un chícharo",
       "how": "Al final, para que la piel se recupere de noche."
      }
     ],
-    "tip": "Cambia la funda de la almohada cada semana."
+    "tip": "El gel va lunes, miércoles y viernes las primeras 2 semanas. Si tu piel lo aguanta bien, después puede ser diario; dime y lo cambio. Si te bañaste hoy, ponte la crema Samala en el cuerpo."
    },
    {
     "id": "sleep",
@@ -559,25 +559,25 @@
     "t": "07:15",
     "cat": "care",
     "title": "Skincare de mañana",
-    "sub": "Limpiar, hidratar, protector solar",
+    "sub": "Limpiador, crema y protector",
     "items": [
      {
       "id": "clean",
-      "txt": "Limpiador suave",
-      "dose": "30 s",
-      "how": "Agua tibia, masajea con las yemas y seca con toques, sin tallar."
+      "txt": "Limpiador CeraVe Control Imperfecciones",
+      "dose": "1 bombeo",
+      "how": "Con agua tibia, masajea 30 a 60 segundos y enjuaga. Seca con toques. Si sientes la piel tirante o reseca, en la mañana usa solo agua y deja el limpiador para la noche."
      },
      {
       "id": "moist",
-      "txt": "Hidratante",
+      "txt": "Day Cream de ácido hialurónico",
       "dose": "tamaño de un chícharo",
-      "how": "Cara y cuello. Aunque tengas piel grasa, úsala (busca una ligera tipo gel)."
+      "how": "En toda la cara y el cuello, con la piel todavía un poco húmeda."
      },
      {
       "id": "spf",
-      "txt": "Protector solar FPS 30+",
+      "txt": "Protector ISDIN Fusion Water SPF 50",
       "dose": "2 dedos de producto",
-      "how": "Cara, cuello y orejas, aunque esté nublado. Es lo que más ayuda contra manchas."
+      "how": "Al final, cara, cuello y orejas, unos 15 min antes de salir. Si estás al sol, ponte otra vez cada 2 o 3 horas. Es clave porque el gel de CeraVe hace tu piel más sensible al sol."
      }
     ]
    },
@@ -769,7 +769,8 @@
     "sub": "Después de entrenar",
     "steps": [
      "Báñate después de sudar para cuidar tu piel",
-     "Agua tibia, no muy caliente"
+     "Agua tibia, no muy caliente",
+     "Crema corporal Samala en brazos, piernas y cuerpo (no en la cara, tiene perfume)"
     ]
    },
    {
@@ -823,28 +824,22 @@
     "t": "23:00",
     "cat": "care",
     "title": "Skincare de noche",
-    "sub": "Limpiar, tratar, hidratar",
+    "sub": "Limpiador y crema",
     "items": [
      {
       "id": "clean",
-      "txt": "Limpiador suave",
-      "dose": "30 s",
-      "how": "Quita sudor, grasa y protector solar del día."
-     },
-     {
-      "id": "treat",
-      "txt": "Tratamiento (si lo necesitas)",
-      "dose": "una capa delgada",
-      "how": "Para granitos: peróxido de benzoilo o ácido salicílico, solo donde haga falta. Pregunta en farmacia."
+      "txt": "Limpiador CeraVe Control Imperfecciones",
+      "dose": "1 bombeo",
+      "how": "Quita el sudor, la grasa y el protector del día. Masajea 30 a 60 segundos, enjuaga y seca bien."
      },
      {
       "id": "moist",
-      "txt": "Hidratante",
+      "txt": "Day Cream de ácido hialurónico",
       "dose": "tamaño de un chícharo",
       "how": "Al final, para que la piel se recupere de noche."
      }
     ],
-    "tip": "Cambia la funda de la almohada cada semana."
+    "tip": "Hoy descansa del gel para que tu piel no se irrite. Si te bañaste hoy, ponte la crema Samala en el cuerpo."
    },
    {
     "id": "sleep",
@@ -878,25 +873,25 @@
     "t": "07:15",
     "cat": "care",
     "title": "Skincare de mañana",
-    "sub": "Limpiar, hidratar, protector solar",
+    "sub": "Limpiador, crema y protector",
     "items": [
      {
       "id": "clean",
-      "txt": "Limpiador suave",
-      "dose": "30 s",
-      "how": "Agua tibia, masajea con las yemas y seca con toques, sin tallar."
+      "txt": "Limpiador CeraVe Control Imperfecciones",
+      "dose": "1 bombeo",
+      "how": "Con agua tibia, masajea 30 a 60 segundos y enjuaga. Seca con toques. Si sientes la piel tirante o reseca, en la mañana usa solo agua y deja el limpiador para la noche."
      },
      {
       "id": "moist",
-      "txt": "Hidratante",
+      "txt": "Day Cream de ácido hialurónico",
       "dose": "tamaño de un chícharo",
-      "how": "Cara y cuello. Aunque tengas piel grasa, úsala (busca una ligera tipo gel)."
+      "how": "En toda la cara y el cuello, con la piel todavía un poco húmeda."
      },
      {
       "id": "spf",
-      "txt": "Protector solar FPS 30+",
+      "txt": "Protector ISDIN Fusion Water SPF 50",
       "dose": "2 dedos de producto",
-      "how": "Cara, cuello y orejas, aunque esté nublado. Es lo que más ayuda contra manchas."
+      "how": "Al final, cara, cuello y orejas, unos 15 min antes de salir. Si estás al sol, ponte otra vez cada 2 o 3 horas. Es clave porque el gel de CeraVe hace tu piel más sensible al sol."
      }
     ]
    },
@@ -1093,28 +1088,28 @@
     "t": "23:00",
     "cat": "care",
     "title": "Skincare de noche",
-    "sub": "Limpiar, tratar, hidratar",
+    "sub": "Limpiador, gel y crema",
     "items": [
      {
       "id": "clean",
-      "txt": "Limpiador suave",
-      "dose": "30 s",
-      "how": "Quita sudor, grasa y protector solar del día."
+      "txt": "Limpiador CeraVe Control Imperfecciones",
+      "dose": "1 bombeo",
+      "how": "Quita el sudor, la grasa y el protector del día. Masajea 30 a 60 segundos, enjuaga y seca bien."
      },
      {
       "id": "treat",
-      "txt": "Tratamiento (si lo necesitas)",
-      "dose": "una capa delgada",
-      "how": "Para granitos: peróxido de benzoilo o ácido salicílico, solo donde haga falta. Pregunta en farmacia."
+      "txt": "CeraVe Blemish Control Gel",
+      "dose": "capa delgada para toda la cara",
+      "how": "Con la cara bien seca. Evita ojos, labios y las orillas de la nariz. Arde un poquito al principio y es normal; si arde mucho, se pone roja o se pela, déjalo unos días."
      },
      {
       "id": "moist",
-      "txt": "Hidratante",
+      "txt": "Day Cream de ácido hialurónico",
       "dose": "tamaño de un chícharo",
       "how": "Al final, para que la piel se recupere de noche."
      }
     ],
-    "tip": "Cambia la funda de la almohada cada semana."
+    "tip": "El gel va lunes, miércoles y viernes las primeras 2 semanas. Si tu piel lo aguanta bien, después puede ser diario; dime y lo cambio. Si te bañaste hoy, ponte la crema Samala en el cuerpo."
    },
    {
     "id": "sleep",
@@ -1148,25 +1143,25 @@
     "t": "07:15",
     "cat": "care",
     "title": "Skincare de mañana",
-    "sub": "Limpiar, hidratar, protector solar",
+    "sub": "Limpiador, crema y protector",
     "items": [
      {
       "id": "clean",
-      "txt": "Limpiador suave",
-      "dose": "30 s",
-      "how": "Agua tibia, masajea con las yemas y seca con toques, sin tallar."
+      "txt": "Limpiador CeraVe Control Imperfecciones",
+      "dose": "1 bombeo",
+      "how": "Con agua tibia, masajea 30 a 60 segundos y enjuaga. Seca con toques. Si sientes la piel tirante o reseca, en la mañana usa solo agua y deja el limpiador para la noche."
      },
      {
       "id": "moist",
-      "txt": "Hidratante",
+      "txt": "Day Cream de ácido hialurónico",
       "dose": "tamaño de un chícharo",
-      "how": "Cara y cuello. Aunque tengas piel grasa, úsala (busca una ligera tipo gel)."
+      "how": "En toda la cara y el cuello, con la piel todavía un poco húmeda."
      },
      {
       "id": "spf",
-      "txt": "Protector solar FPS 30+",
+      "txt": "Protector ISDIN Fusion Water SPF 50",
       "dose": "2 dedos de producto",
-      "how": "Cara, cuello y orejas, aunque esté nublado. Es lo que más ayuda contra manchas."
+      "how": "Al final, cara, cuello y orejas, unos 15 min antes de salir. Si estás al sol, ponte otra vez cada 2 o 3 horas. Es clave porque el gel de CeraVe hace tu piel más sensible al sol."
      }
     ]
    },
@@ -1358,7 +1353,8 @@
     "sub": "Después de entrenar",
     "steps": [
      "Báñate después de sudar para cuidar tu piel",
-     "Agua tibia, no muy caliente"
+     "Agua tibia, no muy caliente",
+     "Crema corporal Samala en brazos, piernas y cuerpo (no en la cara, tiene perfume)"
     ]
    },
    {
@@ -1412,28 +1408,22 @@
     "t": "23:00",
     "cat": "care",
     "title": "Skincare de noche",
-    "sub": "Limpiar, tratar, hidratar",
+    "sub": "Limpiador y crema",
     "items": [
      {
       "id": "clean",
-      "txt": "Limpiador suave",
-      "dose": "30 s",
-      "how": "Quita sudor, grasa y protector solar del día."
-     },
-     {
-      "id": "treat",
-      "txt": "Tratamiento (si lo necesitas)",
-      "dose": "una capa delgada",
-      "how": "Para granitos: peróxido de benzoilo o ácido salicílico, solo donde haga falta. Pregunta en farmacia."
+      "txt": "Limpiador CeraVe Control Imperfecciones",
+      "dose": "1 bombeo",
+      "how": "Quita el sudor, la grasa y el protector del día. Masajea 30 a 60 segundos, enjuaga y seca bien."
      },
      {
       "id": "moist",
-      "txt": "Hidratante",
+      "txt": "Day Cream de ácido hialurónico",
       "dose": "tamaño de un chícharo",
       "how": "Al final, para que la piel se recupere de noche."
      }
     ],
-    "tip": "Cambia la funda de la almohada cada semana."
+    "tip": "Hoy descansa del gel para que tu piel no se irrite. Si te bañaste hoy, ponte la crema Samala en el cuerpo."
    },
    {
     "id": "sleep",
@@ -1467,25 +1457,25 @@
     "t": "07:15",
     "cat": "care",
     "title": "Skincare de mañana",
-    "sub": "Limpiar, hidratar, protector solar",
+    "sub": "Limpiador, crema y protector",
     "items": [
      {
       "id": "clean",
-      "txt": "Limpiador suave",
-      "dose": "30 s",
-      "how": "Agua tibia, masajea con las yemas y seca con toques, sin tallar."
+      "txt": "Limpiador CeraVe Control Imperfecciones",
+      "dose": "1 bombeo",
+      "how": "Con agua tibia, masajea 30 a 60 segundos y enjuaga. Seca con toques. Si sientes la piel tirante o reseca, en la mañana usa solo agua y deja el limpiador para la noche."
      },
      {
       "id": "moist",
-      "txt": "Hidratante",
+      "txt": "Day Cream de ácido hialurónico",
       "dose": "tamaño de un chícharo",
-      "how": "Cara y cuello. Aunque tengas piel grasa, úsala (busca una ligera tipo gel)."
+      "how": "En toda la cara y el cuello, con la piel todavía un poco húmeda."
      },
      {
       "id": "spf",
-      "txt": "Protector solar FPS 30+",
+      "txt": "Protector ISDIN Fusion Water SPF 50",
       "dose": "2 dedos de producto",
-      "how": "Cara, cuello y orejas, aunque esté nublado. Es lo que más ayuda contra manchas."
+      "how": "Al final, cara, cuello y orejas, unos 15 min antes de salir. Si estás al sol, ponte otra vez cada 2 o 3 horas. Es clave porque el gel de CeraVe hace tu piel más sensible al sol."
      }
     ]
    },
@@ -1646,7 +1636,8 @@
     "sub": "Después de entrenar",
     "steps": [
      "Báñate después de sudar para cuidar tu piel",
-     "Agua tibia, no muy caliente"
+     "Agua tibia, no muy caliente",
+     "Crema corporal Samala en brazos, piernas y cuerpo (no en la cara, tiene perfume)"
     ]
    },
    {
@@ -1694,28 +1685,28 @@
     "t": "23:00",
     "cat": "care",
     "title": "Skincare de noche",
-    "sub": "Limpiar, tratar, hidratar",
+    "sub": "Limpiador, gel y crema",
     "items": [
      {
       "id": "clean",
-      "txt": "Limpiador suave",
-      "dose": "30 s",
-      "how": "Quita sudor, grasa y protector solar del día."
+      "txt": "Limpiador CeraVe Control Imperfecciones",
+      "dose": "1 bombeo",
+      "how": "Quita el sudor, la grasa y el protector del día. Masajea 30 a 60 segundos, enjuaga y seca bien."
      },
      {
       "id": "treat",
-      "txt": "Tratamiento (si lo necesitas)",
-      "dose": "una capa delgada",
-      "how": "Para granitos: peróxido de benzoilo o ácido salicílico, solo donde haga falta. Pregunta en farmacia."
+      "txt": "CeraVe Blemish Control Gel",
+      "dose": "capa delgada para toda la cara",
+      "how": "Con la cara bien seca. Evita ojos, labios y las orillas de la nariz. Arde un poquito al principio y es normal; si arde mucho, se pone roja o se pela, déjalo unos días."
      },
      {
       "id": "moist",
-      "txt": "Hidratante",
+      "txt": "Day Cream de ácido hialurónico",
       "dose": "tamaño de un chícharo",
       "how": "Al final, para que la piel se recupere de noche."
      }
     ],
-    "tip": "Cambia la funda de la almohada cada semana."
+    "tip": "El gel va lunes, miércoles y viernes las primeras 2 semanas. Si tu piel lo aguanta bien, después puede ser diario; dime y lo cambio. Si te bañaste hoy, ponte la crema Samala en el cuerpo."
    },
    {
     "id": "sleep",
@@ -1749,25 +1740,25 @@
     "t": "07:15",
     "cat": "care",
     "title": "Skincare de mañana",
-    "sub": "Limpiar, hidratar, protector solar",
+    "sub": "Limpiador, crema y protector",
     "items": [
      {
       "id": "clean",
-      "txt": "Limpiador suave",
-      "dose": "30 s",
-      "how": "Agua tibia, masajea con las yemas y seca con toques, sin tallar."
+      "txt": "Limpiador CeraVe Control Imperfecciones",
+      "dose": "1 bombeo",
+      "how": "Con agua tibia, masajea 30 a 60 segundos y enjuaga. Seca con toques. Si sientes la piel tirante o reseca, en la mañana usa solo agua y deja el limpiador para la noche."
      },
      {
       "id": "moist",
-      "txt": "Hidratante",
+      "txt": "Day Cream de ácido hialurónico",
       "dose": "tamaño de un chícharo",
-      "how": "Cara y cuello. Aunque tengas piel grasa, úsala (busca una ligera tipo gel)."
+      "how": "En toda la cara y el cuello, con la piel todavía un poco húmeda."
      },
      {
       "id": "spf",
-      "txt": "Protector solar FPS 30+",
+      "txt": "Protector ISDIN Fusion Water SPF 50",
       "dose": "2 dedos de producto",
-      "how": "Cara, cuello y orejas, aunque esté nublado. Es lo que más ayuda contra manchas."
+      "how": "Al final, cara, cuello y orejas, unos 15 min antes de salir. Si estás al sol, ponte otra vez cada 2 o 3 horas. Es clave porque el gel de CeraVe hace tu piel más sensible al sol."
      }
     ]
    },
@@ -1892,7 +1883,8 @@
     "sub": "Después de moverte",
     "steps": [
      "Agua tibia, no muy caliente",
-     "Lava la cara al final"
+     "Lava la cara al final",
+     "Crema corporal Samala en brazos, piernas y cuerpo (no en la cara, tiene perfume)"
     ]
    },
    {
@@ -1968,28 +1960,22 @@
     "t": "23:00",
     "cat": "care",
     "title": "Skincare de noche",
-    "sub": "Limpiar, tratar, hidratar",
+    "sub": "Limpiador y crema",
     "items": [
      {
       "id": "clean",
-      "txt": "Limpiador suave",
-      "dose": "30 s",
-      "how": "Quita sudor, grasa y protector solar del día."
-     },
-     {
-      "id": "treat",
-      "txt": "Tratamiento (si lo necesitas)",
-      "dose": "una capa delgada",
-      "how": "Para granitos: peróxido de benzoilo o ácido salicílico, solo donde haga falta. Pregunta en farmacia."
+      "txt": "Limpiador CeraVe Control Imperfecciones",
+      "dose": "1 bombeo",
+      "how": "Quita el sudor, la grasa y el protector del día. Masajea 30 a 60 segundos, enjuaga y seca bien."
      },
      {
       "id": "moist",
-      "txt": "Hidratante",
+      "txt": "Day Cream de ácido hialurónico",
       "dose": "tamaño de un chícharo",
       "how": "Al final, para que la piel se recupere de noche."
      }
     ],
-    "tip": "Cambia la funda de la almohada cada semana."
+    "tip": "Hoy descansa del gel para que tu piel no se irrite. Si te bañaste hoy, ponte la crema Samala en el cuerpo."
    },
    {
     "id": "sleep",
@@ -2027,25 +2013,25 @@
      "t": "07:15",
      "cat": "care",
      "title": "Skincare de mañana",
-     "sub": "Limpiar, hidratar, protector solar",
+     "sub": "Limpiador, crema y protector",
      "items": [
       {
        "id": "clean",
-       "txt": "Limpiador suave",
-       "dose": "30 s",
-       "how": "Agua tibia, masajea con las yemas y seca con toques, sin tallar."
+       "txt": "Limpiador CeraVe Control Imperfecciones",
+       "dose": "1 bombeo",
+       "how": "Con agua tibia, masajea 30 a 60 segundos y enjuaga. Seca con toques. Si sientes la piel tirante o reseca, en la mañana usa solo agua y deja el limpiador para la noche."
       },
       {
        "id": "moist",
-       "txt": "Hidratante",
+       "txt": "Day Cream de ácido hialurónico",
        "dose": "tamaño de un chícharo",
-       "how": "Cara y cuello. Aunque tengas piel grasa, úsala (busca una ligera tipo gel)."
+       "how": "En toda la cara y el cuello, con la piel todavía un poco húmeda."
       },
       {
        "id": "spf",
-       "txt": "Protector solar FPS 30+",
+       "txt": "Protector ISDIN Fusion Water SPF 50",
        "dose": "2 dedos de producto",
-       "how": "Cara, cuello y orejas, aunque esté nublado. Es lo que más ayuda contra manchas."
+       "how": "Al final, cara, cuello y orejas, unos 15 min antes de salir. Si estás al sol, ponte otra vez cada 2 o 3 horas. Es clave porque el gel de CeraVe hace tu piel más sensible al sol."
       }
      ]
     },
@@ -2170,7 +2156,8 @@
      "sub": "Después de moverte",
      "steps": [
       "Agua tibia, no muy caliente",
-      "Lava la cara al final"
+      "Lava la cara al final",
+      "Crema corporal Samala en brazos, piernas y cuerpo (no en la cara, tiene perfume)"
      ]
     },
     {
