@@ -1,7 +1,7 @@
 {
  "version": 3,
  "actualizado": "2026-10-23",
- "nota": "Skincare con tus productos",
+ "nota": "Martes: canto 12 a 1 pm y batería 1 a 2 pm",
  "days": [
   [
    {
@@ -610,39 +610,54 @@
    {
     "id": "work1",
     "t": "08:30",
-    "end": "11:00",
+    "end": "11:30",
     "cat": "work",
     "title": "Trabajo · bloque 1",
-    "sub": "2.5 horas",
+    "sub": "3 horas",
     "steps": [
      "Empieza por lo más difícil o importante",
-     "Celular en silencio o lejos"
+     "Celular en silencio o lejos",
+     "Toma 5 minutos a media mañana para estirarte y tomar agua"
     ]
    },
    {
     "id": "snack",
-    "t": "11:00",
+    "t": "11:30",
     "cat": "food",
-    "title": "Snack y agua",
-    "sub": "15 minutos de pausa",
+    "title": "Snack y camino a clases",
+    "sub": "Come algo ligero antes de cantar",
     "steps": [
      "Una fruta o un puño de cacahuates",
-     "Un vaso de agua",
-     "Párate y estira la espalda"
+     "Agua al tiempo, no muy fría, para la voz",
+     "Revisa que llevas todo para canto y batería"
+    ],
+    "end": "12:00"
+   },
+   {
+    "id": "canto",
+    "t": "12:00",
+    "end": "13:00",
+    "cat": "rest",
+    "title": "Clase de canto",
+    "sub": "1 hora",
+    "steps": [
+     "Llega 5 minutos antes",
+     "Lleva agua al tiempo",
+     "Anota los ejercicios que te dejen para practicar en la semana"
     ]
    },
    {
-    "id": "work2",
-    "t": "11:15",
-    "end": "12:45",
-    "cat": "work",
-    "title": "Trabajo · bloque 2",
-    "sub": "1.5 horas",
+    "id": "bateria",
+    "t": "13:00",
+    "end": "14:00",
+    "cat": "rest",
+    "title": "Clase de batería",
+    "sub": "1 hora",
     "steps": [
-     "Termina pendientes de la mañana",
-     "Deja anotado lo que sigue"
-    ],
-    "tip": "Si tu horario cambia, usa el contador de arriba. Lo importante es juntar 5 horas."
+     "Lleva tus baquetas",
+     "Anota los ritmos o ejercicios que te dejen",
+     "Si puedes, graba un pedacito para practicar en casa"
+    ]
    },
    {
     "id": "lunch",
@@ -659,12 +674,25 @@
     "tip": "Cocinar doble un día te deja comida lista para el siguiente."
    },
    {
-    "id": "edit",
+    "id": "work2",
     "t": "15:00",
-    "end": "16:30",
+    "end": "16:00",
+    "cat": "work",
+    "title": "Trabajo · bloque 2",
+    "sub": "1 hora",
+    "steps": [
+     "Retoma lo que dejaste en la mañana",
+     "Deja anotado lo que sigue"
+    ],
+    "tip": "Si tu horario cambia, usa el contador de arriba. Lo importante es juntar 5 horas."
+   },
+   {
+    "id": "edit",
+    "t": "16:00",
+    "end": "17:00",
     "cat": "edit",
     "title": "Edición: video largo",
-    "sub": "Para YouTube",
+    "sub": "1 hora para YouTube",
     "items": [
      {
       "id": "plan",
@@ -683,23 +711,6 @@
       "txt": "Guarda y anota en qué te quedaste",
       "dose": "10 min",
       "how": "Así mañana arrancas directo."
-     }
-    ]
-   },
-   {
-    "id": "read",
-    "t": "16:30",
-    "end": "17:00",
-    "cat": "read",
-    "title": "Lectura",
-    "sub": "30 minutos",
-    "items": [
-     {
-      "id": "pages",
-      "txt": "Lee sin celular",
-      "dose": "30 min",
-      "how": "Un libro que te interese (novela, disciplina, negocios, lo que sea). Anota las páginas para ver cuánto avanzas.",
-      "log": "págs"
      }
     ]
    },
@@ -774,14 +785,20 @@
     ]
    },
    {
-    "id": "free1",
+    "id": "read",
     "t": "18:30",
     "end": "19:00",
-    "cat": "rest",
-    "title": "Tiempo tuyo",
-    "sub": "Descansa antes de tu hora de trabajo",
-    "steps": [
-     "Algo tranquilo, sin presión"
+    "cat": "read",
+    "title": "Lectura",
+    "sub": "30 minutos",
+    "items": [
+     {
+      "id": "pages",
+      "txt": "Lee sin celular",
+      "dose": "30 min",
+      "how": "Un libro que te interese (novela, disciplina, negocios, lo que sea). Anota las páginas para ver cuánto avanzas.",
+      "log": "págs"
+     }
     ]
    },
    {
