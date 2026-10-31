@@ -1,7 +1,7 @@
 {
  "version": 3,
  "actualizado": "2026-10-23",
- "nota": "Martes: canto 12 a 1 pm y batería 1 a 2 pm",
+ "nota": "Hoy: stream a las 3 pm, amigo a las 6, fiesta a las 8",
  "days": [
   [
    {
@@ -2010,7 +2010,7 @@
  ],
  "fechas": {
   "2026-10-31": {
-   "nota": "Fiesta de Halloween a las 8 pm",
+   "nota": "Stream a las 3, con tu amigo a las 6 y fiesta a las 8",
    "blocks": [
     {
      "id": "wake",
@@ -2192,55 +2192,55 @@
      "tip": "Cocinar doble un día te deja comida lista para el siguiente."
     },
     {
-     "id": "free1",
+     "id": "stream",
      "t": "15:00",
-     "end": "15:30",
-     "cat": "rest",
-     "title": "Tiempo tuyo",
-     "sub": "Descansa un rato antes del stream",
+     "end": "17:00",
+     "cat": "stream",
+     "title": "Stream de Halloween",
+     "sub": "2 horas, termina a tiempo para ver a tu amigo",
      "steps": [
-      "Siesta corta de 20 min o algo tranquilo",
-      "A las 15:30 empieza a preparar el stream"
+      "2:30 pm: abre OBS, revisa audio y avatar",
+      "Idea: un juego de terror o tu avatar disfrazado",
+      "Avisa en tus redes que hoy el stream es a las 3",
+      "Despídete a las 5 y anota los momentos buenos para editarlos"
      ]
     },
     {
-     "id": "stream",
-     "t": "16:00",
-     "end": "18:30",
-     "cat": "stream",
-     "title": "Stream de Halloween",
-     "sub": "2.5 horas, termina con tiempo para arreglarte",
+     "id": "partyprep",
+     "t": "17:00",
+     "end": "17:40",
+     "cat": "care",
+     "title": "Arreglarte y salir con tu amigo",
+     "sub": "40 minutos",
      "steps": [
-      "15:30: abre OBS, revisa audio y avatar",
-      "Idea: un juego de terror o tu avatar disfrazado para la ocasión",
-      "Avisa en tus redes que hoy el stream es más temprano",
-      "Despídete a las 18:30 y anota los momentos buenos para editarlos"
+      "Ducha rápida, limpiador CeraVe y Day Cream en la cara",
+      "Junta tu disfraz o lo que vayas a usar",
+      "Carga el celular",
+      "Revisa: llaves, cartera, celular, dinero para el regreso"
+     ]
+    },
+    {
+     "id": "friend",
+     "t": "17:40",
+     "cat": "rest",
+     "title": "Sal a ver a tu amigo",
+     "sub": "Te ven a las 6 pm",
+     "steps": [
+      "Avísale si vas tarde",
+      "Lleva agua"
      ]
     },
     {
      "id": "dinner",
-     "t": "18:30",
-     "cat": "food",
-     "title": "Cena ligera",
-     "sub": "Algo antes de salir",
-     "steps": [
-      "Algo sencillo: quesadillas, sándwich o fruta",
-      "Toma agua"
-     ],
-     "end": "19:00"
-    },
-    {
-     "id": "partyprep",
-     "t": "19:00",
+     "t": "18:00",
      "end": "19:40",
-     "cat": "care",
-     "title": "Arreglarte para la fiesta",
-     "sub": "40 minutos",
+     "cat": "food",
+     "title": "Prepararse con tu amigo",
+     "sub": "Coman algo antes de la fiesta",
      "steps": [
-      "Ducha rápida y skincare de mañana (limpiador e hidratante)",
-      "Ponte el disfraz o la ropa",
-      "Carga el celular antes de salir",
-      "Revisa: llaves, cartera, celular, dinero para el regreso"
+      "Cenen algo: tacos, quesadillas o lo que haya",
+      "Toma agua",
+      "Terminen disfraces y salgan a las 7:40"
      ]
     },
     {
