@@ -1,7 +1,7 @@
 {
  "version": 4,
  "actualizado": "2026-11-08",
- "nota": "Nueva rutina Arrow/Batman y menú en la app",
+ "nota": "Hoy domingo: sales con tus amigos a las 12",
  "days": [
   [
    {
@@ -2073,6 +2073,173 @@
       "Al regresar: lava tu cara aunque sea rápido, no te duermas maquillado o sudado"
      ],
      "tip": "Hoy no hay lectura ni aviso de dormir. Disfruta la fiesta."
+    }
+   ]
+  },
+  "2026-11-08": {
+   "nota": "Sales con tus amigos a las 12",
+   "blocks": [
+    {
+     "id": "wake",
+     "t": "07:00",
+     "cat": "rest",
+     "title": "Despertar",
+     "sub": "Un vaso de agua apenas te levantes",
+     "steps": [
+      "Toma un vaso de agua",
+      "Tiende la cama (2 minutos, tu primera victoria del día)",
+      "Abre cortinas o sal a la luz unos minutos",
+      "Primeros 15 minutos sin celular"
+     ]
+    },
+    {
+     "id": "skinAM",
+     "t": "07:15",
+     "cat": "care",
+     "title": "Skincare de mañana",
+     "sub": "Limpiador, crema y protector",
+     "items": [
+      {
+       "id": "clean",
+       "txt": "Limpiador CeraVe Control Imperfecciones",
+       "dose": "1 bombeo",
+       "how": "Con agua tibia, masajea 30 a 60 segundos y enjuaga. Seca con toques. Si sientes la piel tirante o reseca, en la mañana usa solo agua y deja el limpiador para la noche."
+      },
+      {
+       "id": "moist",
+       "txt": "Day Cream de ácido hialurónico",
+       "dose": "tamaño de un chícharo",
+       "how": "En toda la cara y el cuello, con la piel todavía un poco húmeda."
+      },
+      {
+       "id": "spf",
+       "txt": "Protector ISDIN Fusion Water SPF 50",
+       "dose": "2 dedos de producto",
+       "how": "Al final, cara, cuello y orejas, unos 15 min antes de salir. Si estás al sol, ponte otra vez cada 2 o 3 horas. Es clave porque el gel de CeraVe hace tu piel más sensible al sol."
+      }
+     ]
+    },
+    {
+     "id": "breakfast",
+     "t": "07:30",
+     "cat": "food",
+     "title": "Desayuno",
+     "sub": "Proteína + fruta + agua",
+     "steps": [
+      "Hot cakes de avena: licúa ½ taza de avena, 1 plátano, 2 huevos y 2 claras. Sírvelos con 100 g de yogur griego."
+     ],
+     "tip": "Rota las opciones durante la semana para no aburrirte."
+    },
+    {
+     "id": "work1",
+     "t": "09:00",
+     "end": "11:30",
+     "cat": "work",
+     "title": "Trabajo · bloque 1",
+     "sub": "Lo que alcances antes de salir",
+     "steps": [
+      "Avanza lo más importante",
+      "Deja anotado lo que te falta"
+     ]
+    },
+    {
+     "id": "prep",
+     "t": "11:30",
+     "end": "12:00",
+     "cat": "care",
+     "title": "Arreglarte para salir",
+     "sub": "Tu amigo pasa a las 12",
+     "steps": [
+      "Protector solar ISDIN en cara, cuello y orejas (vas a estar fuera)",
+      "Lleva agua",
+      "Revisa: llaves, cartera, celular cargado, dinero"
+     ]
+    },
+    {
+     "id": "salida",
+     "t": "12:00",
+     "cat": "rest",
+     "title": "Salida con tus amigos",
+     "sub": "Disfruta",
+     "steps": [
+      "Come algo a buena hora, aunque sea fuera",
+      "Toma agua",
+      "Si estás al sol, vuelve a ponerte protector cada 2 o 3 horas"
+     ],
+     "tip": "Si para las 7 pm sigues fuera, avísame y muevo tu hora de trabajo."
+    },
+    {
+     "id": "work3",
+     "t": "19:00",
+     "end": "20:00",
+     "cat": "work",
+     "title": "Trabajo · hora fija",
+     "sub": "1 hora, sí o sí",
+     "steps": [
+      "Ten listo lo que necesitas desde antes",
+      "Con esto completas tus 5 horas del día"
+     ]
+    },
+    {
+     "id": "dinner",
+     "t": "20:15",
+     "cat": "food",
+     "title": "Cena",
+     "sub": "Más ligera que la comida",
+     "steps": [
+      "Sándwich de pan integral con 100 g de pechuga de pavo, 30 g de panela, jitomate y lechuga."
+     ]
+    },
+    {
+     "id": "free2",
+     "t": "21:00",
+     "end": "23:00",
+     "cat": "rest",
+     "title": "Tiempo libre",
+     "sub": "Juega, ve algo, platica",
+     "steps": [
+      "Disfruta sin presión"
+     ]
+    },
+    {
+     "id": "skinPM",
+     "t": "23:00",
+     "cat": "care",
+     "title": "Skincare de noche",
+     "sub": "Limpiador, mascarilla y crema",
+     "items": [
+      {
+       "id": "clean",
+       "txt": "Limpiador CeraVe Control Imperfecciones",
+       "dose": "1 bombeo",
+       "how": "Quita el sudor, la grasa y el protector del día. Masajea 30 a 60 segundos, enjuaga y seca bien."
+      },
+      {
+       "id": "mask",
+       "txt": "Mascarilla Miniso Zona T",
+       "dose": "capa delgada, 15 a 20 min",
+       "how": "Solo en frente, nariz y barbilla, lejos de cejas y pelo. Espera a que seque y despégala despacio desde las orillas. Enjuaga lo que quede. Hoy no toca el gel."
+      },
+      {
+       "id": "moist",
+       "txt": "Day Cream de ácido hialurónico",
+       "dose": "tamaño de un chícharo",
+       "how": "Al final, para que la piel se recupere de noche."
+      }
+     ],
+     "tip": "Mascarilla solo 1 vez por semana. Cambia la funda de tu almohada hoy."
+    },
+    {
+     "id": "sleep",
+     "t": "23:30",
+     "cat": "rest",
+     "title": "Dormir",
+     "sub": "7 horas y media hasta las 7:00",
+     "steps": [
+      "Celular a cargar lejos de la cama",
+      "Ropa de mañana lista",
+      "Cuarto oscuro y fresco"
+     ]
     }
    ]
   }
