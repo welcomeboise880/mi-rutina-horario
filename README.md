@@ -19,3 +19,12 @@ Tus avances (lo que marcas, repeticiones, racha) se guardan en el teléfono, no 
   "2026-10-29": { "nota": "Voy al cine", "blocks": [ ...actividades de ese día... ] }
 }
 ```
+
+## Entrenamiento y comida
+
+- `entreno` tiene la rutina de la pestaña **Entreno**: `dias` (7 sesiones, empezando por domingo),
+  `sesiones` (ejercicios con series, reps y descanso en segundos) y `ejercicios` (cómo se hace cada uno).
+- `menu` tiene la pestaña **Comida**: `dias` (desayuno, colación, comida y cena de domingo a sábado),
+  la lista del súper y las reglas del plato.
+- No cambies el `id` de un ejercicio que ya existe: así se conservan tus kilos y repeticiones anteriores.
+- Si alguna de estas dos partes queda mal escrita, la app usa la que trae de fábrica.

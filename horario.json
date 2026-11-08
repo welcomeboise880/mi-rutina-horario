@@ -1,7 +1,7 @@
 {
- "version": 3,
- "actualizado": "2026-10-23",
- "nota": "Hoy: stream a las 3 pm, amigo a las 6, fiesta a las 8",
+ "version": 4,
+ "actualizado": "2026-11-08",
+ "nota": "Nueva rutina Arrow/Batman y menú en la app",
  "days": [
   [
    {
@@ -51,10 +51,7 @@
     "title": "Desayuno",
     "sub": "Proteína + fruta + agua",
     "steps": [
-     "Opción 1: 2 huevos con frijoles y tortilla, una fruta",
-     "Opción 2: avena con plátano y crema de cacahuate",
-     "Opción 3: yogurt natural con granola y fruta",
-     "Acompaña con agua (no solo café)"
+     "Hot cakes de avena: licúa ½ taza de avena, 1 plátano, 2 huevos y 2 claras. Sírvelos con 100 g de yogur griego."
     ],
     "tip": "Rota las opciones durante la semana para no aburrirte."
    },
@@ -77,9 +74,7 @@
     "title": "Snack y agua",
     "sub": "15 minutos de pausa",
     "steps": [
-     "Una fruta o un puño de cacahuates",
-     "Un vaso de agua",
-     "Párate y estira la espalda"
+     "1 fruta + 1 puño chico de cacahuates naturales."
     ]
    },
    {
@@ -101,12 +96,9 @@
     "title": "Comida",
     "sub": "Mitad verduras, un cuarto proteína, un cuarto carbohidrato",
     "steps": [
-     "Proteína: pollo, carne, pescado, huevo o frijoles/lentejas",
-     "Carbohidrato: arroz, tortillas, papa o pasta",
-     "Verduras o ensalada: la mitad del plato",
-     "Agua natural o de fruta sin mucha azúcar"
+     "Picadillo con 150 g de carne molida magra (90/10), papa y zanahoria, ½ taza de arroz y 1 tortilla."
     ],
-    "tip": "Cocinar doble un día te deja comida lista para el siguiente."
+    "tip": "Prepara la semana: cocina 1 kg de pechuga (asada y deshebrada) y una olla de frijoles."
    },
    {
     "id": "edit",
@@ -213,9 +205,7 @@
     "title": "Cena",
     "sub": "Más ligera que la comida",
     "steps": [
-     "Opción 1: quesadillas de panela con ensalada",
-     "Opción 2: sándwich de pollo con verduras",
-     "Opción 3: huevos a la mexicana con frijoles"
+     "Sándwich de pan integral con 100 g de pechuga de pavo, 30 g de panela, jitomate y lechuga."
     ]
    },
    {
@@ -318,10 +308,7 @@
     "title": "Desayuno",
     "sub": "Proteína + fruta + agua",
     "steps": [
-     "Opción 1: 2 huevos con frijoles y tortilla, una fruta",
-     "Opción 2: avena con plátano y crema de cacahuate",
-     "Opción 3: yogurt natural con granola y fruta",
-     "Acompaña con agua (no solo café)"
+     "3 huevos + 3 claras con ejotes o espinaca, 2 tortillas y 1 taza de melón."
     ],
     "tip": "Rota las opciones durante la semana para no aburrirte."
    },
@@ -356,9 +343,7 @@
     "title": "Snack y agua",
     "sub": "15 minutos de pausa",
     "steps": [
-     "Una fruta o un puño de cacahuates",
-     "Un vaso de agua",
-     "Párate y estira la espalda"
+     "200 g de yogur griego + ½ taza de fruta + 10 almendras."
     ]
    },
    {
@@ -381,37 +366,63 @@
     "title": "Comida",
     "sub": "Mitad verduras, un cuarto proteína, un cuarto carbohidrato",
     "steps": [
-     "Proteína: pollo, carne, pescado, huevo o frijoles/lentejas",
-     "Carbohidrato: arroz, tortillas, papa o pasta",
-     "Verduras o ensalada: la mitad del plato",
-     "Agua natural o de fruta sin mucha azúcar"
+     "180 g de pollo en salsa verde, ½ taza de arroz o de frijoles y ensalada."
     ],
-    "tip": "Cocinar doble un día te deja comida lista para el siguiente."
+    "tip": "Si te tocan arroz y frijoles, elige solo ½ taza de uno."
+   },
+   {
+    "id": "gym",
+    "t": "15:00",
+    "end": "15:50",
+    "cat": "gym",
+    "title": "Pierna fuerte",
+    "sub": "Sentadilla, peso muerto y búlgaras",
+    "steps": [
+     "Sentadilla goblet (pausa de 1 s abajo): 4 × 8–12 reps",
+     "Peso muerto rumano con mancuernas: 4 × 8–10 reps",
+     "Sentadilla búlgara (pie de atrás en el sofá): 3 × 8–10 reps por lado",
+     "Curl femoral deslizando los pies sobre una toalla: 3 × 8–12 reps",
+     "Pantorrilla a una pierna en un escalón: 3 × 12–15 reps por lado",
+     "Plancha: 3 × 30–45 s"
+    ],
+    "tip": "Abre la pestaña Entreno para anotar kilos y repeticiones, ver cómo se hace cada ejercicio y usar el temporizador de descanso."
+   },
+   {
+    "id": "shower",
+    "cat": "care",
+    "title": "Ducha",
+    "sub": "Después de entrenar",
+    "steps": [
+     "Báñate después de sudar para cuidar tu piel",
+     "Agua tibia, no muy caliente",
+     "Crema corporal Samala en brazos, piernas y cuerpo (no en la cara, tiene perfume)"
+    ],
+    "t": "15:50"
    },
    {
     "id": "edit",
-    "t": "15:00",
-    "end": "16:30",
+    "t": "16:00",
+    "end": "17:00",
     "cat": "edit",
     "title": "Edición: clips del último stream",
-    "sub": "Para TikTok y Shorts",
+    "sub": "1 hora: hoy entrenas antes",
     "items": [
      {
       "id": "vod",
       "txt": "Revisa el último stream",
-      "dose": "30 min",
+      "dose": "15 min",
       "how": "Busca 2 o 3 momentos buenos: risas, jugadas, sustos. Anota el minuto."
      },
      {
       "id": "cut",
       "txt": "Corta clips verticales",
-      "dose": "45 min",
+      "dose": "35 min",
       "how": "1 o 2 clips de 20–60 s para TikTok/Shorts: gancho en los primeros 2 segundos y subtítulos."
      },
      {
       "id": "post",
       "txt": "Sube o programa",
-      "dose": "15 min",
+      "dose": "10 min",
       "how": "Título corto, 3–5 hashtags y publícalo en un horario fijo.",
       "log": "clips"
      }
@@ -450,9 +461,7 @@
     "title": "Cena",
     "sub": "Más ligera que la comida",
     "steps": [
-     "Opción 1: quesadillas de panela con ensalada",
-     "Opción 2: sándwich de pollo con verduras",
-     "Opción 3: huevos a la mexicana con frijoles"
+     "2 tacos de pollo deshebrado (100 g) con 1 lata de atún o 2 huevos, más verdura."
     ]
    },
    {
@@ -469,22 +478,6 @@
       "dose": "30 min",
       "how": "Un libro que te interese (novela, disciplina, negocios, lo que sea). Anota las páginas para ver cuánto avanzas.",
       "log": "págs"
-     }
-    ]
-   },
-   {
-    "id": "stretch",
-    "t": "21:30",
-    "end": "21:45",
-    "cat": "gym",
-    "title": "Estiramiento",
-    "sub": "10 minutos, hoy no hay entrenamiento",
-    "items": [
-     {
-      "id": "st",
-      "txt": "Estiramiento completo",
-      "dose": "10 min",
-      "how": "Cuello, hombros, espalda baja, cadera y piernas. 30 s cada uno."
      }
     ]
    },
@@ -588,10 +581,7 @@
     "title": "Desayuno",
     "sub": "Proteína + fruta + agua",
     "steps": [
-     "Opción 1: 2 huevos con frijoles y tortilla, una fruta",
-     "Opción 2: avena con plátano y crema de cacahuate",
-     "Opción 3: yogurt natural con granola y fruta",
-     "Acompaña con agua (no solo café)"
+     "½ taza de avena cocida en 1 taza de leche descremada, con ½ plátano y canela + 2 huevos cocidos."
     ],
     "tip": "Rota las opciones durante la semana para no aburrirte."
    },
@@ -627,9 +617,7 @@
     "title": "Snack y camino a clases",
     "sub": "Come algo ligero antes de cantar",
     "steps": [
-     "Una fruta o un puño de cacahuates",
-     "Agua al tiempo, no muy fría, para la voz",
-     "Revisa que llevas todo para canto y batería"
+     "Licuado de proteína (1 scoop, 1 taza de leche descremada y ½ plátano) o 2 huevos cocidos + 1 fruta."
     ],
     "end": "12:00"
    },
@@ -666,12 +654,9 @@
     "title": "Comida",
     "sub": "Mitad verduras, un cuarto proteína, un cuarto carbohidrato",
     "steps": [
-     "Proteína: pollo, carne, pescado, huevo o frijoles/lentejas",
-     "Carbohidrato: arroz, tortillas, papa o pasta",
-     "Verduras o ensalada: la mitad del plato",
-     "Agua natural o de fruta sin mucha azúcar"
+     "170 g de bistec o fajitas de res con pimiento y cebolla, ½ taza de frijoles y 2 tortillas."
     ],
-    "tip": "Cocinar doble un día te deja comida lista para el siguiente."
+    "tip": "Si te tocan arroz y frijoles, elige solo ½ taza de uno."
    },
    {
     "id": "work2",
@@ -719,58 +704,18 @@
     "t": "17:15",
     "end": "18:15",
     "cat": "gym",
-    "title": "Fuerza A",
-    "sub": "Rutina en casa, sin equipo",
-    "items": [
-     {
-      "id": "warm",
-      "txt": "Calentamiento",
-      "dose": "5 min",
-      "how": "30 s de jumping jacks, 30 s de rodillas arriba, 10 círculos de brazos y 10 sentadillas sin peso. Repite 2 veces."
-     },
-     {
-      "id": "squat",
-      "txt": "Sentadillas",
-      "dose": "3 series × 12 · descanso 60 s",
-      "how": "Pies al ancho de hombros. Baja como si te fueras a sentar, rodillas en dirección de las puntas, espalda recta, talones pegados al piso.",
-      "log": "reps"
-     },
-     {
-      "id": "pushup",
-      "txt": "Lagartijas",
-      "dose": "3 series × 8 · descanso 90 s",
-      "how": "Cuerpo en línea recta de cabeza a talones. Baja el pecho casi al piso. Si no puedes, apoya las rodillas.",
-      "log": "reps"
-     },
-     {
-      "id": "row",
-      "txt": "Remo con mochila",
-      "dose": "3 series × 10 · descanso 60 s",
-      "how": "Mete libros a una mochila. Inclínate con la espalda recta y jala la mochila hacia el ombligo, juntando omóplatos.",
-      "log": "reps"
-     },
-     {
-      "id": "bridge",
-      "txt": "Puente de glúteo",
-      "dose": "3 series × 15 · descanso 45 s",
-      "how": "Boca arriba, rodillas dobladas. Sube la cadera apretando glúteos, aguanta 1 s arriba y baja lento.",
-      "log": "reps"
-     },
-     {
-      "id": "plank",
-      "txt": "Plancha",
-      "dose": "3 × 30 s · descanso 45 s",
-      "how": "Sobre antebrazos. Abdomen y glúteos apretados, cadera ni muy arriba ni caída.",
-      "log": "seg"
-     },
-     {
-      "id": "cool",
-      "txt": "Estiramiento final",
-      "dose": "5 min",
-      "how": "Piernas, cadera, pecho y espalda. Aguanta cada estiramiento 20–30 s sin rebotar."
-     }
+    "title": "Torso grueso",
+    "sub": "Lo \"Batman\": pecho, espalda, hombro y trapecio",
+    "steps": [
+     "Press de banca con mancuernas (piso o banco): 4 × 8–12 reps",
+     "Remo con mancuerna a una mano: 4 × 8–12 reps por lado",
+     "Press militar con mancuernas: 3 × 8–10 reps",
+     "Remo invertido bajo una mesa firme: 3 × al fallo técnico −2",
+     "Elevaciones laterales: 3 × 12–20 reps",
+     "Encogimientos con mancuernas (trapecio): 3 × 12–15 reps",
+     "Curl martillo: 2 × 10–12 reps"
     ],
-    "tip": "Cada semana intenta sumar 1 o 2 repeticiones. Cuando 15 te salgan fácil, sube a 4 series."
+    "tip": "Abre la pestaña Entreno para anotar kilos y repeticiones, ver cómo se hace cada ejercicio y usar el temporizador de descanso."
    },
    {
     "id": "shower",
@@ -820,9 +765,7 @@
     "title": "Cena",
     "sub": "Más ligera que la comida",
     "steps": [
-     "Opción 1: quesadillas de panela con ensalada",
-     "Opción 2: sándwich de pollo con verduras",
-     "Opción 3: huevos a la mexicana con frijoles"
+     "Ensalada grande con 150 g de pechuga, 30 g de panela y 1 tostada horneada."
     ]
    },
    {
@@ -919,10 +862,7 @@
     "title": "Desayuno",
     "sub": "Proteína + fruta + agua",
     "steps": [
-     "Opción 1: 2 huevos con frijoles y tortilla, una fruta",
-     "Opción 2: avena con plátano y crema de cacahuate",
-     "Opción 3: yogurt natural con granola y fruta",
-     "Acompaña con agua (no solo café)"
+     "Huevos a la mexicana (3 huevos + 3 claras) con nopales, 2 tortillas de maíz y 1 taza de papaya."
     ],
     "tip": "Rota las opciones durante la semana para no aburrirte."
    },
@@ -957,9 +897,7 @@
     "title": "Snack y agua",
     "sub": "15 minutos de pausa",
     "steps": [
-     "Una fruta o un puño de cacahuates",
-     "Un vaso de agua",
-     "Párate y estira la espalda"
+     "200 g de yogur griego natural + ½ taza de fresas + 10 almendras."
     ]
    },
    {
@@ -982,37 +920,59 @@
     "title": "Comida",
     "sub": "Mitad verduras, un cuarto proteína, un cuarto carbohidrato",
     "steps": [
-     "Proteína: pollo, carne, pescado, huevo o frijoles/lentejas",
-     "Carbohidrato: arroz, tortillas, papa o pasta",
-     "Verduras o ensalada: la mitad del plato",
-     "Agua natural o de fruta sin mucha azúcar"
+     "180 g de pechuga asada, ½ taza de arroz o de frijoles, ensalada grande y ¼ de aguacate."
     ],
-    "tip": "Cocinar doble un día te deja comida lista para el siguiente."
+    "tip": "Si te tocan arroz y frijoles, elige solo ½ taza de uno."
+   },
+   {
+    "id": "gym",
+    "t": "15:00",
+    "end": "15:40",
+    "cat": "gym",
+    "title": "Cardio y movilidad",
+    "sub": "Caminata rápida, bici o circuito suave",
+    "steps": [
+     "Caminata rápida, bici o circuito suave: 30–40 min",
+     "Movilidad: 10 min"
+    ],
+    "tip": "Abre la pestaña Entreno para anotar kilos y repeticiones, ver cómo se hace cada ejercicio y usar el temporizador de descanso."
+   },
+   {
+    "id": "shower",
+    "cat": "care",
+    "title": "Ducha",
+    "sub": "Después de entrenar",
+    "steps": [
+     "Báñate después de sudar para cuidar tu piel",
+     "Agua tibia, no muy caliente",
+     "Crema corporal Samala en brazos, piernas y cuerpo (no en la cara, tiene perfume)"
+    ],
+    "t": "15:40"
    },
    {
     "id": "edit",
-    "t": "15:00",
-    "end": "16:30",
+    "t": "16:00",
+    "end": "17:00",
     "cat": "edit",
     "title": "Edición: clips del último stream",
-    "sub": "Para TikTok y Shorts",
+    "sub": "1 hora: hoy entrenas antes",
     "items": [
      {
       "id": "vod",
       "txt": "Revisa el último stream",
-      "dose": "30 min",
+      "dose": "15 min",
       "how": "Busca 2 o 3 momentos buenos: risas, jugadas, sustos. Anota el minuto."
      },
      {
       "id": "cut",
       "txt": "Corta clips verticales",
-      "dose": "45 min",
+      "dose": "35 min",
       "how": "1 o 2 clips de 20–60 s para TikTok/Shorts: gancho en los primeros 2 segundos y subtítulos."
      },
      {
       "id": "post",
       "txt": "Sube o programa",
-      "dose": "15 min",
+      "dose": "10 min",
       "how": "Título corto, 3–5 hashtags y publícalo en un horario fijo.",
       "log": "clips"
      }
@@ -1051,9 +1011,7 @@
     "title": "Cena",
     "sub": "Más ligera que la comida",
     "steps": [
-     "Opción 1: quesadillas de panela con ensalada",
-     "Opción 2: sándwich de pollo con verduras",
-     "Opción 3: huevos a la mexicana con frijoles"
+     "3 tostadas horneadas con 1 lata de atún en agua, jitomate, cebolla, pepino y limón."
     ]
    },
    {
@@ -1070,22 +1028,6 @@
       "dose": "30 min",
       "how": "Un libro que te interese (novela, disciplina, negocios, lo que sea). Anota las páginas para ver cuánto avanzas.",
       "log": "págs"
-     }
-    ]
-   },
-   {
-    "id": "stretch",
-    "t": "21:30",
-    "end": "21:45",
-    "cat": "gym",
-    "title": "Estiramiento",
-    "sub": "10 minutos, hoy no hay entrenamiento",
-    "items": [
-     {
-      "id": "st",
-      "txt": "Estiramiento completo",
-      "dose": "10 min",
-      "how": "Cuello, hombros, espalda baja, cadera y piernas. 30 s cada uno."
      }
     ]
    },
@@ -1189,10 +1131,7 @@
     "title": "Desayuno",
     "sub": "Proteína + fruta + agua",
     "steps": [
-     "Opción 1: 2 huevos con frijoles y tortilla, una fruta",
-     "Opción 2: avena con plátano y crema de cacahuate",
-     "Opción 3: yogurt natural con granola y fruta",
-     "Acompaña con agua (no solo café)"
+     "½ taza de avena cocida en 1 taza de leche descremada, con ½ plátano y canela + 2 huevos cocidos."
     ],
     "tip": "Rota las opciones durante la semana para no aburrirte."
    },
@@ -1227,9 +1166,7 @@
     "title": "Snack y agua",
     "sub": "15 minutos de pausa",
     "steps": [
-     "Una fruta o un puño de cacahuates",
-     "Un vaso de agua",
-     "Párate y estira la espalda"
+     "Licuado de proteína (1 scoop, 1 taza de leche descremada y ½ plátano) o 2 huevos cocidos + 1 fruta."
     ]
    },
    {
@@ -1252,12 +1189,9 @@
     "title": "Comida",
     "sub": "Mitad verduras, un cuarto proteína, un cuarto carbohidrato",
     "steps": [
-     "Proteína: pollo, carne, pescado, huevo o frijoles/lentejas",
-     "Carbohidrato: arroz, tortillas, papa o pasta",
-     "Verduras o ensalada: la mitad del plato",
-     "Agua natural o de fruta sin mucha azúcar"
+     "170 g de bistec de res magro encebollado, calabacitas asadas, ½ taza de frijoles y 2 tortillas."
     ],
-    "tip": "Cocinar doble un día te deja comida lista para el siguiente."
+    "tip": "Si te tocan arroz y frijoles, elige solo ½ taza de uno."
    },
    {
     "id": "edit",
@@ -1309,58 +1243,18 @@
     "t": "17:15",
     "end": "18:15",
     "cat": "gym",
-    "title": "Fuerza B",
-    "sub": "Rutina en casa, sin equipo",
-    "items": [
-     {
-      "id": "warm",
-      "txt": "Calentamiento",
-      "dose": "5 min",
-      "how": "30 s de jumping jacks, 30 s de rodillas arriba, 10 círculos de brazos y 10 sentadillas sin peso. Repite 2 veces."
-     },
-     {
-      "id": "lunge",
-      "txt": "Zancadas",
-      "dose": "3 series × 10 por pierna · descanso 60 s",
-      "how": "Da un paso largo al frente y baja hasta que ambas rodillas formen ángulo recto. Torso derecho.",
-      "log": "reps"
-     },
-     {
-      "id": "inclpush",
-      "txt": "Lagartijas inclinadas",
-      "dose": "3 series × 10 · descanso 60 s",
-      "how": "Manos en una silla firme o mesa. Más fácil que en el piso, ideal para sumar volumen.",
-      "log": "reps"
-     },
-     {
-      "id": "superman",
-      "txt": "Superman",
-      "dose": "3 series × 12 · descanso 45 s",
-      "how": "Boca abajo, sube brazos y piernas a la vez unos centímetros, aguanta 2 s. Fortalece la espalda.",
-      "log": "reps"
-     },
-     {
-      "id": "wallsit",
-      "txt": "Sentadilla en pared",
-      "dose": "3 × 30 s · descanso 60 s",
-      "how": "Espalda pegada a la pared, baja hasta que tus muslos queden paralelos al piso.",
-      "log": "seg"
-     },
-     {
-      "id": "sideplank",
-      "txt": "Plancha lateral",
-      "dose": "3 × 20 s por lado · descanso 30 s",
-      "how": "Sobre un antebrazo, cuerpo recto de lado. Si cuesta, apoya la rodilla de abajo.",
-      "log": "seg"
-     },
-     {
-      "id": "cool",
-      "txt": "Estiramiento final",
-      "dose": "5 min",
-      "how": "Piernas, cadera, pecho y espalda. Aguanta cada estiramiento 20–30 s sin rebotar."
-     }
+    "title": "Pierna atlética",
+    "sub": "Saltos, una pierna y glúteo",
+    "steps": [
+     "Salto largo a pies juntos: 4 × 3 reps",
+     "Subida a silla o escalón con mancuernas: 3 × 8–10 reps por lado",
+     "Hip thrust con mancuerna: 3 × 10–15 reps",
+     "Peso muerto rumano a una pierna: 3 × 8–10 reps por lado",
+     "Sentadilla cosaca (lateral): 2 × 6–8 reps por lado",
+     "Pantorrilla a una pierna en un escalón: 3 × 15 reps por lado",
+     "Dead bug: 3 × 8 reps por lado"
     ],
-    "tip": "La técnica importa más que la velocidad."
+    "tip": "Abre la pestaña Entreno para anotar kilos y repeticiones, ver cómo se hace cada ejercicio y usar el temporizador de descanso."
    },
    {
     "id": "shower",
@@ -1404,9 +1298,7 @@
     "title": "Cena",
     "sub": "Más ligera que la comida",
     "steps": [
-     "Opción 1: quesadillas de panela con ensalada",
-     "Opción 2: sándwich de pollo con verduras",
-     "Opción 3: huevos a la mexicana con frijoles"
+     "2 quesadillas con 60 g de panela, 100 g de pollo deshebrado y champiñones."
     ]
    },
    {
@@ -1503,10 +1395,7 @@
     "title": "Desayuno",
     "sub": "Proteína + fruta + agua",
     "steps": [
-     "Opción 1: 2 huevos con frijoles y tortilla, una fruta",
-     "Opción 2: avena con plátano y crema de cacahuate",
-     "Opción 3: yogurt natural con granola y fruta",
-     "Acompaña con agua (no solo café)"
+     "Omelette de 3 huevos + 2 claras con espinaca y 40 g de panela, 2 tortillas y 1 manzana."
     ],
     "tip": "Rota las opciones durante la semana para no aburrirte."
    },
@@ -1541,9 +1430,7 @@
     "title": "Snack y agua",
     "sub": "15 minutos de pausa",
     "steps": [
-     "Una fruta o un puño de cacahuates",
-     "Un vaso de agua",
-     "Párate y estira la espalda"
+     "200 g de yogur griego + 1 fruta."
     ]
    },
    {
@@ -1566,12 +1453,9 @@
     "title": "Comida",
     "sub": "Mitad verduras, un cuarto proteína, un cuarto carbohidrato",
     "steps": [
-     "Proteína: pollo, carne, pescado, huevo o frijoles/lentejas",
-     "Carbohidrato: arroz, tortillas, papa o pasta",
-     "Verduras o ensalada: la mitad del plato",
-     "Agua natural o de fruta sin mucha azúcar"
+     "180 g de tinga de pollo en 2 tostadas horneadas, ½ taza de frijoles y ensalada."
     ],
-    "tip": "Cocinar doble un día te deja comida lista para el siguiente."
+    "tip": "Si te tocan arroz y frijoles, elige solo ½ taza de uno."
    },
    {
     "id": "edit",
@@ -1619,35 +1503,23 @@
    {
     "id": "gym",
     "t": "19:15",
-    "end": "20:00",
+    "end": "20:10",
     "cat": "gym",
-    "title": "Cardio",
-    "sub": "Caminata o bici",
-    "items": [
-     {
-      "id": "walkwarm",
-      "txt": "Caminar tranquilo",
-      "dose": "5 min",
-      "how": "Para que el cuerpo entre en calor."
-     },
-     {
-      "id": "walk",
-      "txt": "Caminata rápida o bici",
-      "dose": "30 min",
-      "how": "Que puedas hablar pero con esfuerzo. Si llueve: 20 min en casa de jumping jacks, rodillas arriba y escaladores (40 s trabajo, 20 s descanso).",
-      "log": "min"
-     },
-     {
-      "id": "walkstretch",
-      "txt": "Estirar piernas",
-      "dose": "5 min",
-      "how": "Pantorrillas, cuádriceps y parte de atrás del muslo."
-     }
-    ]
+    "title": "Torso + calistenia",
+    "sub": "Lo \"Arrow\": control del cuerpo y hombros",
+    "steps": [
+     "Lagartijas pike (camino al parado de manos): 4 × 6–10 reps",
+     "Remo inclinado con dos mancuernas: 4 × 10–12 reps",
+     "Lagartijas con pausa de 2 s abajo: 3 × al fallo técnico −2",
+     "Fondos entre dos sillas firmes: 3 × 8–12 reps",
+     "Elevaciones laterales: 3 × 15–20 reps",
+     "Pullover con mancuerna: 2 × 12 reps",
+     "Hollow hold (cuerpo en \"banana\"): 3 × 20–30 s"
+    ],
+    "tip": "Abre la pestaña Entreno para anotar kilos y repeticiones, ver cómo se hace cada ejercicio y usar el temporizador de descanso."
    },
    {
     "id": "shower",
-    "t": "20:00",
     "cat": "care",
     "title": "Ducha",
     "sub": "Después de entrenar",
@@ -1655,7 +1527,8 @@
      "Báñate después de sudar para cuidar tu piel",
      "Agua tibia, no muy caliente",
      "Crema corporal Samala en brazos, piernas y cuerpo (no en la cara, tiene perfume)"
-    ]
+    ],
+    "t": "20:10"
    },
    {
     "id": "dinner",
@@ -1664,9 +1537,7 @@
     "title": "Cena",
     "sub": "Más ligera que la comida",
     "steps": [
-     "Opción 1: quesadillas de panela con ensalada",
-     "Opción 2: sándwich de pollo con verduras",
-     "Opción 3: huevos a la mexicana con frijoles"
+     "Caldo de pollo con verduras (1 pierna y 1 muslo sin piel) + 1 tortilla."
     ]
    },
    {
@@ -1786,10 +1657,7 @@
     "title": "Desayuno",
     "sub": "Proteína + fruta + agua",
     "steps": [
-     "Opción 1: 2 huevos con frijoles y tortilla, una fruta",
-     "Opción 2: avena con plátano y crema de cacahuate",
-     "Opción 3: yogurt natural con granola y fruta",
-     "Acompaña con agua (no solo café)"
+     "Chilaquiles ligeros: 1 puño de totopos horneados, salsa verde, 2 huevos revueltos sin aceite o cocidos, 80 g de pollo deshebrado y poquito queso fresco."
     ],
     "tip": "Rota las opciones durante la semana para no aburrirte."
    },
@@ -1839,58 +1707,12 @@
     "t": "12:30",
     "end": "13:30",
     "cat": "gym",
-    "title": "Fuerza A",
-    "sub": "Antes de comer",
-    "items": [
-     {
-      "id": "warm",
-      "txt": "Calentamiento",
-      "dose": "5 min",
-      "how": "30 s de jumping jacks, 30 s de rodillas arriba, 10 círculos de brazos y 10 sentadillas sin peso. Repite 2 veces."
-     },
-     {
-      "id": "squat",
-      "txt": "Sentadillas",
-      "dose": "3 series × 12 · descanso 60 s",
-      "how": "Pies al ancho de hombros. Baja como si te fueras a sentar, rodillas en dirección de las puntas, espalda recta, talones pegados al piso.",
-      "log": "reps"
-     },
-     {
-      "id": "pushup",
-      "txt": "Lagartijas",
-      "dose": "3 series × 8 · descanso 90 s",
-      "how": "Cuerpo en línea recta de cabeza a talones. Baja el pecho casi al piso. Si no puedes, apoya las rodillas.",
-      "log": "reps"
-     },
-     {
-      "id": "row",
-      "txt": "Remo con mochila",
-      "dose": "3 series × 10 · descanso 60 s",
-      "how": "Mete libros a una mochila. Inclínate con la espalda recta y jala la mochila hacia el ombligo, juntando omóplatos.",
-      "log": "reps"
-     },
-     {
-      "id": "bridge",
-      "txt": "Puente de glúteo",
-      "dose": "3 series × 15 · descanso 45 s",
-      "how": "Boca arriba, rodillas dobladas. Sube la cadera apretando glúteos, aguanta 1 s arriba y baja lento.",
-      "log": "reps"
-     },
-     {
-      "id": "plank",
-      "txt": "Plancha",
-      "dose": "3 × 30 s · descanso 45 s",
-      "how": "Sobre antebrazos. Abdomen y glúteos apretados, cadera ni muy arriba ni caída.",
-      "log": "seg"
-     },
-     {
-      "id": "cool",
-      "txt": "Estiramiento final",
-      "dose": "5 min",
-      "how": "Piernas, cadera, pecho y espalda. Aguanta cada estiramiento 20–30 s sin rebotar."
-     }
+    "title": "Deporte",
+    "sub": "Basket, fútbol, bici o algo largo",
+    "steps": [
+     "Deporte o actividad larga: 45–60 min"
     ],
-    "tip": "Compara con el martes: intenta 1 repetición más en cada ejercicio."
+    "tip": "Abre la pestaña Entreno para anotar kilos y repeticiones, ver cómo se hace cada ejercicio y usar el temporizador de descanso."
    },
    {
     "id": "shower",
@@ -1911,12 +1733,9 @@
     "title": "Comida",
     "sub": "Mitad verduras, un cuarto proteína, un cuarto carbohidrato",
     "steps": [
-     "Proteína: pollo, carne, pescado, huevo o frijoles/lentejas",
-     "Carbohidrato: arroz, tortillas, papa o pasta",
-     "Verduras o ensalada: la mitad del plato",
-     "Agua natural o de fruta sin mucha azúcar"
+     "200 g de filete de pescado a la plancha, ½ taza de arroz, ensalada y ¼ de aguacate."
     ],
-    "tip": "Cocinar doble un día te deja comida lista para el siguiente."
+    "tip": "Si te tocan arroz y frijoles, elige solo ½ taza de uno."
    },
    {
     "id": "free1",
@@ -1950,9 +1769,7 @@
     "title": "Cena",
     "sub": "Más ligera que la comida",
     "steps": [
-     "Opción 1: quesadillas de panela con ensalada",
-     "Opción 2: sándwich de pollo con verduras",
-     "Opción 3: huevos a la mexicana con frijoles"
+     "Comida flexible con medida: 3 o 4 tacos de pollo o bistec asado (mejor que pastor, suadero o carnitas). Disfrútala sin culpa y sin repetir plato."
     ]
    },
    {
@@ -2259,5 +2076,922 @@
     }
    ]
   }
+ },
+ "entreno": {
+  "version": 1,
+  "calentamiento": "5 a 8 min: círculos de brazos y cadera, 20 sentadillas sin peso, 10 zancadas, 10 lagartijas inclinadas (manos en la mesa o el sofá) y 1 serie ligera del primer ejercicio.",
+  "dias": [
+   "descanso",
+   "pierna_fuerte",
+   "torso_grueso",
+   "cardio",
+   "pierna_atletica",
+   "torso_calistenia",
+   "deporte"
+  ],
+  "sesiones": {
+   "pierna_fuerte": {
+    "nombre": "Pierna fuerte",
+    "sub": "Sentadilla, peso muerto y búlgaras",
+    "pesas": true,
+    "ejercicios": [
+     {
+      "ej": "goblet",
+      "series": 4,
+      "min": 8,
+      "max": 12,
+      "desc": 120
+     },
+     {
+      "ej": "rdl",
+      "series": 4,
+      "min": 8,
+      "max": 10,
+      "desc": 120
+     },
+     {
+      "ej": "bulgara",
+      "series": 3,
+      "min": 8,
+      "max": 10,
+      "desc": 90
+     },
+     {
+      "ej": "curl_toalla",
+      "series": 3,
+      "min": 8,
+      "max": 12,
+      "desc": 90
+     },
+     {
+      "ej": "pantorrilla",
+      "series": 3,
+      "min": 12,
+      "max": 15,
+      "desc": 60
+     },
+     {
+      "ej": "plancha",
+      "series": 3,
+      "min": 30,
+      "max": 45,
+      "desc": 60
+     }
+    ]
+   },
+   "torso_grueso": {
+    "nombre": "Torso grueso",
+    "sub": "Lo \"Batman\": pecho, espalda, hombro y trapecio",
+    "pesas": true,
+    "ejercicios": [
+     {
+      "ej": "press_banca",
+      "series": 4,
+      "min": 8,
+      "max": 12,
+      "desc": 120
+     },
+     {
+      "ej": "remo_una",
+      "series": 4,
+      "min": 8,
+      "max": 12,
+      "desc": 90
+     },
+     {
+      "ej": "press_militar",
+      "series": 3,
+      "min": 8,
+      "max": 10,
+      "desc": 120
+     },
+     {
+      "ej": "remo_invertido",
+      "series": 3,
+      "fallo": true,
+      "desc": 90,
+      "barra": [
+       {
+        "ej": "colgarse",
+        "series": 3,
+        "min": 20,
+        "max": 40,
+        "desc": 60
+       },
+       {
+        "ej": "negativas",
+        "series": 3,
+        "min": 3,
+        "max": 5,
+        "desc": 120
+       }
+      ]
+     },
+     {
+      "ej": "elev_lat",
+      "series": 3,
+      "min": 12,
+      "max": 20,
+      "desc": 60
+     },
+     {
+      "ej": "encogimientos",
+      "series": 3,
+      "min": 12,
+      "max": 15,
+      "desc": 60
+     },
+     {
+      "ej": "curl_martillo",
+      "series": 2,
+      "min": 10,
+      "max": 12,
+      "desc": 60
+     }
+    ]
+   },
+   "cardio": {
+    "nombre": "Cardio y movilidad",
+    "sub": "Caminata rápida, bici o circuito suave",
+    "pesas": false,
+    "ejercicios": [
+     {
+      "ej": "cardio",
+      "series": 1,
+      "min": 30,
+      "max": 40,
+      "desc": 0
+     },
+     {
+      "ej": "movilidad",
+      "series": 1,
+      "min": 10,
+      "max": 10,
+      "desc": 0
+     }
+    ]
+   },
+   "pierna_atletica": {
+    "nombre": "Pierna atlética",
+    "sub": "Saltos, una pierna y glúteo",
+    "pesas": true,
+    "ejercicios": [
+     {
+      "ej": "salto_largo",
+      "series": 4,
+      "min": 3,
+      "max": 3,
+      "desc": 90
+     },
+     {
+      "ej": "step_up",
+      "series": 3,
+      "min": 8,
+      "max": 10,
+      "desc": 90
+     },
+     {
+      "ej": "hip_thrust",
+      "series": 3,
+      "min": 10,
+      "max": 15,
+      "desc": 90
+     },
+     {
+      "ej": "rdl_una",
+      "series": 3,
+      "min": 8,
+      "max": 10,
+      "desc": 90
+     },
+     {
+      "ej": "cosaca",
+      "series": 2,
+      "min": 6,
+      "max": 8,
+      "desc": 60
+     },
+     {
+      "ej": "pantorrilla",
+      "series": 3,
+      "min": 15,
+      "max": 15,
+      "desc": 60
+     },
+     {
+      "ej": "dead_bug",
+      "series": 3,
+      "min": 8,
+      "max": 8,
+      "desc": 60
+     }
+    ]
+   },
+   "torso_calistenia": {
+    "nombre": "Torso + calistenia",
+    "sub": "Lo \"Arrow\": control del cuerpo y hombros",
+    "pesas": true,
+    "ejercicios": [
+     {
+      "ej": "pike",
+      "series": 4,
+      "min": 6,
+      "max": 10,
+      "desc": 120
+     },
+     {
+      "ej": "remo_dos",
+      "series": 4,
+      "min": 10,
+      "max": 12,
+      "desc": 90
+     },
+     {
+      "ej": "lagartija_pausa",
+      "series": 3,
+      "fallo": true,
+      "desc": 90
+     },
+     {
+      "ej": "fondos",
+      "series": 3,
+      "min": 8,
+      "max": 12,
+      "desc": 90
+     },
+     {
+      "ej": "elev_lat",
+      "series": 3,
+      "min": 15,
+      "max": 20,
+      "desc": 60
+     },
+     {
+      "ej": "pullover",
+      "series": 2,
+      "min": 12,
+      "max": 12,
+      "desc": 60
+     },
+     {
+      "ej": "hollow",
+      "series": 3,
+      "min": 20,
+      "max": 30,
+      "desc": 60
+     }
+    ]
+   },
+   "deporte": {
+    "nombre": "Deporte",
+    "sub": "Basket, fútbol, bici o algo largo",
+    "pesas": false,
+    "ejercicios": [
+     {
+      "ej": "deporte",
+      "series": 1,
+      "min": 45,
+      "max": 60,
+      "desc": 0
+     }
+    ]
+   },
+   "descanso": {
+    "nombre": "Descanso activo",
+    "sub": "Caminata suave y estiramientos",
+    "pesas": false,
+    "ejercicios": [
+     {
+      "ej": "caminata_suave",
+      "series": 1,
+      "min": 20,
+      "max": 30,
+      "desc": 0
+     }
+    ]
+   }
+  },
+  "ejercicios": {
+   "goblet": {
+    "nombre": "Sentadilla goblet (pausa de 1 s abajo)",
+    "tipo": "kg",
+    "video": "sentadilla goblet con mancuerna técnica",
+    "claves": [
+     "Sostén la mancuerna vertical, pegada al pecho, con los codos hacia abajo.",
+     "Pies un poco más abiertos que los hombros y puntas ligeramente hacia afuera.",
+     "Baja entre las piernas hasta que el muslo quede al menos paralelo al piso y aguanta 1 s.",
+     "Sube empujando con todo el pie y el pecho arriba."
+    ],
+    "errores": [
+     "Rodillas que se van hacia adentro.",
+     "Despegar los talones o redondear la espalda abajo."
+    ]
+   },
+   "rdl": {
+    "nombre": "Peso muerto rumano con mancuernas",
+    "tipo": "kg",
+    "video": "peso muerto rumano con mancuernas técnica",
+    "claves": [
+     "Rodillas un poco dobladas y fijas durante todo el movimiento.",
+     "Lleva la cadera hacia atrás, como si cerraras una puerta con los glúteos.",
+     "Mancuernas pegadas a las piernas; baja hasta sentir el estiramiento atrás del muslo (más o menos a media espinilla).",
+     "Sube apretando glúteos, sin echarte hacia atrás al final."
+    ],
+    "errores": [
+     "Redondear la espalda baja.",
+     "Doblar mucho las rodillas y convertirlo en sentadilla."
+    ]
+   },
+   "bulgara": {
+    "nombre": "Sentadilla búlgara (pie de atrás en el sofá)",
+    "tipo": "kg",
+    "lado": true,
+    "video": "sentadilla búlgara con mancuernas técnica",
+    "claves": [
+     "Empeine del pie de atrás sobre el sofá o una silla y un paso largo al frente.",
+     "Baja recto hasta que la rodilla de atrás casi toque el piso.",
+     "El peso va en la pierna de adelante: empuja con todo el pie.",
+     "Las primeras semanas hazla sin peso hasta que tengas equilibrio."
+    ],
+    "errores": [
+     "Pie de adelante muy cerca, que hace que se despegue el talón.",
+     "Rodilla de adelante que se cae hacia adentro."
+    ]
+   },
+   "curl_toalla": {
+    "nombre": "Curl femoral deslizando los pies sobre una toalla",
+    "tipo": "reps",
+    "video": "curl femoral deslizante toalla en casa",
+    "claves": [
+     "Boca arriba, talones sobre una toalla en piso liso (o con calcetines).",
+     "Sube la cadera en puente y mantenla arriba toda la serie.",
+     "Desliza los talones lejos hasta casi estirar las piernas y regrésalos jalando con la parte de atrás del muslo.",
+     "Si es muy difícil, solo estira lento (3 s) y regresa como puedas."
+    ],
+    "errores": [
+     "Dejar caer la cadera a media serie.",
+     "Hacerlo rápido y sin control."
+    ]
+   },
+   "pantorrilla": {
+    "nombre": "Pantorrilla a una pierna en un escalón",
+    "tipo": "reps",
+    "lado": true,
+    "video": "elevación de pantorrilla a una pierna en escalón",
+    "claves": [
+     "Punta del pie en el borde de un escalón; sujétate de la pared.",
+     "Baja el talón lo más que puedas y aguanta 1 s abajo.",
+     "Sube lo más alto posible y aprieta 1 s arriba.",
+     "Cuando sea fácil, sostén una mancuerna con la mano del mismo lado."
+    ],
+    "errores": [
+     "Rebotar abajo.",
+     "Hacer solo medio movimiento."
+    ]
+   },
+   "plancha": {
+    "nombre": "Plancha",
+    "tipo": "seg",
+    "video": "plancha abdominal técnica correcta",
+    "claves": [
+     "Antebrazos debajo de los hombros.",
+     "Aprieta glúteos y abdomen como si te fueran a dar un golpe.",
+     "Cuerpo recto de la cabeza a los talones y respira normal."
+    ],
+    "errores": [
+     "Cadera caída o muy levantada."
+    ]
+   },
+   "press_banca": {
+    "nombre": "Press de banca con mancuernas (piso o banco)",
+    "tipo": "kg",
+    "video": "press de banca con mancuernas técnica",
+    "claves": [
+     "Mancuernas a los lados del pecho, codos a unos 45° del cuerpo (no abiertos en T).",
+     "Junta los omóplatos y mantenlos pegados al piso o al banco.",
+     "Empuja hacia arriba hasta casi juntar las mancuernas.",
+     "Baja en 2 a 3 s; en el piso, toca suave con los codos y vuelve a subir."
+    ],
+    "errores": [
+     "Codos totalmente abiertos, que cargan el hombro.",
+     "Dejar caer las mancuernas de golpe."
+    ]
+   },
+   "remo_una": {
+    "nombre": "Remo con mancuerna a una mano",
+    "tipo": "kg",
+    "lado": true,
+    "video": "remo con mancuerna a una mano técnica",
+    "claves": [
+     "Mano y rodilla del mismo lado sobre una silla o el sofá, espalda plana.",
+     "Jala la mancuerna hacia la cadera, no hacia el hombro.",
+     "Codo pegado al cuerpo; aprieta la espalda 1 s arriba.",
+     "Baja estirando todo el brazo."
+    ],
+    "errores": [
+     "Girar el torso para subir más peso.",
+     "Jalar con el bíceps en lugar de la espalda."
+    ]
+   },
+   "press_militar": {
+    "nombre": "Press militar con mancuernas",
+    "tipo": "kg",
+    "video": "press militar con mancuernas técnica",
+    "claves": [
+     "De pie o sentado, mancuernas a la altura de los hombros.",
+     "Aprieta glúteos y abdomen para no arquear la espalda.",
+     "Empuja recto hacia arriba hasta estirar los brazos.",
+     "Baja controlado hasta la altura de las orejas."
+    ],
+    "errores": [
+     "Arquear mucho la espalda baja.",
+     "Bajar solo a la mitad."
+    ]
+   },
+   "remo_invertido": {
+    "nombre": "Remo invertido bajo una mesa firme",
+    "tipo": "reps",
+    "video": "remo invertido debajo de la mesa en casa",
+    "claves": [
+     "Antes de empezar, prueba que la mesa no se mueva ni se voltee.",
+     "Acuéstate debajo y agarra el borde con las manos al ancho de los hombros.",
+     "Cuerpo recto como en plancha, talones en el piso.",
+     "Jala el pecho hacia la mesa y baja lento. Con las rodillas dobladas es más fácil."
+    ],
+    "errores": [
+     "Dejar caer la cadera.",
+     "Usar una mesa ligera o con patas débiles."
+    ]
+   },
+   "colgarse": {
+    "nombre": "Colgarte de la barra",
+    "tipo": "seg",
+    "video": "dead hang colgarse de la barra técnica",
+    "claves": [
+     "Agarre al ancho de los hombros, palmas al frente.",
+     "Baja un poco los hombros, lejos de las orejas.",
+     "Piernas juntas y sin columpiarte."
+    ],
+    "errores": [
+     "Soltarte de golpe al final."
+    ]
+   },
+   "negativas": {
+    "nombre": "Dominadas negativas",
+    "tipo": "reps",
+    "video": "dominadas negativas para principiantes",
+    "claves": [
+     "Sube de un salto (o desde una silla) con la barbilla arriba de la barra.",
+     "Baja lo más lento que puedas: 4 a 5 s.",
+     "Cuando bajes en 5 s todas, intenta 1 dominada completa al inicio."
+    ],
+    "errores": [
+     "Dejarte caer en la última parte."
+    ]
+   },
+   "elev_lat": {
+    "nombre": "Elevaciones laterales",
+    "tipo": "kg",
+    "video": "elevaciones laterales con mancuernas técnica",
+    "claves": [
+     "Mancuernas ligeras a los lados, codos un poco doblados.",
+     "Sube los brazos hacia los lados hasta la altura de los hombros.",
+     "Piensa en empujar las paredes, no en subir las manos.",
+     "Baja en 2 a 3 s."
+    ],
+    "errores": [
+     "Columpiar el cuerpo.",
+     "Subir los hombros hacia las orejas."
+    ]
+   },
+   "encogimientos": {
+    "nombre": "Encogimientos con mancuernas (trapecio)",
+    "tipo": "kg",
+    "video": "encogimientos de hombros con mancuernas trapecio",
+    "claves": [
+     "De pie, mancuernas pesadas a los lados.",
+     "Sube los hombros recto hacia las orejas.",
+     "Aguanta 1 a 2 s arriba y baja lento.",
+     "Brazos estirados todo el tiempo."
+    ],
+    "errores": [
+     "Girar los hombros en círculo.",
+     "Echar la cabeza hacia adelante."
+    ]
+   },
+   "curl_martillo": {
+    "nombre": "Curl martillo",
+    "tipo": "kg",
+    "video": "curl martillo con mancuernas técnica",
+    "claves": [
+     "Palmas viéndose entre sí, codos pegados al cuerpo.",
+     "Sube hasta el hombro sin mover los codos.",
+     "Baja completo en 2 s."
+    ],
+    "errores": [
+     "Balancear la espalda para subir."
+    ]
+   },
+   "salto_largo": {
+    "nombre": "Salto largo a pies juntos",
+    "tipo": "reps",
+    "video": "salto largo sin impulso técnica",
+    "claves": [
+     "Pies al ancho de la cadera, brazos atrás.",
+     "Lanza los brazos al frente y salta lo más lejos que puedas.",
+     "Aterriza suave, con las rodillas dobladas y alineadas con los pies.",
+     "Descansa entre saltos: es potencia, no cardio."
+    ],
+    "errores": [
+     "Aterrizar con las piernas rígidas.",
+     "Rodillas hacia adentro al caer."
+    ]
+   },
+   "step_up": {
+    "nombre": "Subida a silla o escalón con mancuernas",
+    "tipo": "kg",
+    "lado": true,
+    "video": "step up con mancuernas técnica",
+    "claves": [
+     "Silla firme o escalón más o menos a la altura de la rodilla.",
+     "Pon todo el pie arriba y sube empujando con esa pierna.",
+     "No te impulses con la pierna de abajo.",
+     "Baja controlado."
+    ],
+    "errores": [
+     "Rebotar con el pie de abajo.",
+     "Usar una silla que se mueve."
+    ]
+   },
+   "hip_thrust": {
+    "nombre": "Hip thrust con mancuerna",
+    "tipo": "kg",
+    "video": "hip thrust con mancuerna en sofá",
+    "claves": [
+     "Espalda alta apoyada en el borde del sofá y la mancuerna sobre la cadera (con una toalla).",
+     "Pies firmes; arriba, las rodillas quedan a 90°.",
+     "Sube la cadera apretando glúteos y aguanta 1 s.",
+     "Barbilla abajo, mirando al frente."
+    ],
+    "errores": [
+     "Arquear la espalda baja en lugar de usar el glúteo."
+    ]
+   },
+   "rdl_una": {
+    "nombre": "Peso muerto rumano a una pierna",
+    "tipo": "kg",
+    "lado": true,
+    "video": "peso muerto rumano a una pierna con mancuerna",
+    "claves": [
+     "Mancuerna en la mano contraria a la pierna de apoyo.",
+     "Rodilla de apoyo un poco doblada.",
+     "El torso baja y la pierna de atrás sube, los dos en línea recta.",
+     "Si pierdes el equilibrio, toca la pared con la mano libre."
+    ],
+    "errores": [
+     "Abrir la cadera hacia un lado.",
+     "Redondear la espalda."
+    ]
+   },
+   "cosaca": {
+    "nombre": "Sentadilla cosaca (lateral)",
+    "tipo": "reps",
+    "lado": true,
+    "video": "sentadilla cosaca técnica principiantes",
+    "claves": [
+     "Pies muy abiertos, puntas un poco hacia afuera.",
+     "Baja hacia un lado doblando esa rodilla; la otra pierna queda estirada.",
+     "Talón de la pierna doblada pegado al piso.",
+     "Baja solo hasta donde controles; con el tiempo bajarás más."
+    ],
+    "errores": [
+     "Despegar el talón.",
+     "Redondear la espalda."
+    ]
+   },
+   "dead_bug": {
+    "nombre": "Dead bug",
+    "tipo": "reps",
+    "lado": true,
+    "video": "dead bug ejercicio abdomen técnica",
+    "claves": [
+     "Boca arriba, brazos al techo y rodillas a 90°.",
+     "Pega la espalda baja al piso.",
+     "Estira el brazo y la pierna contrarios sin que se despegue la espalda.",
+     "Exhala al estirar, regresa y cambia de lado."
+    ],
+    "errores": [
+     "Arquear la espalda baja."
+    ]
+   },
+   "pike": {
+    "nombre": "Lagartijas pike (camino al parado de manos)",
+    "tipo": "reps",
+    "video": "pike push up técnica principiantes",
+    "claves": [
+     "Desde lagartija, sube la cadera formando una V invertida.",
+     "Dobla los codos y baja la cabeza hacia el piso, entre las manos.",
+     "Empuja de regreso hasta estirar los brazos.",
+     "Para hacerla más difícil, pon los pies sobre una silla."
+    ],
+    "errores": [
+     "Abrir los codos hacia los lados.",
+     "Bajar el pecho en lugar de la cabeza."
+    ]
+   },
+   "remo_dos": {
+    "nombre": "Remo inclinado con dos mancuernas",
+    "tipo": "kg",
+    "video": "remo inclinado con mancuernas técnica",
+    "claves": [
+     "Inclínate con la espalda plana, casi a 45°, rodillas un poco dobladas.",
+     "Jala las dos mancuernas hacia la cadera.",
+     "Junta los omóplatos 1 s arriba.",
+     "Baja controlado."
+    ],
+    "errores": [
+     "Redondear la espalda.",
+     "Levantar el torso para jalar."
+    ]
+   },
+   "lagartija_pausa": {
+    "nombre": "Lagartijas con pausa de 2 s abajo",
+    "tipo": "reps",
+    "video": "lagartijas con pausa técnica",
+    "claves": [
+     "Manos un poco más abiertas que los hombros, cuerpo recto.",
+     "Baja hasta que el pecho quede a 2 o 3 cm del piso.",
+     "Aguanta 2 s abajo sin tocar el piso.",
+     "Sube fuerte."
+    ],
+    "errores": [
+     "Cadera caída.",
+     "Codos abiertos en T."
+    ]
+   },
+   "fondos": {
+    "nombre": "Fondos entre dos sillas firmes",
+    "tipo": "reps",
+    "video": "fondos entre sillas en casa técnica",
+    "claves": [
+     "Dos sillas firmes, recargadas en la pared, una a cada lado.",
+     "Con los brazos estirados, baja doblando los codos hasta 90°.",
+     "Torso un poco al frente, hombros lejos de las orejas.",
+     "Si es muy difícil, apoya los pies en el piso."
+    ],
+    "errores": [
+     "Bajar de más, que molesta el hombro.",
+     "Sillas que se mueven."
+    ]
+   },
+   "pullover": {
+    "nombre": "Pullover con mancuerna",
+    "tipo": "kg",
+    "video": "pullover con mancuerna técnica",
+    "claves": [
+     "Acostado, una mancuerna sujeta con las dos manos sobre el pecho.",
+     "Con los codos un poco doblados, baja la mancuerna por detrás de la cabeza.",
+     "Siente el estiramiento en pecho y espalda y regresa.",
+     "Abdomen apretado."
+    ],
+    "errores": [
+     "Arquear la espalda baja.",
+     "Doblar y estirar los codos (se vuelve ejercicio de tríceps)."
+    ]
+   },
+   "hollow": {
+    "nombre": "Hollow hold (cuerpo en \"banana\")",
+    "tipo": "seg",
+    "video": "hollow body hold principiantes",
+    "claves": [
+     "Boca arriba, espalda baja pegada al piso.",
+     "Sube hombros y piernas unos centímetros, brazos estirados hacia atrás.",
+     "Más fácil: rodillas dobladas o brazos a los lados."
+    ],
+    "errores": [
+     "Despegar la espalda baja del piso."
+    ]
+   },
+   "cardio": {
+    "nombre": "Caminata rápida, bici o circuito suave",
+    "tipo": "min",
+    "video": "circuito cardio en casa principiantes 30 minutos",
+    "claves": [
+     "Ritmo en el que puedas hablar, pero con esfuerzo.",
+     "Circuito en casa: 40 s de trabajo y 20 s de descanso con jumping jacks, rodillas arriba, escaladores y sentadillas.",
+     "Más adelante, 1 o 2 veces por semana: 8 a 10 rondas de 30 s intenso y 60 s suave."
+    ],
+    "errores": [
+     "Ir tan fuerte que no puedas terminar."
+    ]
+   },
+   "movilidad": {
+    "nombre": "Movilidad",
+    "tipo": "min",
+    "video": "rutina de movilidad 10 minutos cadera hombros",
+    "claves": [
+     "Cadera: 10 círculos por lado y estiramiento del flexor de cadera, 30 s por lado.",
+     "Hombros: círculos y estiramiento de pecho en el marco de una puerta, 30 s.",
+     "Tobillo: lleva la rodilla al frente sobre la punta del pie, 10 por lado.",
+     "Espalda: gato-vaca 10 veces."
+    ],
+    "errores": [
+     "Rebotar en los estiramientos."
+    ]
+   },
+   "deporte": {
+    "nombre": "Deporte o actividad larga",
+    "tipo": "min",
+    "video": "",
+    "claves": [
+     "Basket, fútbol, bici, nadar o una caminata larga.",
+     "Es para divertirte y moverte en todas direcciones.",
+     "Si hay saltos y cambios de dirección, calienta 5 min antes."
+    ],
+    "errores": []
+   },
+   "caminata_suave": {
+    "nombre": "Caminata suave y estiramientos",
+    "tipo": "min",
+    "video": "",
+    "claves": [
+     "Camina tranquilo 15 a 20 min.",
+     "Estira piernas, cadera, pecho y espalda: 30 s cada uno."
+    ],
+    "errores": []
+   }
+  },
+  "metas": [
+   {
+    "id": "lagartijas",
+    "nombre": "Lagartijas seguidas",
+    "unidad": "reps",
+    "meta": 30
+   },
+   {
+    "id": "parado",
+    "nombre": "Parado de manos contra la pared",
+    "unidad": "seg",
+    "meta": 30
+   },
+   {
+    "id": "salto",
+    "nombre": "Salto largo a pies juntos",
+    "unidad": "cm",
+    "meta": 200
+   },
+   {
+    "id": "carrera",
+    "nombre": "Correr 2.4 km",
+    "unidad": "tiempo",
+    "meta": 660,
+    "menor": true
+   },
+   {
+    "id": "dominadas",
+    "nombre": "Dominadas estrictas",
+    "unidad": "reps",
+    "meta": 10
+   }
+  ]
+ },
+ "menu": {
+  "version": 1,
+  "kcal": 1850,
+  "proteina": 145,
+  "nota": "Si en la comida te tocan arroz y frijoles, elige solo ½ taza de uno de los dos. Las porciones de carne son en crudo. Si un día no se te antoja algo, cámbialo por la misma comida de otro día.",
+  "dias": [
+   {
+    "desayuno": "Hot cakes de avena: licúa ½ taza de avena, 1 plátano, 2 huevos y 2 claras. Sírvelos con 100 g de yogur griego.",
+    "colacion": "1 fruta + 1 puño chico de cacahuates naturales.",
+    "comida": "Picadillo con 150 g de carne molida magra (90/10), papa y zanahoria, ½ taza de arroz y 1 tortilla.",
+    "cena": "Sándwich de pan integral con 100 g de pechuga de pavo, 30 g de panela, jitomate y lechuga.",
+    "extra": "Prepara la semana: cocina 1 kg de pechuga (asada y deshebrada) y una olla de frijoles."
+   },
+   {
+    "desayuno": "3 huevos + 3 claras con ejotes o espinaca, 2 tortillas y 1 taza de melón.",
+    "colacion": "200 g de yogur griego + ½ taza de fruta + 10 almendras.",
+    "comida": "180 g de pollo en salsa verde, ½ taza de arroz o de frijoles y ensalada.",
+    "cena": "2 tacos de pollo deshebrado (100 g) con 1 lata de atún o 2 huevos, más verdura."
+   },
+   {
+    "desayuno": "½ taza de avena cocida en 1 taza de leche descremada, con ½ plátano y canela + 2 huevos cocidos.",
+    "colacion": "Licuado de proteína (1 scoop, 1 taza de leche descremada y ½ plátano) o 2 huevos cocidos + 1 fruta.",
+    "comida": "170 g de bistec o fajitas de res con pimiento y cebolla, ½ taza de frijoles y 2 tortillas.",
+    "cena": "Ensalada grande con 150 g de pechuga, 30 g de panela y 1 tostada horneada."
+   },
+   {
+    "desayuno": "Huevos a la mexicana (3 huevos + 3 claras) con nopales, 2 tortillas de maíz y 1 taza de papaya.",
+    "colacion": "200 g de yogur griego natural + ½ taza de fresas + 10 almendras.",
+    "comida": "180 g de pechuga asada, ½ taza de arroz o de frijoles, ensalada grande y ¼ de aguacate.",
+    "cena": "3 tostadas horneadas con 1 lata de atún en agua, jitomate, cebolla, pepino y limón."
+   },
+   {
+    "desayuno": "½ taza de avena cocida en 1 taza de leche descremada, con ½ plátano y canela + 2 huevos cocidos.",
+    "colacion": "Licuado de proteína (1 scoop, 1 taza de leche descremada y ½ plátano) o 2 huevos cocidos + 1 fruta.",
+    "comida": "170 g de bistec de res magro encebollado, calabacitas asadas, ½ taza de frijoles y 2 tortillas.",
+    "cena": "2 quesadillas con 60 g de panela, 100 g de pollo deshebrado y champiñones."
+   },
+   {
+    "desayuno": "Omelette de 3 huevos + 2 claras con espinaca y 40 g de panela, 2 tortillas y 1 manzana.",
+    "colacion": "200 g de yogur griego + 1 fruta.",
+    "comida": "180 g de tinga de pollo en 2 tostadas horneadas, ½ taza de frijoles y ensalada.",
+    "cena": "Caldo de pollo con verduras (1 pierna y 1 muslo sin piel) + 1 tortilla."
+   },
+   {
+    "desayuno": "Chilaquiles ligeros: 1 puño de totopos horneados, salsa verde, 2 huevos revueltos sin aceite o cocidos, 80 g de pollo deshebrado y poquito queso fresco.",
+    "colacion": "Licuado de proteína (1 scoop, 1 taza de leche descremada y ½ plátano).",
+    "comida": "200 g de filete de pescado a la plancha, ½ taza de arroz, ensalada y ¼ de aguacate.",
+    "cena": "Comida flexible con medida: 3 o 4 tacos de pollo o bistec asado (mejor que pastor, suadero o carnitas). Disfrútala sin culpa y sin repetir plato."
+   }
+  ],
+  "plato": [
+   "½ plato de verdura: nopales, calabacita, brócoli, ensalada, jitomate, ejotes o chayote.",
+   "¼ plato de proteína: 1 a 2 palmas de la mano.",
+   "¼ plato de carbohidrato: 2 tortillas, ½ taza de arroz o frijoles, una papa mediana, avena o fruta.",
+   "Grasa con medida: 1 porción por comida (aguacate, aceite, nueces, crema o queso)."
+  ],
+  "diario": [
+   "2 a 3 litros de agua.",
+   "Café o té sin azúcar, si quieres.",
+   "Verdura libre: nopales, pepino, lechuga, calabacita y jitomate.",
+   "Cocina con 1 cucharadita de aceite por platillo, no un chorro.",
+   "Medio plátano antes de entrenar si te sientes sin energía."
+  ],
+  "vesicula": [
+   "Baja despacio: no más de ~1 kg por semana. Las dietas de choque y los ayunos largos aumentan el riesgo de piedras.",
+   "No te saltes comidas: comer a horas regulares ayuda a que la vesícula se vacíe bien.",
+   "Grasa repartida: 1 porción por comida, nunca un platillo muy grasoso de golpe. Tampoco la quites toda.",
+   "Limita frito, capeado, chorizo, carnitas, chicharrón, crema, quesos grasosos y pan dulce.",
+   "Si algo te cae pesado o te duele después de comerlo, apúntalo y lo cambiamos.",
+   "Ve a urgencias si tienes dolor fuerte arriba a la derecha o en la boca del estómago que dura horas, fiebre, vómito o la piel u ojos amarillos."
+  ],
+  "super": [
+   {
+    "grupo": "Proteína",
+    "cosas": [
+     "30 huevos",
+     "1 L de claras",
+     "1.5 kg de pechuga de pollo",
+     "1 pierna + 1 muslo",
+     "700 g de bistec de res magro",
+     "300 g de carne molida 90/10",
+     "200 g de filete de pescado",
+     "4 latas de atún en agua",
+     "1 kg de yogur griego natural",
+     "250 g de panela",
+     "100 g de pechuga de pavo",
+     "Proteína en polvo (opcional)"
+    ]
+   },
+   {
+    "grupo": "Carbohidratos",
+    "cosas": [
+     "Tortillas de maíz",
+     "Tostadas horneadas",
+     "Arroz",
+     "Frijoles",
+     "Avena",
+     "Pan integral",
+     "2 papas",
+     "Totopos horneados"
+    ]
+   },
+   {
+    "grupo": "Frutas y verduras",
+    "cosas": [
+     "Plátanos",
+     "Manzanas",
+     "Papaya",
+     "Melón",
+     "Fresas",
+     "Nopales",
+     "Jitomate",
+     "Cebolla",
+     "Chile",
+     "Pepino",
+     "Lechuga",
+     "Calabacita",
+     "Espinaca",
+     "Ejotes",
+     "Champiñones",
+     "Pimiento",
+     "Zanahoria",
+     "Limones",
+     "2 aguacates"
+    ]
+   },
+   {
+    "grupo": "Otros",
+    "cosas": [
+     "Leche descremada",
+     "Almendras",
+     "Cacahuates naturales",
+     "Salsa verde",
+     "Aceite de oliva o de aguacate",
+     "Canela"
+    ]
+   }
+  ]
  }
 }
