@@ -1,7 +1,7 @@
 {
  "version": 4,
  "actualizado": "2026-11-08",
- "nota": "Hoy domingo: sales con tus amigos a las 12",
+ "nota": "Hoy viernes: clase de canto de 10 a 11",
  "days": [
   [
    {
@@ -2228,6 +2228,305 @@
       }
      ],
      "tip": "Mascarilla solo 1 vez por semana. Cambia la funda de tu almohada hoy."
+    },
+    {
+     "id": "sleep",
+     "t": "23:30",
+     "cat": "rest",
+     "title": "Dormir",
+     "sub": "7 horas y media hasta las 7:00",
+     "steps": [
+      "Celular a cargar lejos de la cama",
+      "Ropa de mañana lista",
+      "Cuarto oscuro y fresco"
+     ]
+    }
+   ]
+  },
+  "2026-11-27": {
+   "nota": "Clase de canto de 10 a 11",
+   "blocks": [
+    {
+     "id": "wake",
+     "t": "07:00",
+     "cat": "rest",
+     "title": "Despertar",
+     "sub": "Un vaso de agua apenas te levantes",
+     "steps": [
+      "Toma un vaso de agua",
+      "Tiende la cama (2 minutos, tu primera victoria del día)",
+      "Abre cortinas o sal a la luz unos minutos",
+      "Primeros 15 minutos sin celular"
+     ]
+    },
+    {
+     "id": "skinAM",
+     "t": "07:15",
+     "cat": "care",
+     "title": "Skincare de mañana",
+     "sub": "Limpiador, crema y protector",
+     "items": [
+      {
+       "id": "clean",
+       "txt": "Limpiador CeraVe Control Imperfecciones",
+       "dose": "1 bombeo",
+       "how": "Con agua tibia, masajea 30 a 60 segundos y enjuaga. Seca con toques. Si sientes la piel tirante o reseca, en la mañana usa solo agua y deja el limpiador para la noche."
+      },
+      {
+       "id": "moist",
+       "txt": "Day Cream de ácido hialurónico",
+       "dose": "tamaño de un chícharo",
+       "how": "En toda la cara y el cuello, con la piel todavía un poco húmeda."
+      },
+      {
+       "id": "spf",
+       "txt": "Protector ISDIN Fusion Water SPF 50",
+       "dose": "2 dedos de producto",
+       "how": "Al final, cara, cuello y orejas, unos 15 min antes de salir. Si estás al sol, ponte otra vez cada 2 o 3 horas. Es clave porque el gel de CeraVe hace tu piel más sensible al sol."
+      }
+     ]
+    },
+    {
+     "id": "breakfast",
+     "t": "07:30",
+     "cat": "food",
+     "title": "Desayuno",
+     "sub": "Proteína + fruta + agua",
+     "steps": [
+      "Omelette de 3 huevos + 2 claras con espinaca y 40 g de panela, 2 tortillas y 1 manzana."
+     ],
+     "tip": "Rota las opciones durante la semana para no aburrirte."
+    },
+    {
+     "id": "dress",
+     "t": "08:00",
+     "cat": "rest",
+     "title": "Cambiarte y salir",
+     "sub": "Lleva tu botella de agua",
+     "steps": [
+      "Ropa lista desde la noche anterior",
+      "Botella de agua llena",
+      "Revisa: llaves, cartera, celular, cargador"
+     ]
+    },
+    {
+     "id": "work1",
+     "t": "08:30",
+     "end": "09:45",
+     "cat": "work",
+     "title": "Trabajo · bloque 1",
+     "sub": "1 hora 15 min, antes de tu clase",
+     "steps": [
+      "Empieza por lo más difícil o importante",
+      "Celular en silencio o lejos"
+     ]
+    },
+    {
+     "id": "salidaclase",
+     "t": "09:45",
+     "cat": "rest",
+     "title": "Sal a tu clase de canto",
+     "sub": "Empieza a las 10",
+     "steps": [
+      "Lleva agua al tiempo, no muy fría, para la voz",
+      "Llega 5 minutos antes"
+     ]
+    },
+    {
+     "id": "canto",
+     "t": "10:00",
+     "end": "11:00",
+     "cat": "rest",
+     "title": "Clase de canto",
+     "sub": "1 hora",
+     "steps": [
+      "Anota los ejercicios que te dejen para practicar"
+     ]
+    },
+    {
+     "id": "snack",
+     "t": "11:15",
+     "cat": "food",
+     "title": "Snack y agua",
+     "sub": "15 minutos de pausa",
+     "steps": [
+      "200 g de yogur griego + 1 fruta."
+     ]
+    },
+    {
+     "id": "work2",
+     "t": "11:30",
+     "end": "14:00",
+     "cat": "work",
+     "title": "Trabajo · bloque 2",
+     "sub": "2.5 horas",
+     "steps": [
+      "Termina pendientes de la mañana",
+      "Deja anotado lo que sigue"
+     ],
+     "tip": "Si tu horario cambia, usa el contador de arriba. Lo importante es juntar 5 horas."
+    },
+    {
+     "id": "lunch",
+     "t": "14:00",
+     "cat": "food",
+     "title": "Comida",
+     "sub": "Mitad verduras, un cuarto proteína, un cuarto carbohidrato",
+     "steps": [
+      "180 g de tinga de pollo en 2 tostadas horneadas, ½ taza de frijoles y ensalada."
+     ],
+     "tip": "Si te tocan arroz y frijoles, elige solo ½ taza de uno."
+    },
+    {
+     "id": "work3",
+     "t": "14:45",
+     "end": "16:00",
+     "cat": "work",
+     "title": "Trabajo · bloque 3",
+     "sub": "1 hora 15 min: con esto llegas a 5",
+     "steps": [
+      "Termina los pendientes del día",
+      "Deja anotado lo que sigue"
+     ]
+    },
+    {
+     "id": "edit",
+     "t": "16:00",
+     "end": "16:50",
+     "cat": "edit",
+     "title": "Edición: clips del último stream",
+     "sub": "50 minutos, hoy más corta",
+     "items": [
+      {
+       "id": "vod",
+       "txt": "Revisa el último stream",
+       "dose": "30 min",
+       "how": "Busca 2 o 3 momentos buenos: risas, jugadas, sustos. Anota el minuto."
+      },
+      {
+       "id": "cut",
+       "txt": "Corta clips verticales",
+       "dose": "45 min",
+       "how": "1 o 2 clips de 20–60 s para TikTok/Shorts: gancho en los primeros 2 segundos y subtítulos."
+      },
+      {
+       "id": "post",
+       "txt": "Sube o programa",
+       "dose": "15 min",
+       "how": "Título corto, 3–5 hashtags y publícalo en un horario fijo.",
+       "log": "clips"
+      }
+     ]
+    },
+    {
+     "id": "stream",
+     "t": "17:00",
+     "end": "19:00",
+     "cat": "stream",
+     "title": "Stream en Kick",
+     "sub": "2 horas",
+     "steps": [
+      "16:30: abre OBS, revisa audio y avatar",
+      "Agua a la mano",
+      "Avisa en tus redes 15 min antes",
+      "Al terminar, anota los momentos buenos para editarlos"
+     ]
+    },
+    {
+     "id": "gym",
+     "t": "19:15",
+     "end": "20:10",
+     "cat": "gym",
+     "title": "Torso + calistenia",
+     "sub": "Lo \"Arrow\": control del cuerpo y hombros",
+     "steps": [
+      "Lagartijas pike (camino al parado de manos): 4 × 6–10 reps",
+      "Remo inclinado con dos mancuernas: 4 × 10–12 reps",
+      "Lagartijas con pausa de 2 s abajo: 3 × al fallo técnico −2",
+      "Fondos entre dos sillas firmes: 3 × 8–12 reps",
+      "Elevaciones laterales: 3 × 15–20 reps",
+      "Pullover con mancuerna: 2 × 12 reps",
+      "Hollow hold (cuerpo en \"banana\"): 3 × 20–30 s"
+     ],
+     "tip": "Abre la pestaña Entreno para anotar kilos y repeticiones, ver cómo se hace cada ejercicio y usar el temporizador de descanso."
+    },
+    {
+     "id": "shower",
+     "cat": "care",
+     "title": "Ducha",
+     "sub": "Después de entrenar",
+     "steps": [
+      "Báñate después de sudar para cuidar tu piel",
+      "Agua tibia, no muy caliente",
+      "Crema corporal Samala en brazos, piernas y cuerpo (no en la cara, tiene perfume)"
+     ],
+     "t": "20:10"
+    },
+    {
+     "id": "dinner",
+     "t": "20:30",
+     "cat": "food",
+     "title": "Cena",
+     "sub": "Más ligera que la comida",
+     "steps": [
+      "Caldo de pollo con verduras (1 pierna y 1 muslo sin piel) + 1 tortilla."
+     ]
+    },
+    {
+     "id": "read",
+     "t": "21:00",
+     "end": "21:30",
+     "cat": "read",
+     "title": "Lectura",
+     "sub": "30 minutos",
+     "items": [
+      {
+       "id": "pages",
+       "txt": "Lee sin celular",
+       "dose": "30 min",
+       "how": "Un libro que te interese (novela, disciplina, negocios, lo que sea). Anota las páginas para ver cuánto avanzas.",
+       "log": "págs"
+      }
+     ]
+    },
+    {
+     "id": "free2",
+     "t": "21:30",
+     "end": "23:00",
+     "cat": "rest",
+     "title": "Tiempo libre",
+     "sub": "Juega, ve algo, platica",
+     "steps": [
+      "Ya cumpliste la semana de trabajo"
+     ]
+    },
+    {
+     "id": "skinPM",
+     "t": "23:00",
+     "cat": "care",
+     "title": "Skincare de noche",
+     "sub": "Limpiador, gel y crema",
+     "items": [
+      {
+       "id": "clean",
+       "txt": "Limpiador CeraVe Control Imperfecciones",
+       "dose": "1 bombeo",
+       "how": "Quita el sudor, la grasa y el protector del día. Masajea 30 a 60 segundos, enjuaga y seca bien."
+      },
+      {
+       "id": "treat",
+       "txt": "CeraVe Blemish Control Gel",
+       "dose": "capa delgada para toda la cara",
+       "how": "Con la cara bien seca. Evita ojos, labios y las orillas de la nariz. Arde un poquito al principio y es normal; si arde mucho, se pone roja o se pela, déjalo unos días."
+      },
+      {
+       "id": "moist",
+       "txt": "Day Cream de ácido hialurónico",
+       "dose": "tamaño de un chícharo",
+       "how": "Al final, para que la piel se recupere de noche."
+      }
+     ],
+     "tip": "El gel va lunes, miércoles y viernes las primeras 2 semanas. Si tu piel lo aguanta bien, después puede ser diario; dime y lo cambio. Si te bañaste hoy, ponte la crema Samala en el cuerpo."
     },
     {
      "id": "sleep",
