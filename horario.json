@@ -1,7 +1,7 @@
 {
  "version": 4,
  "actualizado": "2026-11-08",
- "nota": "Hoy viernes: clase de canto de 10 a 11",
+ "nota": "Ajustes por migraña: snack de la tarde, té temprano y sin pantallas antes de dormir",
  "days": [
   [
    {
@@ -15,7 +15,8 @@
      "Tiende la cama (2 minutos, tu primera victoria del día)",
      "Abre cortinas o sal a la luz unos minutos",
      "Primeros 15 minutos sin celular"
-    ]
+    ],
+    "tip": "Despierta a esta hora también el fin de semana, aunque te hayas dormido tarde. Cambiar mucho tu horario de sueño puede detonarte migraña."
    },
    {
     "id": "skinAM",
@@ -53,7 +54,7 @@
     "steps": [
      "Hot cakes de avena: licúa ½ taza de avena, 1 plátano, 2 huevos y 2 claras. Sírvelos con 100 g de yogur griego."
     ],
-    "tip": "Rota las opciones durante la semana para no aburrirte."
+    "tip": "Tu té: a la misma hora todos los días y nunca después de las 3 pm."
    },
    {
     "id": "work1",
@@ -65,7 +66,8 @@
     "steps": [
      "Empieza por lo más importante",
      "Celular en silencio o lejos"
-    ]
+    ],
+    "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
    },
    {
     "id": "snack",
@@ -87,7 +89,8 @@
     "steps": [
      "Termina pendientes",
      "Deja anotado lo que sigue"
-    ]
+    ],
+    "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
    },
    {
     "id": "lunch",
@@ -127,7 +130,8 @@
       "how": "Título corto, 3–5 hashtags y publícalo en un horario fijo.",
       "log": "clips"
      }
-    ]
+    ],
+    "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
    },
    {
     "id": "read",
@@ -145,6 +149,19 @@
       "log": "págs"
      }
     ]
+   },
+   {
+    "id": "snack2",
+    "cat": "food",
+    "title": "Snack de la tarde",
+    "sub": "Algo chico para no pasar más de 6 horas sin comer",
+    "steps": [
+     "Una fruta con 5 a 10 almendras o cacahuates",
+     "O medio yogur griego natural",
+     "Y un vaso de agua"
+    ],
+    "tip": "Pasar mucho tiempo sin comer es de los detonantes más comunes de la migraña. Que sea chico para no pasarte de tus calorías.",
+    "t": "17:00"
    },
    {
     "id": "stretch",
@@ -196,7 +213,8 @@
     "steps": [
      "Ten listo lo que necesitas desde antes",
      "Con esto completas tus 5 horas del día"
-    ]
+    ],
+    "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
    },
    {
     "id": "dinner",
@@ -211,13 +229,28 @@
    {
     "id": "free2",
     "t": "21:00",
-    "end": "23:00",
+    "end": "22:30",
     "cat": "rest",
     "title": "Tiempo libre",
     "sub": "Juega, ve algo, platica",
     "steps": [
      "Disfruta sin presión"
     ]
+   },
+   {
+    "id": "winddown",
+    "t": "22:30",
+    "end": "23:00",
+    "cat": "rest",
+    "title": "Sin pantallas",
+    "sub": "30 minutos para bajar el ritmo antes de dormir",
+    "steps": [
+     "Apaga la PC y deja el celular a cargar",
+     "Baja las luces del cuarto",
+     "Prepara la ropa de mañana",
+     "Algo tranquilo: leer en papel, estirar o música suave"
+    ],
+    "tip": "La luz de las pantallas en la noche te quita sueño, y dormir mal es de los detonantes más fuertes de la migraña."
    },
    {
     "id": "skinPM",
@@ -272,7 +305,8 @@
      "Tiende la cama (2 minutos, tu primera victoria del día)",
      "Abre cortinas o sal a la luz unos minutos",
      "Primeros 15 minutos sin celular"
-    ]
+    ],
+    "tip": "Despierta a esta hora también el fin de semana, aunque te hayas dormido tarde. Cambiar mucho tu horario de sueño puede detonarte migraña."
    },
    {
     "id": "skinAM",
@@ -310,7 +344,7 @@
     "steps": [
      "3 huevos + 3 claras con ejotes o espinaca, 2 tortillas y 1 taza de melón."
     ],
-    "tip": "Rota las opciones durante la semana para no aburrirte."
+    "tip": "Tu té: a la misma hora todos los días y nunca después de las 3 pm."
    },
    {
     "id": "dress",
@@ -334,7 +368,8 @@
     "steps": [
      "Empieza por lo más difícil o importante",
      "Celular en silencio o lejos"
-    ]
+    ],
+    "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
    },
    {
     "id": "snack",
@@ -357,7 +392,7 @@
      "Termina pendientes de la mañana",
      "Deja anotado lo que sigue"
     ],
-    "tip": "Si tu horario cambia, usa el contador de arriba. Lo importante es juntar 5 horas."
+    "tip": "Si tu horario cambia, usa el contador de arriba. Lo importante es juntar 5 horas. Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
    },
    {
     "id": "lunch",
@@ -426,7 +461,21 @@
       "how": "Título corto, 3–5 hashtags y publícalo en un horario fijo.",
       "log": "clips"
      }
-    ]
+    ],
+    "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
+   },
+   {
+    "id": "snack2",
+    "cat": "food",
+    "title": "Snack de la tarde",
+    "sub": "Algo chico para no pasar más de 6 horas sin comer",
+    "steps": [
+     "Una fruta con 5 a 10 almendras o cacahuates",
+     "O medio yogur griego natural",
+     "Y un vaso de agua"
+    ],
+    "tip": "Pasar mucho tiempo sin comer es de los detonantes más comunes de la migraña. Que sea chico para no pasarte de tus calorías.",
+    "t": "16:50"
    },
    {
     "id": "stream",
@@ -440,7 +489,8 @@
      "Agua a la mano",
      "Avisa en tus redes 15 min antes",
      "Al terminar, anota los momentos buenos para editarlos"
-    ]
+    ],
+    "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
    },
    {
     "id": "work3",
@@ -452,7 +502,8 @@
     "steps": [
      "Ten listo lo que necesitas desde antes",
      "Con esto completas tus 5 horas del día"
-    ]
+    ],
+    "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
    },
    {
     "id": "dinner",
@@ -484,13 +535,28 @@
    {
     "id": "free2",
     "t": "21:45",
-    "end": "23:00",
+    "end": "22:30",
     "cat": "rest",
     "title": "Tiempo libre",
     "sub": "Juega, ve algo, platica",
     "steps": [
      "Ya cumpliste el día: disfruta sin presión"
     ]
+   },
+   {
+    "id": "winddown",
+    "t": "22:30",
+    "end": "23:00",
+    "cat": "rest",
+    "title": "Sin pantallas",
+    "sub": "30 minutos para bajar el ritmo antes de dormir",
+    "steps": [
+     "Apaga la PC y deja el celular a cargar",
+     "Baja las luces del cuarto",
+     "Prepara la ropa de mañana",
+     "Algo tranquilo: leer en papel, estirar o música suave"
+    ],
+    "tip": "La luz de las pantallas en la noche te quita sueño, y dormir mal es de los detonantes más fuertes de la migraña."
    },
    {
     "id": "skinPM",
@@ -545,7 +611,8 @@
      "Tiende la cama (2 minutos, tu primera victoria del día)",
      "Abre cortinas o sal a la luz unos minutos",
      "Primeros 15 minutos sin celular"
-    ]
+    ],
+    "tip": "Despierta a esta hora también el fin de semana, aunque te hayas dormido tarde. Cambiar mucho tu horario de sueño puede detonarte migraña."
    },
    {
     "id": "skinAM",
@@ -583,7 +650,7 @@
     "steps": [
      "½ taza de avena cocida en 1 taza de leche descremada, con ½ plátano y canela + 2 huevos cocidos."
     ],
-    "tip": "Rota las opciones durante la semana para no aburrirte."
+    "tip": "Tu té: a la misma hora todos los días y nunca después de las 3 pm."
    },
    {
     "id": "dress",
@@ -608,7 +675,8 @@
      "Empieza por lo más difícil o importante",
      "Celular en silencio o lejos",
      "Toma 5 minutos a media mañana para estirarte y tomar agua"
-    ]
+    ],
+    "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
    },
    {
     "id": "snack",
@@ -669,7 +737,7 @@
      "Retoma lo que dejaste en la mañana",
      "Deja anotado lo que sigue"
     ],
-    "tip": "Si tu horario cambia, usa el contador de arriba. Lo importante es juntar 5 horas."
+    "tip": "Si tu horario cambia, usa el contador de arriba. Lo importante es juntar 5 horas. Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
    },
    {
     "id": "edit",
@@ -697,7 +765,21 @@
       "dose": "10 min",
       "how": "Así mañana arrancas directo."
      }
-    ]
+    ],
+    "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
+   },
+   {
+    "id": "snack2",
+    "cat": "food",
+    "title": "Snack de la tarde",
+    "sub": "Algo chico para no pasar más de 6 horas sin comer",
+    "steps": [
+     "Una fruta con 5 a 10 almendras o cacahuates",
+     "O medio yogur griego natural",
+     "Y un vaso de agua"
+    ],
+    "tip": "Pasar mucho tiempo sin comer es de los detonantes más comunes de la migraña. Que sea chico para no pasarte de tus calorías.",
+    "t": "17:00"
    },
    {
     "id": "gym",
@@ -756,7 +838,8 @@
     "steps": [
      "Ten listo lo que necesitas desde antes",
      "Con esto completas tus 5 horas del día"
-    ]
+    ],
+    "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
    },
    {
     "id": "dinner",
@@ -771,13 +854,28 @@
    {
     "id": "free2",
     "t": "21:00",
-    "end": "23:00",
+    "end": "22:30",
     "cat": "rest",
     "title": "Tiempo libre",
     "sub": "Juega, ve algo, platica",
     "steps": [
      "Hoy no hay stream: disfruta sin presión"
     ]
+   },
+   {
+    "id": "winddown",
+    "t": "22:30",
+    "end": "23:00",
+    "cat": "rest",
+    "title": "Sin pantallas",
+    "sub": "30 minutos para bajar el ritmo antes de dormir",
+    "steps": [
+     "Apaga la PC y deja el celular a cargar",
+     "Baja las luces del cuarto",
+     "Prepara la ropa de mañana",
+     "Algo tranquilo: leer en papel, estirar o música suave"
+    ],
+    "tip": "La luz de las pantallas en la noche te quita sueño, y dormir mal es de los detonantes más fuertes de la migraña."
    },
    {
     "id": "skinPM",
@@ -826,7 +924,8 @@
      "Tiende la cama (2 minutos, tu primera victoria del día)",
      "Abre cortinas o sal a la luz unos minutos",
      "Primeros 15 minutos sin celular"
-    ]
+    ],
+    "tip": "Despierta a esta hora también el fin de semana, aunque te hayas dormido tarde. Cambiar mucho tu horario de sueño puede detonarte migraña."
    },
    {
     "id": "skinAM",
@@ -864,7 +963,7 @@
     "steps": [
      "Huevos a la mexicana (3 huevos + 3 claras) con nopales, 2 tortillas de maíz y 1 taza de papaya."
     ],
-    "tip": "Rota las opciones durante la semana para no aburrirte."
+    "tip": "Tu té: a la misma hora todos los días y nunca después de las 3 pm."
    },
    {
     "id": "dress",
@@ -888,7 +987,8 @@
     "steps": [
      "Empieza por lo más difícil o importante",
      "Celular en silencio o lejos"
-    ]
+    ],
+    "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
    },
    {
     "id": "snack",
@@ -911,7 +1011,7 @@
      "Termina pendientes de la mañana",
      "Deja anotado lo que sigue"
     ],
-    "tip": "Si tu horario cambia, usa el contador de arriba. Lo importante es juntar 5 horas."
+    "tip": "Si tu horario cambia, usa el contador de arriba. Lo importante es juntar 5 horas. Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
    },
    {
     "id": "lunch",
@@ -976,7 +1076,21 @@
       "how": "Título corto, 3–5 hashtags y publícalo en un horario fijo.",
       "log": "clips"
      }
-    ]
+    ],
+    "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
+   },
+   {
+    "id": "snack2",
+    "cat": "food",
+    "title": "Snack de la tarde",
+    "sub": "Algo chico para no pasar más de 6 horas sin comer",
+    "steps": [
+     "Una fruta con 5 a 10 almendras o cacahuates",
+     "O medio yogur griego natural",
+     "Y un vaso de agua"
+    ],
+    "tip": "Pasar mucho tiempo sin comer es de los detonantes más comunes de la migraña. Que sea chico para no pasarte de tus calorías.",
+    "t": "16:50"
    },
    {
     "id": "stream",
@@ -990,7 +1104,8 @@
      "Agua a la mano",
      "Avisa en tus redes 15 min antes",
      "Al terminar, anota los momentos buenos para editarlos"
-    ]
+    ],
+    "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
    },
    {
     "id": "work3",
@@ -1002,7 +1117,8 @@
     "steps": [
      "Ten listo lo que necesitas desde antes",
      "Con esto completas tus 5 horas del día"
-    ]
+    ],
+    "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
    },
    {
     "id": "dinner",
@@ -1034,13 +1150,28 @@
    {
     "id": "free2",
     "t": "21:45",
-    "end": "23:00",
+    "end": "22:30",
     "cat": "rest",
     "title": "Tiempo libre",
     "sub": "Juega, ve algo, platica",
     "steps": [
      "Ya cumpliste el día: disfruta sin presión"
     ]
+   },
+   {
+    "id": "winddown",
+    "t": "22:30",
+    "end": "23:00",
+    "cat": "rest",
+    "title": "Sin pantallas",
+    "sub": "30 minutos para bajar el ritmo antes de dormir",
+    "steps": [
+     "Apaga la PC y deja el celular a cargar",
+     "Baja las luces del cuarto",
+     "Prepara la ropa de mañana",
+     "Algo tranquilo: leer en papel, estirar o música suave"
+    ],
+    "tip": "La luz de las pantallas en la noche te quita sueño, y dormir mal es de los detonantes más fuertes de la migraña."
    },
    {
     "id": "skinPM",
@@ -1095,7 +1226,8 @@
      "Tiende la cama (2 minutos, tu primera victoria del día)",
      "Abre cortinas o sal a la luz unos minutos",
      "Primeros 15 minutos sin celular"
-    ]
+    ],
+    "tip": "Despierta a esta hora también el fin de semana, aunque te hayas dormido tarde. Cambiar mucho tu horario de sueño puede detonarte migraña."
    },
    {
     "id": "skinAM",
@@ -1133,7 +1265,7 @@
     "steps": [
      "½ taza de avena cocida en 1 taza de leche descremada, con ½ plátano y canela + 2 huevos cocidos."
     ],
-    "tip": "Rota las opciones durante la semana para no aburrirte."
+    "tip": "Tu té: a la misma hora todos los días y nunca después de las 3 pm."
    },
    {
     "id": "dress",
@@ -1157,7 +1289,8 @@
     "steps": [
      "Empieza por lo más difícil o importante",
      "Celular en silencio o lejos"
-    ]
+    ],
+    "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
    },
    {
     "id": "snack",
@@ -1180,7 +1313,7 @@
      "Termina pendientes de la mañana",
      "Deja anotado lo que sigue"
     ],
-    "tip": "Si tu horario cambia, usa el contador de arriba. Lo importante es juntar 5 horas."
+    "tip": "Si tu horario cambia, usa el contador de arriba. Lo importante es juntar 5 horas. Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
    },
    {
     "id": "lunch",
@@ -1219,7 +1352,8 @@
       "dose": "10 min",
       "how": "Así mañana arrancas directo."
      }
-    ]
+    ],
+    "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
    },
    {
     "id": "read",
@@ -1237,6 +1371,19 @@
       "log": "págs"
      }
     ]
+   },
+   {
+    "id": "snack2",
+    "cat": "food",
+    "title": "Snack de la tarde",
+    "sub": "Algo chico para no pasar más de 6 horas sin comer",
+    "steps": [
+     "Una fruta con 5 a 10 almendras o cacahuates",
+     "O medio yogur griego natural",
+     "Y un vaso de agua"
+    ],
+    "tip": "Pasar mucho tiempo sin comer es de los detonantes más comunes de la migraña. Que sea chico para no pasarte de tus calorías.",
+    "t": "17:00"
    },
    {
     "id": "gym",
@@ -1289,7 +1436,8 @@
     "steps": [
      "Ten listo lo que necesitas desde antes",
      "Con esto completas tus 5 horas del día"
-    ]
+    ],
+    "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
    },
    {
     "id": "dinner",
@@ -1304,13 +1452,28 @@
    {
     "id": "free2",
     "t": "21:00",
-    "end": "23:00",
+    "end": "22:30",
     "cat": "rest",
     "title": "Tiempo libre",
     "sub": "Juega, ve algo, platica",
     "steps": [
      "Hoy no hay stream: disfruta sin presión"
     ]
+   },
+   {
+    "id": "winddown",
+    "t": "22:30",
+    "end": "23:00",
+    "cat": "rest",
+    "title": "Sin pantallas",
+    "sub": "30 minutos para bajar el ritmo antes de dormir",
+    "steps": [
+     "Apaga la PC y deja el celular a cargar",
+     "Baja las luces del cuarto",
+     "Prepara la ropa de mañana",
+     "Algo tranquilo: leer en papel, estirar o música suave"
+    ],
+    "tip": "La luz de las pantallas en la noche te quita sueño, y dormir mal es de los detonantes más fuertes de la migraña."
    },
    {
     "id": "skinPM",
@@ -1359,7 +1522,8 @@
      "Tiende la cama (2 minutos, tu primera victoria del día)",
      "Abre cortinas o sal a la luz unos minutos",
      "Primeros 15 minutos sin celular"
-    ]
+    ],
+    "tip": "Despierta a esta hora también el fin de semana, aunque te hayas dormido tarde. Cambiar mucho tu horario de sueño puede detonarte migraña."
    },
    {
     "id": "skinAM",
@@ -1397,7 +1561,7 @@
     "steps": [
      "Omelette de 3 huevos + 2 claras con espinaca y 40 g de panela, 2 tortillas y 1 manzana."
     ],
-    "tip": "Rota las opciones durante la semana para no aburrirte."
+    "tip": "Tu té: a la misma hora todos los días y nunca después de las 3 pm."
    },
    {
     "id": "dress",
@@ -1421,7 +1585,8 @@
     "steps": [
      "Empieza por lo más difícil o importante",
      "Celular en silencio o lejos"
-    ]
+    ],
+    "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
    },
    {
     "id": "snack",
@@ -1444,7 +1609,7 @@
      "Termina pendientes de la mañana",
      "Deja anotado lo que sigue"
     ],
-    "tip": "Si tu horario cambia, usa el contador de arriba. Lo importante es juntar 5 horas."
+    "tip": "Si tu horario cambia, usa el contador de arriba. Lo importante es juntar 5 horas. Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
    },
    {
     "id": "lunch",
@@ -1484,7 +1649,21 @@
       "how": "Título corto, 3–5 hashtags y publícalo en un horario fijo.",
       "log": "clips"
      }
-    ]
+    ],
+    "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
+   },
+   {
+    "id": "snack2",
+    "cat": "food",
+    "title": "Snack de la tarde",
+    "sub": "Algo chico para no pasar más de 6 horas sin comer",
+    "steps": [
+     "Una fruta con 5 a 10 almendras o cacahuates",
+     "O medio yogur griego natural",
+     "Y un vaso de agua"
+    ],
+    "tip": "Pasar mucho tiempo sin comer es de los detonantes más comunes de la migraña. Que sea chico para no pasarte de tus calorías.",
+    "t": "16:30"
    },
    {
     "id": "stream",
@@ -1498,7 +1677,8 @@
      "Agua a la mano",
      "Avisa en tus redes 15 min antes",
      "Al terminar, anota los momentos buenos para editarlos"
-    ]
+    ],
+    "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
    },
    {
     "id": "gym",
@@ -1560,13 +1740,28 @@
    {
     "id": "free2",
     "t": "21:30",
-    "end": "23:00",
+    "end": "22:30",
     "cat": "rest",
     "title": "Tiempo libre",
     "sub": "Juega, ve algo, platica",
     "steps": [
      "Ya cumpliste la semana de trabajo"
     ]
+   },
+   {
+    "id": "winddown",
+    "t": "22:30",
+    "end": "23:00",
+    "cat": "rest",
+    "title": "Sin pantallas",
+    "sub": "30 minutos para bajar el ritmo antes de dormir",
+    "steps": [
+     "Apaga la PC y deja el celular a cargar",
+     "Baja las luces del cuarto",
+     "Prepara la ropa de mañana",
+     "Algo tranquilo: leer en papel, estirar o música suave"
+    ],
+    "tip": "La luz de las pantallas en la noche te quita sueño, y dormir mal es de los detonantes más fuertes de la migraña."
    },
    {
     "id": "skinPM",
@@ -1621,7 +1816,8 @@
      "Tiende la cama (2 minutos, tu primera victoria del día)",
      "Abre cortinas o sal a la luz unos minutos",
      "Primeros 15 minutos sin celular"
-    ]
+    ],
+    "tip": "Despierta a esta hora también el fin de semana, aunque te hayas dormido tarde. Cambiar mucho tu horario de sueño puede detonarte migraña."
    },
    {
     "id": "skinAM",
@@ -1659,7 +1855,7 @@
     "steps": [
      "Chilaquiles ligeros: 1 puño de totopos horneados, salsa verde, 2 huevos revueltos sin aceite o cocidos, 80 g de pollo deshebrado y poquito queso fresco."
     ],
-    "tip": "Rota las opciones durante la semana para no aburrirte."
+    "tip": "Tu té: a la misma hora todos los días y nunca después de las 3 pm."
    },
    {
     "id": "home",
@@ -1700,7 +1896,8 @@
       "dose": "10 min",
       "how": "Así mañana arrancas directo."
      }
-    ]
+    ],
+    "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
    },
    {
     "id": "gym",
@@ -1750,6 +1947,19 @@
     ]
    },
    {
+    "id": "snack2",
+    "cat": "food",
+    "title": "Snack de la tarde",
+    "sub": "Algo chico para no pasar más de 6 horas sin comer",
+    "steps": [
+     "Una fruta con 5 a 10 almendras o cacahuates",
+     "O medio yogur griego natural",
+     "Y un vaso de agua"
+    ],
+    "tip": "Pasar mucho tiempo sin comer es de los detonantes más comunes de la migraña. Que sea chico para no pasarte de tus calorías.",
+    "t": "16:30"
+   },
+   {
     "id": "stream",
     "t": "17:00",
     "end": "20:00",
@@ -1760,7 +1970,8 @@
      "Prepara todo a las 16:30",
      "Fin de semana suele haber más gente conectada",
      "Agua y un snack a la mano"
-    ]
+    ],
+    "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
    },
    {
     "id": "dinner",
@@ -1788,6 +1999,21 @@
       "log": "págs"
      }
     ]
+   },
+   {
+    "id": "winddown",
+    "t": "22:30",
+    "end": "23:00",
+    "cat": "rest",
+    "title": "Sin pantallas",
+    "sub": "30 minutos para bajar el ritmo antes de dormir",
+    "steps": [
+     "Apaga la PC y deja el celular a cargar",
+     "Baja las luces del cuarto",
+     "Prepara la ropa de mañana",
+     "Algo tranquilo: leer en papel, estirar o música suave"
+    ],
+    "tip": "La luz de las pantallas en la noche te quita sueño, y dormir mal es de los detonantes más fuertes de la migraña."
    },
    {
     "id": "skinPM",
@@ -2257,7 +2483,8 @@
       "Tiende la cama (2 minutos, tu primera victoria del día)",
       "Abre cortinas o sal a la luz unos minutos",
       "Primeros 15 minutos sin celular"
-     ]
+     ],
+     "tip": "Despierta a esta hora también el fin de semana, aunque te hayas dormido tarde. Cambiar mucho tu horario de sueño puede detonarte migraña."
     },
     {
      "id": "skinAM",
@@ -2295,7 +2522,7 @@
      "steps": [
       "Omelette de 3 huevos + 2 claras con espinaca y 40 g de panela, 2 tortillas y 1 manzana."
      ],
-     "tip": "Rota las opciones durante la semana para no aburrirte."
+     "tip": "Tu té: a la misma hora todos los días y nunca después de las 3 pm."
     },
     {
      "id": "dress",
@@ -2319,7 +2546,8 @@
      "steps": [
       "Empieza por lo más difícil o importante",
       "Celular en silencio o lejos"
-     ]
+     ],
+     "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
     },
     {
      "id": "salidaclase",
@@ -2364,7 +2592,7 @@
       "Termina pendientes de la mañana",
       "Deja anotado lo que sigue"
      ],
-     "tip": "Si tu horario cambia, usa el contador de arriba. Lo importante es juntar 5 horas."
+     "tip": "Si tu horario cambia, usa el contador de arriba. Lo importante es juntar 5 horas. Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
     },
     {
      "id": "lunch",
@@ -2387,7 +2615,8 @@
      "steps": [
       "Termina los pendientes del día",
       "Deja anotado lo que sigue"
-     ]
+     ],
+     "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
     },
     {
      "id": "edit",
@@ -2416,7 +2645,21 @@
        "how": "Título corto, 3–5 hashtags y publícalo en un horario fijo.",
        "log": "clips"
       }
-     ]
+     ],
+     "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
+    },
+    {
+     "id": "snack2",
+     "cat": "food",
+     "title": "Snack de la tarde",
+     "sub": "Algo chico para no pasar más de 6 horas sin comer",
+     "steps": [
+      "Una fruta con 5 a 10 almendras o cacahuates",
+      "O medio yogur griego natural",
+      "Y un vaso de agua"
+     ],
+     "tip": "Pasar mucho tiempo sin comer es de los detonantes más comunes de la migraña. Que sea chico para no pasarte de tus calorías.",
+     "t": "16:50"
     },
     {
      "id": "stream",
@@ -2430,7 +2673,8 @@
       "Agua a la mano",
       "Avisa en tus redes 15 min antes",
       "Al terminar, anota los momentos buenos para editarlos"
-     ]
+     ],
+     "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
     },
     {
      "id": "gym",
@@ -2492,13 +2736,28 @@
     {
      "id": "free2",
      "t": "21:30",
-     "end": "23:00",
+     "end": "22:30",
      "cat": "rest",
      "title": "Tiempo libre",
      "sub": "Juega, ve algo, platica",
      "steps": [
       "Ya cumpliste la semana de trabajo"
      ]
+    },
+    {
+     "id": "winddown",
+     "t": "22:30",
+     "end": "23:00",
+     "cat": "rest",
+     "title": "Sin pantallas",
+     "sub": "30 minutos para bajar el ritmo antes de dormir",
+     "steps": [
+      "Apaga la PC y deja el celular a cargar",
+      "Baja las luces del cuarto",
+      "Prepara la ropa de mañana",
+      "Algo tranquilo: leer en papel, estirar o música suave"
+     ],
+     "tip": "La luz de las pantallas en la noche te quita sueño, y dormir mal es de los detonantes más fuertes de la migraña."
     },
     {
      "id": "skinPM",
@@ -2545,7 +2804,7 @@
  },
  "entreno": {
   "version": 1,
-  "calentamiento": "5 a 8 min: círculos de brazos y cadera, 20 sentadillas sin peso, 10 zancadas, 10 lagartijas inclinadas (manos en la mesa o el sofá) y 1 serie ligera del primer ejercicio.",
+  "calentamiento": "5 a 8 min: círculos de brazos y cadera, 20 sentadillas sin peso, 10 zancadas, 10 lagartijas inclinadas (manos en la mesa o el sofá) y 1 serie ligera del primer ejercicio. Toma agua antes y después. Si hoy traes migraña, no entrenes fuerte: cambia por una caminata suave o descansa.",
   "dias": [
    "descanso",
    "pierna_fuerte",
@@ -3379,10 +3638,11 @@
   ],
   "diario": [
    "2 a 3 litros de agua.",
-   "Café o té sin azúcar, si quieres.",
+   "Té o café sin azúcar, a la misma hora todos los días y nunca después de las 3 pm.",
    "Verdura libre: nopales, pepino, lechuga, calabacita y jitomate.",
    "Cocina con 1 cucharadita de aceite por platillo, no un chorro.",
-   "Medio plátano antes de entrenar si te sientes sin energía."
+   "Medio plátano antes de entrenar si te sientes sin energía.",
+   "No pases más de 6 horas sin comer: saltarte comidas puede detonarte migraña."
   ],
   "vesicula": [
    "Baja despacio: no más de ~1 kg por semana. Las dietas de choque y los ayunos largos aumentan el riesgo de piedras.",
