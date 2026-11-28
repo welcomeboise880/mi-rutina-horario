@@ -1,7 +1,7 @@
 {
  "version": 4,
  "actualizado": "2026-11-08",
- "nota": "Ajustes por migraña: snack de la tarde, té temprano y sin pantallas antes de dormir",
+ "nota": "Hoy sábado: stream a las 3 y cumpleaños a las 6",
  "days": [
   [
    {
@@ -2798,6 +2798,183 @@
       "Ropa de mañana lista",
       "Cuarto oscuro y fresco"
      ]
+    }
+   ]
+  },
+  "2026-11-28": {
+   "nota": "Cumpleaños de tu amiga a las 6 pm",
+   "blocks": [
+    {
+     "id": "wake",
+     "t": "07:00",
+     "cat": "rest",
+     "title": "Despertar",
+     "sub": "Un vaso de agua apenas te levantes",
+     "steps": [
+      "Toma un vaso de agua",
+      "Tiende la cama (2 minutos, tu primera victoria del día)",
+      "Abre cortinas o sal a la luz unos minutos",
+      "Primeros 15 minutos sin celular"
+     ],
+     "tip": "Despierta a esta hora también el fin de semana, aunque te hayas dormido tarde. Cambiar mucho tu horario de sueño puede detonarte migraña."
+    },
+    {
+     "id": "skinAM",
+     "t": "07:15",
+     "cat": "care",
+     "title": "Skincare de mañana",
+     "sub": "Limpiador, crema y protector",
+     "items": [
+      {
+       "id": "clean",
+       "txt": "Limpiador CeraVe Control Imperfecciones",
+       "dose": "1 bombeo",
+       "how": "Con agua tibia, masajea 30 a 60 segundos y enjuaga. Seca con toques. Si sientes la piel tirante o reseca, en la mañana usa solo agua y deja el limpiador para la noche."
+      },
+      {
+       "id": "moist",
+       "txt": "Day Cream de ácido hialurónico",
+       "dose": "tamaño de un chícharo",
+       "how": "En toda la cara y el cuello, con la piel todavía un poco húmeda."
+      },
+      {
+       "id": "spf",
+       "txt": "Protector ISDIN Fusion Water SPF 50",
+       "dose": "2 dedos de producto",
+       "how": "Al final, cara, cuello y orejas, unos 15 min antes de salir. Si estás al sol, ponte otra vez cada 2 o 3 horas. Es clave porque el gel de CeraVe hace tu piel más sensible al sol."
+      }
+     ]
+    },
+    {
+     "id": "breakfast",
+     "t": "07:30",
+     "cat": "food",
+     "title": "Desayuno",
+     "sub": "Proteína + fruta + agua",
+     "steps": [
+      "Chilaquiles ligeros: 1 puño de totopos horneados, salsa verde, 2 huevos revueltos sin aceite o cocidos, 80 g de pollo deshebrado y poquito queso fresco."
+     ],
+     "tip": "Tu té: a la misma hora todos los días y nunca después de las 3 pm."
+    },
+    {
+     "id": "home",
+     "t": "08:30",
+     "end": "10:30",
+     "cat": "rest",
+     "title": "Pendientes de la casa",
+     "sub": "Casa, ropa, compras",
+     "steps": [
+      "Lava ropa y limpia tu cuarto",
+      "Compra lo de la semana: fruta, huevos, verduras, avena",
+      "Revisa que no te falte nada del skincare"
+     ]
+    },
+    {
+     "id": "edit",
+     "t": "10:30",
+     "end": "12:00",
+     "cat": "edit",
+     "title": "Edición: video largo",
+     "sub": "Aprovecha la mañana libre",
+     "items": [
+      {
+       "id": "plan",
+       "txt": "Define qué toca hoy",
+       "dose": "10 min",
+       "how": "Una parte concreta: guion, cortes, música, miniatura o exportar."
+      },
+      {
+       "id": "work",
+       "txt": "Edita el video largo",
+       "dose": "1 h 10 min",
+       "how": "Ponte un temporizador y no cambies de tarea. Avanzar poco diario vale más que un maratón."
+      },
+      {
+       "id": "save",
+       "txt": "Guarda y anota en qué te quedaste",
+       "dose": "10 min",
+       "how": "Así mañana arrancas directo."
+      }
+     ],
+     "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
+    },
+    {
+     "id": "gym",
+     "t": "12:30",
+     "end": "13:30",
+     "cat": "gym",
+     "title": "Deporte",
+     "sub": "Basket, fútbol, bici o algo largo",
+     "steps": [
+      "Deporte o actividad larga: 45–60 min"
+     ],
+     "tip": "Abre la pestaña Entreno para anotar kilos y repeticiones, ver cómo se hace cada ejercicio y usar el temporizador de descanso."
+    },
+    {
+     "id": "shower",
+     "t": "13:30",
+     "cat": "care",
+     "title": "Ducha",
+     "sub": "Después de moverte",
+     "steps": [
+      "Agua tibia, no muy caliente",
+      "Lava la cara al final",
+      "Crema corporal Samala en brazos, piernas y cuerpo (no en la cara, tiene perfume)"
+     ]
+    },
+    {
+     "id": "lunch",
+     "t": "14:00",
+     "cat": "food",
+     "title": "Comida",
+     "sub": "Mitad verduras, un cuarto proteína, un cuarto carbohidrato",
+     "steps": [
+      "200 g de filete de pescado a la plancha, ½ taza de arroz, ensalada y ¼ de aguacate."
+     ],
+     "tip": "Si te tocan arroz y frijoles, elige solo ½ taza de uno."
+    },
+    {
+     "id": "stream",
+     "t": "15:00",
+     "end": "17:00",
+     "cat": "stream",
+     "title": "Stream de sábado",
+     "sub": "2 horas, más temprano por el cumpleaños",
+     "steps": [
+      "2:30 pm: abre OBS, revisa audio y avatar",
+      "Avisa en tus redes que hoy el stream es a las 3",
+      "Agua a la mano",
+      "Despídete a las 5 y anota los momentos buenos para editarlos"
+     ],
+     "tip": "Cada hora, 5 minutos sin pantalla. Cada 20 minutos, mira algo lejano unos 20 segundos. Baja el brillo si ya está oscuro."
+    },
+    {
+     "id": "partyprep",
+     "t": "17:00",
+     "end": "17:40",
+     "cat": "care",
+     "title": "Arreglarte para el cumpleaños",
+     "sub": "40 minutos",
+     "steps": [
+      "Ducha rápida, limpiador CeraVe y Day Cream en la cara",
+      "Come algo ligero si la fiesta va a tardar en dar de comer",
+      "Carga el celular",
+      "Revisa: llaves, cartera, celular, dinero, el regalo"
+     ]
+    },
+    {
+     "id": "party",
+     "t": "17:40",
+     "cat": "rest",
+     "title": "Sal al cumpleaños de tu amiga",
+     "sub": "Empieza a las 6 pm",
+     "steps": [
+      "Avísale si vas tarde",
+      "Toma agua entre bebidas",
+      "Planea cómo vas a regresar",
+      "Al regresar, lávate la cara aunque sea rápido"
+     ],
+     "tip": "Hoy no hay más avisos después de esto. Disfruta. Mañana intenta despertarte a tu hora normal: desvelarte y dormir hasta tarde puede detonarte migraña."
     }
    ]
   }
